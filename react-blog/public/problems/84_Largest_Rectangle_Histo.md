@@ -1,9 +1,9 @@
 ---
 title: Largest Rectangle in Histogram
+title_slug: largest-rectangle-in-histogram
 tags: ['Array', 'Stack', 'Monotonic Stack']
 difficulty: Hard
 ---
-## Largest Rectangle in Histogram
 [Leetcode 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)
 
 Find the largest rectangle within the histogram formed by non-neg int array

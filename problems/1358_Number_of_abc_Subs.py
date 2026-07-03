@@ -2,11 +2,19 @@
 leetcode 1358. Number of Substrings Containing All Three Characters
 Find the number of substrings containing a, b, c
 
+Method 1, left index incremental
 Use matrix and index reference to keep track of current triplet of tight abc substring
 And count its right options. Left option is always 1 because s contains only abc letters.
+
+Method 2, substr right index incremental
+for each end index, find other 2 letters' min last appearance index
+thus from s[0] to this min index can be substr start
+Time O(n), Space O(1)
 '''
 
 class Solution:
+
+    # Method 1, left index incremental
     def numberOfSubstrings(self, s: str) -> int:
         # similar to #930, use altered sliding window
         # get the list of indices of abc respectively for easier jumping
@@ -29,20 +37,17 @@ class Solution:
             start += 1
         return res
     
-# another great solution:
-# this at core is similar to my solution, but looking back to start of s
-# my solution looks to the end of s. So either loop backwards and use the following with max
-# Or keep track of valid ends of substrings
+    # Method 2, right index incremental
+    def numberOfSubstrings(self, s: str) -> int:
 
-# class Solution:
-#     def numberOfSubstrings(self, s: str) -> int:
-#         d = {}
-#         n = len(s)
-#         total = 0
-#         for i in range(n):
-#             d[s[i]] = i
-#             if len(d) == 3:
-#                 min_loc = min(d.values())
-#                 total += min_loc + 1
-
-#         return total
+        letters = 'abc'
+        last = {}
+        res = 0
+        for right in range(len(s)):
+            last[s[right]] = right
+            # proceed only when all letters have record
+            if len(last) < len(letters):
+                continue
+            # cur idx will be largest, won't affect min of the other letters
+            res += min(last.values()) + 1
+        return res

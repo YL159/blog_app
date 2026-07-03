@@ -4,7 +4,7 @@ import textwrap
 from leetcode_query import query_leet
 
 PROBLEM_DIR = Path('./problems')
-MARKDOWN_DIR = Path('./frontend/public/problems')
+MARKDOWN_DIR = Path('./react-blog/public/problems')
 
 
 # scan ./problems/ for any unrecorded or modified .py files, and convert to .md
@@ -31,12 +31,13 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
             title = re.match(r'[\w\s]*\d+\.(.+)', line1).groups()[0]
             title = title.strip()
 
-            title_slug = title.replace(' ', '-')
+            title_slug = title.lower().replace(' ', '-')
             q_data = query_leet(title_slug)
 
             info = f'''\
             ---
             title: {title}
+            title_slug: {title_slug}
             tags: {q_data.tags}
             difficulty: {q_data.difficulty}
             ---
@@ -49,6 +50,7 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
             info = f'''\
             ---
             title: {title}
+            title_slug: {title.lower().replace(' ', '-')}
             ---
             '''
         else:
@@ -56,6 +58,7 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
             info = f'''\
             ---
             title: {title}
+            title_slug: {title.lower().replace(' ', '-')}
             ---
             '''
         
@@ -69,7 +72,7 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
         code_md = f'```python\n{code.strip()}\n```'
     
     with open(md_file, 'w') as f:
-        f.write(f'{info}## {title}\n{source}\n\n{description}\n\n{code_md}\n')
+        f.write(f'{info}{source}\n\n{description}\n\n{code_md}\n')
 
 
 
