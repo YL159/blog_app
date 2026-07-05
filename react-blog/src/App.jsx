@@ -2,17 +2,34 @@ import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PageLayout from "./layouts/PageLayout";
-import ProblemMD from "./components/ProblemMD";
+import Intro from "./pages/Intro";
+import Blog from "./pages/Blog";
+import Problem from "./pages/Problem";
+import Review from "./pages/Review";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/problems" element={<PageLayout />}>
-            <Route path=":slug" element={<ProblemMD />} />
+
+        <Route path="/" element={<PageLayout />}>
+
+          <Route path="intro" element={<Intro />} />
+          {/* <Route path="/" element={<ProblemMD mdfile="84_Largest_Rectangle_Histo.md" />} /> */}
+
+          <Route path="blogs/:title" element={<Blog />} />
+
+          <Route path="problems">
+            <Route index element={<></>} />
+            <Route path=":slug" element={<Problem />} />
+          </Route>
+
+          <Route path="reviews/:title" element={<Review />}/>
+
+          <Route path="*" element={<div>404 Not Found</div>} />
+
         </Route>
 
-        <Route path="/" element={<ProblemMD mdfile="84_Largest_Rectangle_Histo.md" />} />
       </Routes>
     </Router>
   );

@@ -1,14 +1,18 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+// render markdown file content and highlight code blocks
 import { Marked } from 'marked';
 import { markedHighlight } from 'marked-highlight';
-import parse, { domToReact } from 'html-react-parser';
-import matter from 'gray-matter';
 import hljs from 'highlight.js';
 import 'highlight.js/styles/atom-one-dark.css';
-import titleMap from '../titleMap.js'
+// use global parser to remove html etc. tags
+import parse, { domToReact } from 'html-react-parser';
+// parse markdown front-matter
+import matter from 'gray-matter';
+// slug to markdown file mapping database
+import titleMap from '../data/titleMap.js'
 
-import InfoBar from './InfoBar';
+import InfoBar from '../components/InfoBar.jsx';
 
 // Define rendered component of problem markdown file content
 
@@ -38,7 +42,7 @@ const renderer = {
 marked.use({ renderer });
 
 
-function ProblemMD({ mdfile = "" }) {
+function Problem({ mdfile = "" }) {
   const [htmlContent, setHtmlContent] = useState('Loading...');
   const [metaData, setMetaData] = useState({});
 
@@ -86,4 +90,4 @@ function ProblemMD({ mdfile = "" }) {
   );
 }
 
-export default ProblemMD;
+export default Problem;

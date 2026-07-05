@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 
 MARKDOWN_DIR = Path('./react-blog/public/')
-JS_DIR = Path('./react-blog/src/')
+JS_DIR = Path('./react-blog/src/data/')
 
 book = {}
 
@@ -13,8 +13,8 @@ for folder in MARKDOWN_DIR.glob('*/'):
         with md_file.open() as f:
             for line in f:
                 if line.startswith("title_slug"):
-                    title_slug = line.strip().split(': ')[1]
-                    book[folder.name][title_slug] = md_file.name
+                    title_slug = line.split(':')[1]
+                    book[folder.name][title_slug.strip()] = md_file.name
                     break
 
 with (JS_DIR / "titleMap.js").open('w') as f:
