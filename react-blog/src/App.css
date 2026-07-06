@@ -3,14 +3,14 @@
     white-space: pre-wrap;
     tab-size: 4;
     font-family: inherit;
+    font-size: 18px;
 }
 
-pre code.hljs {
-  background-color: #252525; 
+pre {
   border-radius: 6px;
+  overflow-x: auto;
 
   font-family: "Cascadia Code", monospace;
   font-size: 16px;
-  overflow-x: auto; 
 }
 

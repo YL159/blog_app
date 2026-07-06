@@ -7,22 +7,20 @@ import 'highlight.js/styles/atom-one-dark.css';
 import parse, { domToReact } from 'html-react-parser';
 
 
-
 // Define markdown renderer for code block and images
 
 const renderer = new marked.Renderer();
 
 // handle code block highlights
-renderer.code = (code, language) => {
-  const validLang = hljs.getLanguage(language) ? language : 'plaintext';
-  const highlighted = hljs.highlight(code, { language: validLang }).value;
-  return `<pre class="hljs ${validLang}"><code>${highlighted}</code></pre>`;
+renderer.code = ({text, lang}) => {
+  const validLang = hljs.getLanguage(lang) ? lang : 'plaintext';
+  const highlighted = hljs.highlight(text, { language: validLang }).value;
+  return `<pre class="hljs ${validLang}">${highlighted}</pre>`;
 }
 
-
 // render link as usual, added new page and security
-renderer.link = (href, title, text) => {
-  return `<a href="${href}" title="${title}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+renderer.link = ({href, text}) => {
+  return `<a href="${href}" title="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
 }
 
 // const renderer = {
@@ -38,9 +36,17 @@ renderer.link = (href, title, text) => {
 
 // marked.use({ renderer });
 
+renderer.paragraph = function ({tokens, text}) {
+  // render link as usual
+  if (tokens.some(t => t.type === 'link')) {
+    return `<p>${this.parser.parseInline(tokens)}</p>`
+    }
+    // render paragraph preserving space and tabs
+    return `<p class="pre-like">${text}</p>\n`;
+  }
 
 // render images
-renderer.image = (href, title, text) => {
+renderer.image = ({href, title, text}) => {
   return `<img src="${href}" alt="${text}" title="${title}" style="max-width: 100%; height: auto;" />`;
 }
 
