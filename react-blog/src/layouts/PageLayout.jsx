@@ -1,13 +1,20 @@
-import {Link, Outlet} from "react-router-dom";
+import { useState } from "react";
+import { Link, Outlet } from "react-router-dom";
 import SideBar from "../components/SideBar";
-import { Box } from "@mui/material";
+import Breadcrumbs from "../components/Breadcrumbs";
+import { Box,  } from "@mui/material";
+import titleMap from "../data/titleMap";
+
+
 
 function PageLayout() {
   return (
     <>
-      <header>Under Problem folder</header>
       <SideBar />
-      <Outlet />
+      <div>
+        <Breadcrumbs />
+        <Outlet />
+      </div>
     </>
   )
 }

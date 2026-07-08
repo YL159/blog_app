@@ -7,10 +7,11 @@
 }
 
 pre {
-  border-radius: 6px;
-  overflow-x: auto;
+    border-radius: 6px;
+    padding: 16px;
+    overflow-x: auto;
 
-  font-family: "Cascadia Code", monospace;
-  font-size: 16px;
+    font-family: "Cascadia Code", monospace;
+    font-size: 16px;
 }
 

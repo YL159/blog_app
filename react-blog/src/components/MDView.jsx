@@ -12,41 +12,24 @@ import parse, { domToReact } from 'html-react-parser';
 const renderer = new marked.Renderer();
 
 // handle code block highlights
-renderer.code = ({text, lang}) => {
+renderer.code = ({ text, lang }) => {
   const validLang = hljs.getLanguage(lang) ? lang : 'plaintext';
   const highlighted = hljs.highlight(text, { language: validLang }).value;
   return `<pre class="hljs ${validLang}">${highlighted}</pre>`;
 }
 
-// render link as usual, added new page and security
-renderer.link = ({href, text}) => {
+// render link, added new page and security
+renderer.link = ({ href, text }) => {
   return `<a href="${href}" title="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
 }
 
-// const renderer = {
-//   paragraph(text) {
-//     // render link as usual
-//     if (text.tokens.some(t => t.type === 'link')) {
-//       return `<p>${this.parser.parseInline(text.tokens)}</p>`
-//     }
-//     // render paragraph preserving space and tabs
-//     return `<p class="pre-like">${text.text}</p>\n`;
-//   }
-// };
-
-// marked.use({ renderer });
-
-renderer.paragraph = function ({tokens, text}) {
-  // render link as usual
-  if (tokens.some(t => t.type === 'link')) {
-    return `<p>${this.parser.parseInline(tokens)}</p>`
-    }
-    // render paragraph preserving space and tabs
-    return `<p class="pre-like">${text}</p>\n`;
-  }
+// render paragraph preserving space and tabs
+renderer.paragraph = function ({ tokens }) {
+  return `<p class="pre-like">${this.parser.parseInline(tokens)}</p>\n`;
+}
 
 // render images
-renderer.image = ({href, title, text}) => {
+renderer.image = ({ href, title, text }) => {
   return `<img src="${href}" alt="${text}" title="${title}" style="max-width: 100%; height: auto;" />`;
 }
 
@@ -60,7 +43,7 @@ marked.setOptions({
 
 function MDView({ mdContent }) {
 
-  const contentEle = useMemo(() => {
+  const mdStr = useMemo(() => {
     // Remove html, head, body tags from the parsed content
     return parse(marked.parse(mdContent), {
       replace: (domNode) => {
@@ -70,10 +53,9 @@ function MDView({ mdContent }) {
       }
     });
   }, [mdContent]);
-
   return (
     <div>
-      {contentEle}
+      {mdStr}
     </div>
   );
 }

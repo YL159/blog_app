@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import PageLayout from "./layouts/PageLayout";
 import Intro from "./pages/Intro";
 import Blog from "./pages/Blog";
@@ -9,29 +9,33 @@ import Review from "./pages/Review";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
 
         <Route path="/" element={<PageLayout />}>
-
+          <Route index element={<Navigate to="intro" replace />} />
           <Route path="intro" element={<Intro />} />
-          {/* <Route path="/" element={<ProblemMD mdfile="84_Largest_Rectangle_Histo.md" />} /> */}
-
-          <Route path="blogs/:title" element={<Blog />} />
+          
+          <Route path="blogs">
+            <Route index element={<></>} />
+            <Route path=":title" element={<Blog />} />
+          </Route>
 
           <Route path="problems">
             <Route index element={<></>} />
             <Route path=":slug" element={<Problem />} />
           </Route>
 
-          <Route path="reviews/:title" element={<Review />}/>
-
-          <Route path="*" element={<div>404 Not Found</div>} />
-
+          <Route path="reviews">
+            <Route index element={<></>} />
+            <Route path=":title" element={<Review />} />
+          </Route>
         </Route>
 
+        <Route path="*" element={<div>404 Not Found</div>} />
+
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
