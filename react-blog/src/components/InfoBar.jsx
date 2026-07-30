@@ -1,6 +1,6 @@
 
 
-// Helper function, wrap prop into html element by type
+// Helper function, wrap prop into html element by type string or array
 const renderProp = (label, prop) => {
   // if undefined, null or empty array, don't render
   if (prop == undefined || (Array.isArray(prop) && prop.length == 0)) return null;
