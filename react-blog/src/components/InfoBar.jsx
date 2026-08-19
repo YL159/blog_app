@@ -8,7 +8,7 @@ const renderProp = (label, prop) => {
   else if (!Array.isArray(prop)) return <div>{label}: {prop}</div>;
   // render list prop
   else {
-    return <div>{label}: {prop.map((tag, index) => <span key={index}>#{tag}</span>)
+    return <div>{label}:{prop.map((tag, index) => <span key={index}> #{tag}</span>)
       }</div>;
   }
 }
