@@ -1,4 +1,9 @@
-
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
 .pre-like {
     white-space: pre-wrap;
     tab-size: 4;

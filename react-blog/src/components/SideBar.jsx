@@ -8,23 +8,21 @@ const articles = [
   { id: 3, title: "Understanding State Management", content: "State in React allows components to create and manage their own data..." },
 ];
 
-function PageLayout() {
+function SideBar() {
   // Track the currently selected article (defaults to the first one)
   const [selectedArticle, setSelectedArticle] = useState(articles[0]);
 
   return (
-    <Box sx={{ display: 'flex', height: '100vh', width: '100vw', overflow: 'hidden' }}>
-      
-      {/* LEFT PANEL: Article Overview Links */}
       <Box 
         component="aside"
         sx={{ 
-          width: { xs: 200, sm: 280, md: 320 }, // Responsive widths
           flexShrink: 0, 
+          position: 'sticky',
+          top: 0,
+          height: '100%',
           borderRight: '1px solid',
           borderColor: 'divider',
           backgroundColor: 'background.paper',
-          overflowY: 'auto'
         }}
       >
         <Box sx={{ p: 2 }}>
@@ -53,10 +51,7 @@ function PageLayout() {
         </List>
       </Box>
 
-      {/* RIGHT PANEL: Article Detail Viewer */}
-
-    </Box>
   );
 }
 
-export default PageLayout
+export default SideBar;
