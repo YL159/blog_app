@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Box, List, ListItem, ListItemButton, ListItemText, Typography, Divider } from '@mui/material';
 
+import titleMap from "../data/titleMap.js"
+
 // Mock Data for demonstration
 const articles = [
   { id: 1, title: "Getting Started with React", content: "React is a JavaScript library for building user interfaces..." },
@@ -8,26 +10,19 @@ const articles = [
   { id: 3, title: "Understanding State Management", content: "State in React allows components to create and manage their own data..." },
 ];
 
+// const articles = import.meta.glob('public/**/*.md');
+
+
 function SideBar() {
   // Track the currently selected article (defaults to the first one)
   const [selectedArticle, setSelectedArticle] = useState(articles[0]);
 
   return (
-      <Box 
-        component="aside"
-        sx={{ 
-          flexShrink: 0, 
-          position: 'sticky',
-          top: 0,
-          height: '100%',
-          borderRight: '1px solid',
-          borderColor: 'divider',
-          backgroundColor: 'background.paper',
-        }}
-      >
+      <Box component="aside">
         <Box sx={{ p: 2 }}>
           <Typography variant="h6" fontWeight="bold">Articles</Typography>
         </Box>
+
         <Divider />
         <List disablePadding>
           {articles.map((article) => (

@@ -25,7 +25,7 @@ class Question:
 
     @property
     def id(self) -> int:
-        return int(self._data["id"])
+        return int(self._data["questionId"])
 
     @property
     def title(self) -> str:
@@ -41,7 +41,10 @@ class Question:
     
     @property
     def tags(self) -> list:
-        return [tag["name"] for tag in self._data["topicTags"] if tag["name"] in ALL_TAGS]
+        # tags ordered by given popularity order
+        current = [tag["name"] for tag in self._data["topicTags"] if tag["name"] in ALL_TAGS]
+        current.sort(key=lambda t: ALL_TAGS.index(t))
+        return current
 
 
 # make graphql query of leetcode question title slug
@@ -97,4 +100,4 @@ if __name__ == "__main__":
     title = "longest-substring-without-repeating-characters"
 
     question = query_leet(title)
-    print(question.tags)
+    print(question.tags, question.id)

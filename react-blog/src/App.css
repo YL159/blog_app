@@ -4,6 +4,25 @@ html, body, #root {
     height: 100%;
     overflow: hidden;
 }
+
+/* Sidebar */
+aside {
+    position: sticky;
+    top: 0;
+    height: 100%;
+    width: 20rem;
+    border-right: 2px solid;
+    border-color: divider;
+    background-color: var(--mui-palette-background-paper);
+}
+
+/* Main content */
+main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 40px 80px;
+}
+
 .pre-like {
     white-space: pre-wrap;
     tab-size: 4;

@@ -1,4 +1,5 @@
 ---
+id: 84
 title: Largest Rectangle in Histogram
 title_slug: largest-rectangle-in-histogram
 tags: ['Array', 'Stack', 'Monotonic Stack']

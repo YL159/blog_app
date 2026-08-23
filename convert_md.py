@@ -40,6 +40,7 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
             source = f'[{line1}]({q_data.url})'
             info = f'''\
             ---
+            id: {q_data.id}
             title: {title}
             title_slug: {title_slug}
             tags: {q_data.tags}
