@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+from datetime import datetime
 
 MARKDOWN_DIR = Path('./react-blog/public/')
 PUBLIC_DIR = Path('./react-blog/public/')
@@ -21,7 +22,10 @@ def file_prop(path: Path) -> dict:
             info[tag] = value
 
         # title slug derives from title (English), ready for url slug
-        info["title_slug"] = info["title"].lower().replace(' ', '-')
+        if "title" not in info:
+            print(f'{path.relative_to(PUBLIC_DIR)} has no "title" property')
+        else:
+            info["title_slug"] = info["title"].lower().replace(' ', '-')
         # file path relative to public dir, ready for front end fetch
         info["file"] = f"/{path.relative_to(PUBLIC_DIR).as_posix()}"
         return info
@@ -29,20 +33,52 @@ def file_prop(path: Path) -> dict:
 
 # recursively traverse markdown dir
 # create dict with folder/file structure
-def recur_files(root: Path, current: dict) -> None:
+def recur_files(root: Path, art: dict, tree: dict) -> None:
+    has_id = None
     for md_file in root.glob('*.md'):
         info = file_prop(md_file)
-        current[info["title_slug"]] = info
+        art[info["title_slug"]] = info
+        if has_id is None and "id" in info:
+            has_id = True
 
-    for folder in root.glob('*/'):
+    # in tree dict, sort problem folder files by id increase
+    # other files by created time new -> old
+    tree["folderName"] = root.name
+    tree["children"] = []
+    for value in art.values():
+        simple = {
+            "path": f"/{root.relative_to(PUBLIC_DIR).as_posix()}/{value["title_slug"]}",
+        }
+        if "id" in value:
+            simple["id"] = int(value["id"])
+        else:
+            simple["created"] = value["created"]
+        tree["children"].append(simple)
+
+    if has_id:
+        tree["children"].sort(key=lambda d: d["id"])
+    else:
+        tree["children"].sort(key=lambda d: datetime.strptime(d["created"], "%Y-%m-%d"))
+
+    
+    for folder in sorted(root.glob('*/')):
         sub_folder = {}
-        current[folder.name] = sub_folder
-        recur_files(folder, sub_folder)
+        art[folder.name] = sub_folder
+        sub_tree = {}
+        tree["children"].append(sub_tree)
+        recur_files(folder, sub_folder, sub_tree)
         
 
-book = {}
-recur_files(MARKDOWN_DIR, book)
 
-with (JS_DIR / "titleMap.js").open('w') as f:
-    f.write("export default ")
-    json.dump(book, f, indent=4)
+if __name__ == "__main__":
+    articles = {}
+    folder_tree = {}
+    recur_files(MARKDOWN_DIR, articles, folder_tree)
+
+    with (JS_DIR / "titleMap.js").open('w') as f:
+        f.write("export default ")
+        json.dump(articles, f, indent=4)
+        f.write(";\n\n")
+
+        f.write("export const folderTree = ")
+        json.dump(folder_tree, f, indent=4)

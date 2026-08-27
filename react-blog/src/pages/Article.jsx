@@ -12,7 +12,7 @@ import InfoBar from '../components/InfoBar.jsx';
 
 
 // Define rendered component of problem markdown file content
-function Problem() {
+function Article() {
   const [mdFileContent, setMDFileContent] = useState('Loading...');
   const [metaData, setMetaData] = useState({});
 
@@ -21,7 +21,7 @@ function Problem() {
   const fileData = path.reduce((curMap, key) => curMap[key], titleMap)
   const mdfile = fileData["file"]
 
-  const {slug} = useParams();
+  const { slug } = useParams();
   console.log("Problem.jsx: slug = ", slug, " mdfile = ", mdfile);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ function Problem() {
     }
     fetchMD();
   }, [mdfile]);
-  
+
 
   return (
     <>
@@ -54,4 +54,4 @@ function Problem() {
   );
 }
 
-export default Problem;
+export default Article;

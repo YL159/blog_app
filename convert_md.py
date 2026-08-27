@@ -2,6 +2,7 @@ from pathlib import Path
 import re
 import textwrap
 from leetcode_query import query_leet
+from datetime import datetime
 
 PROBLEM_DIR = Path('./problems')
 MARKDOWN_DIR = Path('./react-blog/public/problems')
@@ -28,6 +29,7 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
     with open(py_file, 'r') as f:
         _, front, code = f.read().split("'''\n", 2)
         line1, description = front.split('\n', 1)
+        created = datetime.fromtimestamp(py_file.stat().st_birthtime).strftime("%Y-%m-%d")
 
         # Parse promblem title, source
         if line1.lower().startswith('leetcode') or line1[0].isnumeric():
@@ -45,8 +47,10 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
             title_slug: {title_slug}
             tags: {q_data.tags}
             difficulty: {q_data.difficulty}
+            created: {created}
             ---
             '''
+        # Not Leetcode question, but from other platform
         elif ':' in line1:
             source, title = re.match(r'(\w+):(.+)', line1).groups()
             title = title.strip()
@@ -54,14 +58,17 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
             ---
             title: {title}
             title_slug: {title.lower().replace(' ', '-')}
+            created: {created}
             ---
             '''
+        # Custom questions
         else:
             title = line1.strip()
             info = f'''\
             ---
             title: {title}
             title_slug: {title.lower().replace(' ', '-')}
+            created: {created}
             ---
             '''
         

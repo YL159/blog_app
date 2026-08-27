@@ -4,6 +4,7 @@ title: Largest Rectangle in Histogram
 title_slug: largest-rectangle-in-histogram
 tags: ['Array', 'Stack', 'Monotonic Stack']
 difficulty: Hard
+created: 2024-10-10
 ---
 [Leetcode 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)
 
