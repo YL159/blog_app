@@ -33,11 +33,11 @@ def file_prop(path: Path) -> dict:
 
 # recursively traverse markdown dir
 # create dict with folder/file structure
-def recur_files(root: Path, art: dict, tree: dict) -> None:
+def recur_files(root: Path, article: dict, tree: dict) -> None:
     has_id = None
     for md_file in root.glob('*.md'):
         info = file_prop(md_file)
-        art[info["title_slug"]] = info
+        article[info["title_slug"]] = info
         if has_id is None and "id" in info:
             has_id = True
 
@@ -45,7 +45,7 @@ def recur_files(root: Path, art: dict, tree: dict) -> None:
     # other files by created time new -> old
     tree["folderName"] = root.name
     tree["children"] = []
-    for value in art.values():
+    for value in article.values():
         simple = {
             "path": f"/{root.relative_to(PUBLIC_DIR).as_posix()}/{value["title_slug"]}",
         }
@@ -63,7 +63,7 @@ def recur_files(root: Path, art: dict, tree: dict) -> None:
     
     for folder in sorted(root.glob('*/')):
         sub_folder = {}
-        art[folder.name] = sub_folder
+        article[folder.name] = sub_folder
         sub_tree = {}
         tree["children"].append(sub_tree)
         recur_files(folder, sub_folder, sub_tree)

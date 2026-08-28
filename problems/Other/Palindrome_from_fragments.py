@@ -1,6 +1,5 @@
 '''
 Palindrome from fragments
-
 Proposed question by myself.
 Given a list of fragment strings containing only lower English letters.
 And each fragment can only be used once.

@@ -11,15 +11,19 @@ MARKDOWN_DIR = Path('./react-blog/public/problems')
 # scan ./problems/ for any unrecorded or modified .py files, and convert to .md
 def scan_py_files(source: Path, dest: Path) -> None:
     dest.mkdir(parents=True, exist_ok=True)
-    count = 0
 
+    count = 0
     for py_file in source.glob('*.py'):
         md_file = dest / py_file.with_suffix('.md').name
         if not md_file.exists() or py_file.stat().st_mtime > md_file.stat().st_mtime:
             count += 1
             print(f'Converting {py_file} to {md_file}')
             convert_py_to_md(py_file, md_file)
-    print(f'Converted {count} .py files to .md files in {dest}')
+    print(f'\nConverted {count} .py files to .md files in {dest}')
+
+    # recursively scan subfolder py files
+    for folder in source.glob('*/'):
+        scan_py_files(folder, dest / folder.name)
 
 
 # convert .py file to .md file
@@ -80,13 +84,14 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
         code_md = f'```python\n{code.strip()}\n```'
     
     with open(md_file, 'w') as f:
-        f.write(f'{info}{source}\n\n{description}\n\n{code_md}\n')
+        source_line = f'{source}\n\n' if source else ''
+        f.write(f'{info}{source_line}{description}\n{code_md}\n')
 
 
 
 
 if __name__ == '__main__':
 
-    # scan_py_files(PROBLEM_DIR, MARKDOWN_DIR)
+    scan_py_files(PROBLEM_DIR/'Other', MARKDOWN_DIR/'Other')
 
-    convert_py_to_md(PROBLEM_DIR / '84_Largest_Rectangle_Histo.py', MARKDOWN_DIR / '84_Largest_Rectangle_Histo.md')
+    # convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '84_Largest_Rectangle_Histo.py', MARKDOWN_DIR / '84_Largest_Rectangle_Histo.md')

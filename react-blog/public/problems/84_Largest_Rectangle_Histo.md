@@ -29,7 +29,6 @@ Thus right end = i, left end = stack top
 
 Time O(n), space O(n)
 
-
 ```python
 from typing import List
 

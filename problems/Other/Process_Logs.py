@@ -7,7 +7,7 @@ resume its CPU time.
 Given the total number of tasks n, and a list of CPU logs with format "pid(int):start/stop:time(int)", calculate the respective
 total CPU time of each process in the order of increasing PID.
 '''
-import pytest
+
 from typing import List
 from random import randint, sample
 
@@ -38,7 +38,7 @@ def logProcessing(n:int, logs:List[str]) -> List:
 
     return [book[i] for i in range(n)]
 
-def processLogsGen(n:int) -> None:
+def process_logs_gen(n:int) -> None:
     # Generate n random legal logs lists. Each represents 1-10 processes
     ns = sorted([randint(1, 10) for i in range(n)])
     for i in ns:
@@ -54,7 +54,7 @@ def processLogsGen(n:int) -> None:
         print(f'Logs: {logs}\n')
 
 if __name__ == '__main__':
-    processLogsGen(5)
+    process_logs_gen(5)
 
 def test_case1():
     n = 3
