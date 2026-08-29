@@ -19,17 +19,17 @@ function App() {
 
           <Route path="blogs">
             <Route index element={<Blog />} />
-            <Route path=":slug" element={<Article />} />
+            <Route path="*" element={<Article />} />
           </Route>
 
           <Route path="problems">
             <Route index element={<ProblemCategory />} />
-            <Route path=":slug" element={<Article />} />
+            <Route path="*" element={<Article />} />
           </Route>
 
           <Route path="reviews">
             <Route index element={<Review />} />
-            <Route path=":slug" element={<Article />} />
+            <Route path="*" element={<Article />} />
           </Route>
         </Route>
 

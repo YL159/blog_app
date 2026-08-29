@@ -20,6 +20,7 @@ function Article() {
   const path = useLocation().pathname.split('/').filter((x) => x)
   const fileData = path.reduce((curMap, key) => curMap[key], titleMap)
   const mdfile = fileData["file"]
+  console.log(path, mdfile)
 
   const { slug } = useParams();
   console.log("Problem.jsx: slug = ", slug, " mdfile = ", mdfile);
@@ -34,9 +35,10 @@ function Article() {
         }
         const content = await response.text();
 
-        const { data: mdData, content: mdContent } = matter(content);
+        const { data: mdData, content: mdContent, matter: mat } = matter(content);
         setMetaData(mdData);
         setMDFileContent(mdContent);
+        console.log("metaData is ", mdData)
       } catch (err) {
         console.error("Error loading markdown:", err)
       };

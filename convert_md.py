@@ -1,6 +1,7 @@
 from pathlib import Path
 import re
 import textwrap
+from venv import create
 from leetcode_query import query_leet
 from datetime import datetime
 
@@ -34,6 +35,8 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
         _, front, code = f.read().split("'''\n", 2)
         line1, description = front.split('\n', 1)
         created = datetime.fromtimestamp(py_file.stat().st_birthtime).strftime("%Y-%m-%d")
+        # avoid automatic parsing as Date obj later
+        created = f'"{created}"'
 
         # Parse promblem title, source
         if line1.lower().startswith('leetcode') or line1[0].isnumeric():
@@ -92,6 +95,6 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
 
 if __name__ == '__main__':
 
-    scan_py_files(PROBLEM_DIR/'Other', MARKDOWN_DIR/'Other')
+    # scan_py_files(PROBLEM_DIR/'Other', MARKDOWN_DIR/'Other')
 
-    # convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '84_Largest_Rectangle_Histo.py', MARKDOWN_DIR / '84_Largest_Rectangle_Histo.md')
+    convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '84_Largest_Rectangle_Histo.py', MARKDOWN_DIR / "Leetcode" / '84_Largest_Rectangle_Histo.md')
