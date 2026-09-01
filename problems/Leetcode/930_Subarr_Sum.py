@@ -1,5 +1,5 @@
 '''
-930. Binary Subarrays With Sum
+Leetcode 930. Binary Subarrays With Sum
 Find count of all subarrays sum to goal
 subset of problem 560 https://leetcode.com/problems/subarray-sum-equals-k/
 pfs is workable here as well

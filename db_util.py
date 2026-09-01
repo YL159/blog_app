@@ -1,3 +1,9 @@
+'''
+Currently Not Used
+
+Maintain problem and file metadata in DB
+'''
+
 import sqlite3 as sql
 from pathlib import Path
 
@@ -5,11 +11,11 @@ from pathlib import Path
 from leetcode_query import query_leet, Question
 
 
-local_db = "leetcode"
-table = "questions"
+LOCAL_DB = "leetcode"
+TABLE = "questions"
 
 # get cursor of a local sqlite3 db
-def get_db(local_db: str=local_db, table: str=table) -> sql.Connection:
+def get_db(local_db: str=LOCAL_DB, table: str=TABLE) -> sql.Connection:
     con = sql.connect(local_db)
     cur = con.cursor()
 
@@ -27,7 +33,7 @@ def get_db(local_db: str=local_db, table: str=table) -> sql.Connection:
 
 def fetch_question(cur: sql.Cursor, py_name: str) -> tuple:
     num = get_num(py_name)
-    query = f"SELECT * FROM {table} where id = ?"
+    query = f"SELECT * FROM {TABLE} where id = ?"
     cur.execute(query, (num,))
     return cur.fetchone()
 
@@ -37,7 +43,7 @@ def update_names(con: sql.Connection, py_name: str) -> None:
 
     # assume question id exists in db, and just update file names
     cur = con.cursor()
-    query = f"UPDATE {table} SET py_name = ?, md_name = ? WHERE id = ?"
+    query = f"UPDATE {TABLE} SET py_name = ?, md_name = ? WHERE id = ?"
     cur.execute(query, (py_name, md_name, get_num(py_name)))
     con.commit()
 
@@ -58,7 +64,7 @@ def add_question(con: sql.Connection, py_name: str, md_name:str, title_slug: str
     # assume question id doesn't exist in db
     cur = con.cursor()
     query = f"""
-    INSERT INTO {table} VALUES
+    INSERT INTO {TABLE} VALUES
         (:id, :py_name, :md_name, :title, :url, :tags, :difficulty)
     """
     cur.execute(query, (question,))

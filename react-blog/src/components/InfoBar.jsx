@@ -2,15 +2,29 @@
 
 // Helper function, wrap prop into html element by type string or array
 const renderProp = (label, prop) => {
+
   // if undefined, null or empty array, don't render
-  if (prop == undefined || (Array.isArray(prop) && prop.length == 0)) return null;
+  if (prop == null || (Array.isArray(prop) && prop.length == 0)) return null;
+
   // render simple string prop
-  else if (!Array.isArray(prop)) return <div>{label}: {prop}</div>;
-  // render list prop
-  else {
-    return <div>{label}:{prop.map((tag, index) => <span key={index}> #{tag}</span>)
-      }</div>;
+  if (typeof prop === 'string') return <div>{label}: {prop}</div>
+
+  // render Date object
+  if (prop instanceof Date) {
+    return <div>{label}: {prop.toLocaleDateString()}</div>
   }
+
+  // render list object
+  if (Array.isArray(prop)){
+    return (
+      <div>
+        {label}:{prop.map((tag, index) => <span key={index}> #{tag}</span>)
+      }</div>
+    );
+  }
+
+  // default
+  return <div>{label}: {String(prop)}</div>
 }
 
 

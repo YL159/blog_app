@@ -78,7 +78,7 @@ def query_leet(title_slug: str) -> Question | None:
             "titleSlug": f"{title_slug}"
         }
     }
-    # print(title_slug)
+    
     # make POST request
     try:
         response = ul.request("POST", leetcode, json=query, headers=headers)
@@ -100,4 +100,3 @@ if __name__ == "__main__":
     title = "longest-substring-without-repeating-characters"
 
     question = query_leet(title)
-    print(question.tags, question.id)

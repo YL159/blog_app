@@ -1,5 +1,5 @@
 '''
-1415. The k-th Lexicographical String of All Happy Strings of Length n
+Leetcode 1415. The k-th Lexicographical String of All Happy Strings of Length n
 Sort in lex order of all Happy strings of length n:
 1. Use only 'abc'.
 2. No 2 neighbor letters are the same.

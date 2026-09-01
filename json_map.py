@@ -4,7 +4,7 @@ from datetime import datetime
 
 MARKDOWN_DIR = Path('./react-blog/public/')
 PUBLIC_DIR = Path('./react-blog/public/')
-JS_DIR = Path('./react-blog/src/data/')
+JSON_DATA = Path('./react-blog/src/data/fileMap.js')
 
 # record markdown file's properties as dict
 # guarantees "title_slug" & "file" property
@@ -33,52 +33,43 @@ def file_prop(path: Path) -> dict:
 
 # recursively traverse markdown dir
 # create dict with folder/file structure
-def recur_files(root: Path, article: dict, tree: dict) -> None:
+def recur_files(root: Path, tree: dict) -> None:
+    tree["folderName"] = root.name
+    tree["children"] = []
+
     has_id = None
     for md_file in root.glob('*.md'):
         info = file_prop(md_file)
-        article[info["title_slug"]] = info
         if has_id is None and "id" in info:
             has_id = True
 
-    # in tree dict, sort problem folder files by id increase
-    # other files by created time new -> old
-    tree["folderName"] = root.name
-    tree["children"] = []
-    for value in article.values():
-        simple = {
-            "path": f"/{root.relative_to(PUBLIC_DIR).as_posix()}/{value["title_slug"]}",
-        }
-        if "id" in value:
-            simple["id"] = int(value["id"])
-        else:
-            simple["created"] = value["created"]
-        tree["children"].append(simple)
+        info["path"] = f"/{root.relative_to(PUBLIC_DIR).as_posix()}/{info["title_slug"]}"
+        if "id" in info:
+            info["id"] = int(info["id"])
+        tree["children"].append(info)
 
+    # sort children by id increase or created time decrease
     if has_id:
         tree["children"].sort(key=lambda d: d["id"])
     else:
-        tree["children"].sort(key=lambda d: datetime.strptime(d["created"], "%Y-%m-%d"))
+        tree["children"].sort(key=lambda d: datetime.strptime(d["created"], "%Y-%m-%d"), reverse=True)
 
     
     for folder in sorted(root.glob('*/')):
-        sub_folder = {}
-        article[folder.name] = sub_folder
+        if folder.name.startswith(('_', '.')):
+            continue
         sub_tree = {}
         tree["children"].append(sub_tree)
-        recur_files(folder, sub_folder, sub_tree)
+        recur_files(folder, sub_tree)
         
 
 
 if __name__ == "__main__":
-    articles = {}
     folder_tree = {}
-    recur_files(MARKDOWN_DIR, articles, folder_tree)
+    recur_files(MARKDOWN_DIR, folder_tree)
+    folder_tree["folderName"] = "Base"
 
-    with (JS_DIR / "titleMap.js").open('w') as f:
+    with (JSON_DATA).open('w') as f:
         f.write("export default ")
-        json.dump(articles, f, indent=4)
-        f.write(";\n\n")
-
-        f.write("export const folderTree = ")
         json.dump(folder_tree, f, indent=4)
+        f.write(";\n")

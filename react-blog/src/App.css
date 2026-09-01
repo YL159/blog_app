@@ -23,6 +23,7 @@ main {
     padding: 20px 40px 80px;
 }
 
+/* .md text maintaining original tab like code block */
 .pre-like {
     white-space: pre-wrap;
     tab-size: 4;
@@ -30,6 +31,7 @@ main {
     font-size: 18px;
 }
 
+/* Code block */
 pre {
     border-radius: 6px;
     padding: 16px;

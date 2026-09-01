@@ -11,8 +11,15 @@ thus keeping the property of shrinking 'window' <=> smaller sum
 Method:
 Use prefix sum for quick subarr sum check.
 Use monotonic increasing deque on prefix sum array, que is sorted thus 'sliding window' works
-	if pref[j] - pref[earlier i] >= k, then a pref[j] - pref[later i'] also >= k
-	definitely give better (smaller) subarr.
+	=> pref[j] - pref[earlier i] >= k, then if there is a later i' that
+    pref[j] - pref[later i'] >= k, i' definitely give better (smaller) subarr.
+    => keep the later i' for all later j
+
+If some pref[later j] - pref[earlier i] >= k
+and because earlier i was definitely popped to match some j
+    => later j - earlier i must be larger than currently recorded length
+
+Time O(n), Space O(n)
 '''
 from typing import List
 import collections

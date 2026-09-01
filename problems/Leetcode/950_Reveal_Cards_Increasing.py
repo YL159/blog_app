@@ -1,5 +1,5 @@
 '''
-950. Reveal Cards In Increasing Order
+Leetcode 950. Reveal Cards In Increasing Order
 Reveal a card, stash a card at the bottom.
 Get the original order of the cards which gives increasing order of cards after such revealing operations.
 

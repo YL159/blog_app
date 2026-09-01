@@ -1,5 +1,5 @@
 '''
-740. Delete and Earn
+Leetcode 740. Delete and Earn
 Repeatedly earn the number n you delete, but remove all n+1 and n-1. Solve for max earning.
 
 Similar to house robber question. Incrementally maintaining 2 optimum choices:
