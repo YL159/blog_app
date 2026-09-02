@@ -1,6 +1,6 @@
 
 
-function Blog() {
+export default function Blog() {
   return (
     <div>
       <h1>Blog Page</h1>
@@ -8,5 +8,3 @@ function Blog() {
     </div>
   );
 }
-
-export default Blog;

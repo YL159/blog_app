@@ -6,7 +6,7 @@ import fileMap from "../data/fileMap.js"
 
 // const articles = import.meta.glob('public/**/*.md');
 
-function SideBar() {
+export default function SideBar() {
 
   return (
     <Box 
@@ -27,5 +27,3 @@ function SideBar() {
     </Box>
   );
 }
-
-export default SideBar;

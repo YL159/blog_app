@@ -1,6 +1,6 @@
 
 
-function Review() {
+export default function Review() {
   return (
     <div>
       <h1>Review Page</h1>
@@ -8,5 +8,3 @@ function Review() {
     </div>
   );
 }
-
-export default Review;

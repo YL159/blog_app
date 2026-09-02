@@ -1,9 +1,7 @@
 
 
-function Intro() {
+export default function Intro() {
   return (
     <div>Intro</div>
   )
 }
-
-export default Intro;

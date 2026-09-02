@@ -19,6 +19,6 @@ export function getTitle(item) {
   if (item.folderName) {
     return `${item.folderName[0].toUpperCase()}${item.folderName.slice(1)}`;
   }
-  console.log("getTitle: item = ", item)
+  // console.log("getTitle: item = ", item)
   return item.title;
 }

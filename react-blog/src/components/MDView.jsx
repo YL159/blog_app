@@ -41,7 +41,7 @@ marked.setOptions({
 });
 
 
-function MDView({ mdContent }) {
+export default function MDView({ mdContent }) {
 
   const mdStr = useMemo(() => {
     // Remove html, head, body tags from the parsed content
@@ -53,12 +53,10 @@ function MDView({ mdContent }) {
       }
     });
   }, [mdContent]);
-  
+
   return (
     <div>
       {mdStr}
     </div>
   );
 }
-
-export default MDView;

@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 
-function Breadcrumbs() {
+export default function Breadcrumbs() {
   const location = useLocation();
   // get each section of the path, filter out ""
   const pathnames = location.pathname.split("/").filter((x) => x);
@@ -25,5 +25,3 @@ function Breadcrumbs() {
   );
 
 }
-
-export default Breadcrumbs;

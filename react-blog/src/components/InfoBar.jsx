@@ -1,7 +1,7 @@
 
 
 // Helper function, wrap prop into html element by type string or array
-const renderProp = (label, prop) => {
+export default function renderProp(label, prop) {
 
   // if undefined, null or empty array, don't render
   if (prop == null || (Array.isArray(prop) && prop.length == 0)) return null;
@@ -38,5 +38,3 @@ function InfoBar({ tags, difficulty, created, modified }) {
     </>
   );
 }
-
-export default InfoBar;

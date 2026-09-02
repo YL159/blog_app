@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
+import { Box, } from "@mui/material";
 import SideBar from "../components/SideBar";
 import Breadcrumbs from "../components/Breadcrumbs";
-import { Box, } from "@mui/material";
+import Footer from "../components/Footer";
 
 
 function PageLayout() {
@@ -20,6 +21,7 @@ function PageLayout() {
       <Box component="main">
         <Breadcrumbs />
         <Outlet />
+        <Footer/>
       </Box>
     </Box>
   )

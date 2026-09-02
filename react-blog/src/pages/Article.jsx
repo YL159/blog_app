@@ -10,7 +10,7 @@ import { buildPathMap } from '../utils/treeUtils.js';
 const pathMap = buildPathMap();
 
 // Define rendered component of problem markdown file content
-function Article() {
+export default function Article() {
   const [mdFileContent, setMDFileContent] = useState('Loading...');
   const [metaData, setMetaData] = useState({});
 
@@ -46,5 +46,3 @@ function Article() {
     </>
   );
 }
-
-export default Article;
