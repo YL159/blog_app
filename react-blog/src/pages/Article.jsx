@@ -21,23 +21,23 @@ export default function Article() {
     // Fetch the file from the public directory
     async function fetchMD() {
       try {
-        const response = await fetch(`${mdfile}`);
+        const response = await fetch(mdfile);
         if (!response.ok) {
-          throw new Error(mdfile + " file fetch error");
+          throw new Error(`${mdfile} file fetch error`);
         }
         const content = await response.text();
 
         const { data: mdData, content: mdContent } = matter(content);
         setMetaData(mdData);
         setMDFileContent(mdContent);
-        // console.log("metaData is ", mdData)
       } catch (err) {
         console.error("Error loading markdown:", err)
       };
     }
     fetchMD();
   }, [mdfile]);
-
+  
+  // console.log("metaData is ", metaData)
   return (
     <>
       <h1>{metaData.title}</h1>

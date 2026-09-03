@@ -6,7 +6,7 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "../components/Footer";
 
 
-function PageLayout() {
+export default function PageLayout() {
   return (
     <Box sx={{ 
       display: 'flex', 
@@ -26,5 +26,3 @@ function PageLayout() {
     </Box>
   )
 }
-
-export default PageLayout

@@ -1,7 +1,7 @@
-
+import { Box } from '@mui/material'
 
 // Helper function, wrap prop into html element by type string or array
-export default function renderProp(label, prop) {
+function renderProp(label, prop) {
 
   // if undefined, null or empty array, don't render
   if (prop == null || (Array.isArray(prop) && prop.length == 0)) return null;
@@ -28,13 +28,13 @@ export default function renderProp(label, prop) {
 }
 
 
-function InfoBar({ tags, difficulty, created, modified }) {
+export default function InfoBar({ tags, difficulty, created, modified }) {
   return (
-    <>
+    <Box>
       {renderProp("Created on", created)}
       {renderProp("Updated on", modified)}
       {renderProp("LVL", difficulty)}
       {renderProp("Topics", tags)}
-    </>
+    </Box>
   );
 }

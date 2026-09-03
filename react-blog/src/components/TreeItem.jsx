@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { Box, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 import { getTitle } from '../utils/treeUtils.js';
 
+// set # of folder items to display before adding scrollbar
+const MAX_DISPLAY_ITEMS = 15
 
 // File list item component
 function FileItem({ node, lvl }) {
@@ -19,14 +21,15 @@ function FileItem({ node, lvl }) {
 export default function TreeItem({ node, lvl = 1 }) {
   const [isOpen, setIsOpen] = useState(lvl === 1);
   const isFolder = Array.isArray(node.children);
-
+  
   if (!isFolder) {
     return <FileItem node={node} lvl={lvl} />
   }
 
+  
   const toggleOpen = () => setIsOpen((prev) => !prev);
-
   const folderDisplay = `${isOpen ? '📂' : '📁'} ${getTitle(node)}`;
+  const needScroll = node.children.length > MAX_DISPLAY_ITEMS;
 
   return (
     <Box>
@@ -35,13 +38,15 @@ export default function TreeItem({ node, lvl = 1 }) {
       </ListItemButton>
 
       {isOpen && node.children.length > 0 && (
-        <List component="div" disablePadding>
-          {node.children.map((child, idx) => (
-            <TreeItem key={child.path || child.folderName || idx}
+        <Box sx={ needScroll ? { maxHeight: 600, overflowY: 'auto'} : {}}>
+          <List component="div" disablePadding>
+            {node.children.map((child, idx) => (
+              <TreeItem key={child.path || child.folderName || idx}
               node={child}
               lvl={lvl + 1} />
-          ))}
-        </List>
+            ))}
+          </List>
+        </Box>
       )}
     </Box>
   );
