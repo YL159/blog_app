@@ -5,6 +5,7 @@ import hljs from 'highlight.js';
 import 'highlight.js/styles/atom-one-dark.css';
 // use global parser to remove html etc. tags
 import parse, { domToReact } from 'html-react-parser';
+import { Box } from '@mui/material';
 
 
 // Define markdown renderer for code block and images
@@ -43,9 +44,11 @@ marked.setOptions({
 
 export default function MDView({ mdContent }) {
 
+  // console.log(marked.parse(mdContent))
+
   const mdStr = useMemo(() => {
-    // Remove html, head, body tags from the parsed content
     return parse(marked.parse(mdContent), {
+      // Open html, head, body tags from the parsed content, if any
       replace: (domNode) => {
         if (domNode.name === 'html' || domNode.name === 'head' || domNode.name === 'body') {
           return <>{domToReact(domNode.children)}</>
@@ -55,8 +58,8 @@ export default function MDView({ mdContent }) {
   }, [mdContent]);
 
   return (
-    <div>
+    <Box>
       {mdStr}
-    </div>
+    </Box>
   );
 }

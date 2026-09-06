@@ -20,6 +20,8 @@ function getTitle(item) {
     return `${item.folderName[0].toUpperCase()}${item.folderName.slice(1)}`;
   }
   // console.log("getTitle: item = ", item)
+  if (item.id) return `${item.id}. ${item.title}`;
+  
   return item.title;
 }
 

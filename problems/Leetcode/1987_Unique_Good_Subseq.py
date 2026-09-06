@@ -17,32 +17,35 @@ Time O(n), Space O(1)
 For both methods, consider '0' separately.
 '''
 class Solution:
+    # Method 1 similar to #940
+    # new char only append to recent subseq from last same char and on
     def numberOfUniqueGoodSubsequences(self, binary: str) -> int:
-        # # similar to #940
-        # # new char only append to recent subseq from last same char and on
-        # pref = [0]
-        # pos = [-1, -1]
-        # has_0 = False
-        # for i, c in enumerate(binary):
-        #     has_0 |= c == '0'
-        #     idx = c == '1'
-        #     if pos[idx] < 0:
-        #         if idx:
-        #             pref.append(1)
-        #         elif pos[1] < 0:
-        #             pref.append(0)
-        #         else:
-        #             pref.append(2*pref[-1])
-        #     else:
-        #         pref.append(2*pref[-1] - pref[pos[idx]])
-        #     pos[idx] = i
-        #     # print(pref)
-        # return (pref[-1] + has_0) % (10**9+7)
+        pref = [0]
+        pos = [-1, -1]
+        has_0 = False
+        for i, c in enumerate(binary):
+            has_0 |= c == '0'
+            idx = c == '1'
+            if pos[idx] < 0:
+                if idx:
+                    pref.append(1)
+                elif pos[1] < 0:
+                    pref.append(0)
+                else:
+                    pref.append(2*pref[-1])
+            else:
+                pref.append(2*pref[-1] - pref[pos[idx]])
+            pos[idx] = i
+            # print(pref)
+        return (pref[-1] + has_0) % (10**9+7)
 
-        # idea from #115, but each char unconditionally promote all subseq to longer subseq
+
+    # Method 2, idea from #115
+    # each char unconditionally promote all subseq to longer subseq
+    def numberOfUniqueGoodSubsequences(self, binary: str) -> int:
         end1, end0 = 0, 0
         has0 = False
-        mod = 10**9+7
+        mod = 10**9 + 7
         for c in binary:
             if c == '1':
                 # update valid subseq ending 1. +1 is compensate promoted '1'
@@ -51,4 +54,4 @@ class Solution:
                 # update valid subseq ending 0.
                 end0 = (end1 + end0) % mod
                 has0 = True
-        return (end1+end0+has0) % mod
+        return (end1 + end0 + has0) % mod

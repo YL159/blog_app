@@ -80,8 +80,10 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
             '''
         
         info = textwrap.dedent(info)
-        # escape # in description to avoid markdown header
-        description = description.replace('#', '\\#')
+        # escape line start # in description (if any) to avoid markdown header
+        re.sub(r"^(\s*)#", r"\1\\#", description, flags=re.MULTILINE)
+        # escape ~ to avoid markdown strike-thru
+        re.sub('~', r'\~', description, flags=re.MULTILINE)
 
         # keep original code block
         code_md = f'```python\n{code.strip()}\n```'
@@ -95,7 +97,9 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
 
 if __name__ == '__main__':
 
-    scan_py_files(PROBLEM_DIR, MARKDOWN_DIR)
+    # scan_py_files(PROBLEM_DIR, MARKDOWN_DIR)
 
     # convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '84_Largest_Rectangle_Histo.py', MARKDOWN_DIR / "Leetcode" / '84_Largest_Rectangle_Histo.md')
     # convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '1493_Longest_Subarray_1_Del.py', MARKDOWN_DIR / "Leetcode" / '1493_Longest_Subarray_1_Del.md')
+    convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '72_Edit_Distance.py', MARKDOWN_DIR / "Leetcode" / '72_Edit_Distance.md')
+

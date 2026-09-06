@@ -6,12 +6,17 @@ import { getTitle } from '../utils/treeUtils.js';
 // set # of folder items to display before adding scrollbar
 const MAX_DISPLAY_ITEMS = 15
 
+const buttonSx = (lvl) => ({
+  pl: lvl * 2,
+  py: '2px',
+})
+
 // File list item component
 function FileItem({ node, lvl }) {
   return (
     <ListItem disablePadding>
-      <ListItemButton component={Link} to={node.path} sx={{ pl: lvl * 2 }}>
-        <ListItemText primary={getTitle(node)} />
+      <ListItemButton component={Link} to={node.path} sx={buttonSx(lvl)}>
+        <ListItemText className='file-txt' primary={getTitle(node)} />
       </ListItemButton>
     </ListItem>
   )
@@ -33,8 +38,8 @@ export default function TreeItem({ node, lvl = 1 }) {
 
   return (
     <Box>
-      <ListItemButton onClick={toggleOpen} sx={{ pl: lvl * 2 }}>
-        <ListItemText primary={folderDisplay} />
+      <ListItemButton onClick={toggleOpen} sx={buttonSx(lvl)}>
+        <ListItemText className='folder-txt' primary={folderDisplay} />
       </ListItemButton>
 
       {isOpen && node.children.length > 0 && (

@@ -3,9 +3,11 @@ Leetcode 72. Edit Distance
 Given 2 words, find min # of op to make them equal.
 Op: insert, delete, replace
 
-Idea is to utilize as many common chars in words as possible, relate to 1143 Longest Common Subsequence problem
+Idea is to utilize as many common chars in words as possible
+    relate to 1143 Longest Common Subsequence problem
 We also use a word DP matrix made of column as word2, row as word1.
-The shortest distance betwen word1[:i] and word2[:j] come from DP of word1[:i-1~i], word2[:j-1~j]
+The shortest distance betwen word1[:i] and word2[:j] come from DP of:
+    word1[:i-1 or :i], word2[:j-1 or :j], 4x combinations
 
 If the last chars are the same:
 	abbc -> abbc d, eef -> eef d. Then DP(eefd->abbcd) = DP(eef->abbc)

@@ -4,8 +4,6 @@ Given 2 sorted array, find median if merged as 1 array.
 Time log(m+n)
 
 Method 1, naively merge arrs and find median, O(m+n)
-
-
 Since the 2 array are sorted, the result arr[0,median] must be the combination of nums1[0,m1], nums2[0,m2]
     <=> len(nums1[0,m1]) + len(nums2[0,m2]) = (m+n)//2+1
         AND
@@ -50,6 +48,7 @@ Then finally check & output the correct median in all cases.
 
 This method guarantees prefix number count, but binary search based on "holes" or not.
 It is an unconventional binary search structure and uses middle idx for later calculation.
+
 Time O(log(min(m, n))), space O(1)
 '''
 from typing import List
@@ -85,7 +84,7 @@ class Solution:
             # => m1 range is too small
             elif m2 >= n2 or m1 < n1-1 and nums2[m2] > nums1[m1+1]:
                 l = m1
-			# now m1, m2 are definitely valid, note m1 in [-1, n1-1] range
+            # now m1, m2 are definitely valid, note m1 in [-1, n1-1] range
             else:
                 break
         # odd total
