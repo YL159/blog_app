@@ -1,8 +1,6 @@
 [project]
 name = "problems"
 version = "0.1.0"
-description = "Algorithm problems & React.js blog"
-readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "urllib3>=2.7.0",
@@ -10,10 +8,11 @@ dependencies = [
 authors = [
     {name = "sea_melan"},
 ]
-description = "Static React Blog, while sharing some problem solutions."
+description = "Static React Blog"
+keywords = ["algorithm", "blog", "leetcode", "markdown", "python", "react", "script"]
+readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
-keywords = ["algorithm", "blog", "leetcode", "markdown", "python", "react", "script"]
 
 [project.urls]
 Repository = "git@github.com:YL159/blog_app.git"
