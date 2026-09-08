@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import PageLayout from "./layouts/PageLayout";
+import ScrollToTop from "./layouts/ScrollToTop";
 import Blog from "./pages/Blog";
 import Review from "./pages/Review";
 import ProblemCategory from "./pages/ProblemCategory"
@@ -9,7 +10,8 @@ import Article from "./pages/Article";
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter basename={import.meta.env.BASE_URL}>
+      <ScrollToTop />
       <Routes>
 
         <Route path="/" element={<PageLayout />}>
@@ -35,7 +37,7 @@ function App() {
         <Route path="*" element={<div>404 Not Found</div>} />
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
