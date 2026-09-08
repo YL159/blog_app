@@ -9,12 +9,7 @@ import fileMap from "../data/fileMap.js"
 export default function SideBar() {
 
   return (
-    <Box 
-      component="aside"
-      sx={{
-        height: '100vh',
-        overflowY: 'auto',
-      }}>
+    <Box component="aside">
       <Box sx={{ p: 2 }}>
         <Typography variant="h6" fontWeight="bold">Contents</Typography>
       </Box>

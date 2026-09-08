@@ -43,7 +43,7 @@ export default function TreeItem({ node, lvl = 1 }) {
       </ListItemButton>
 
       {isOpen && node.children.length > 0 && (
-        <Box sx={ needScroll ? { maxHeight: 600, overflowY: 'auto'} : {}}>
+        <Box sx={ needScroll ? { maxHeight: '50dvh', overflowY: 'auto'} : {}}>
           <List component="div" disablePadding>
             {node.children.map((child, idx) => (
               <TreeItem key={child.path || child.folderName || idx}

@@ -15,7 +15,7 @@ Get/put should be O(1) time.
 Use doubly linked list to make the operations O(1) time.
 Recently accessed key nodes should be put to the top of the list.
 If over capacity, least recently used node (last node) should be removed.
-Also use node.key <-> map[key] to cross reference, keep track of capacity and cached nodes.
+Also use node.key <=> map[key] to cross reference, keep track of capacity and cached nodes.
 
 ```python
 class LRUCache:

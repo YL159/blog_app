@@ -9,7 +9,7 @@ JSON_DATA = Path('./react-blog/src/data/fileMap.js')
 # record markdown file's properties as dict
 # guarantees "title_slug" & "file" property
 def file_prop(path: Path) -> dict:
-    with path.open() as f:
+    with path.open(encoding='utf-8') as f:
         info = {}
         dashes = 0
         for line in f:
@@ -38,7 +38,8 @@ def recur_files(root: Path, tree: dict) -> None:
     tree["children"] = []
 
     has_id = None
-    for md_file in root.glob('*.md'):
+    # file name starts with "_" will be hidden in file tree
+    for md_file in root.glob('[!_]*.md'):
         info = file_prop(md_file)
         if has_id is None and "id" in info:
             has_id = True
@@ -67,9 +68,9 @@ def recur_files(root: Path, tree: dict) -> None:
 if __name__ == "__main__":
     folder_tree = {}
     recur_files(MARKDOWN_DIR, folder_tree)
-    folder_tree["folderName"] = "Base"
+    folder_tree["folderName"] = "Tiny Glade"
 
-    with (JSON_DATA).open('w') as f:
+    with (JSON_DATA).open('w', encoding='utf-8') as f:
         f.write("export default ")
-        json.dump(folder_tree, f, indent=4)
+        json.dump(folder_tree, f, ensure_ascii=False, indent=4)
         f.write(";\n")

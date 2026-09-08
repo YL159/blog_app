@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useLocation, useParams } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import MDView from '../components/MDView.jsx';
 import InfoBar from '../components/InfoBar.jsx';
 // parse markdown front-matter
@@ -10,12 +10,19 @@ import { buildPathMap } from '../utils/treeUtils.js';
 const pathMap = buildPathMap();
 
 // Define rendered component of problem markdown file content
-export default function Article() {
+export default function Article({ filePath }) {
   const [mdFileContent, setMDFileContent] = useState('Loading...');
   const [metaData, setMetaData] = useState({});
 
-  // Get md file by current path in pathMap database
-  const mdfile = pathMap[useLocation().pathname].file
+  // Get md file by current path in pathMap database, decode non-ascii chars
+  const decodedPath = decodeURIComponent(useLocation().pathname);
+  // console.log("decodedPath", decodedPath);
+  const mdfile = filePath || pathMap[decodedPath]?.file;
+
+  if (!mdfile) {
+    return <div>No mathcing file for path: {decodedPath}</div>
+  }
+
 
   useEffect(() => {
     // Fetch the file from the public directory
@@ -36,7 +43,7 @@ export default function Article() {
     }
     fetchMD();
   }, [mdfile]);
-  
+
   // console.log("metaData is ", metaData)
   return (
     <>

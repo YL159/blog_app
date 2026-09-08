@@ -1,4 +1,5 @@
 html, body, #root {
+    font-size: 1em;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -10,45 +11,45 @@ html, body, #root {
 main {
     flex: 1;
     overflow-y: auto;
-    padding: 20px 40px 80px;
+    padding: 2em 10em 8em 2em;
 }
 
 /* Sidebar */
 aside {
     position: sticky;
     top: 0;
-    height: 100%;
-    width: 20rem;
+    height: 100vh;
+    width: 21em;
+    min-width: 18em;
     border-right: 2px solid;
     border-color: divider;
     background-color: var(--mui-palette-background-paper);
+    overflow-y: auto;
 }
 
 /* Sidebar txt */
 .folder-txt .MuiListItemText-primary {
-        font-weight: bold;
-        color:teal;
+    font-weight: bold;
+    color:teal;
 }
 
 .file-txt .MuiListItemText-primary {
-        line-height: 100%;
+    font-size: 0.93rem;
+    line-height: 1.2;
 }
 
 /* Code block */
 pre {
-    border-radius: 6px;
-    padding: 16px;
-    overflow-x: auto;
-
     font-family: "Cascadia Code", monospace;
-    font-size: 16px;
+    border-radius: 1em;
+    padding: 1em;
+    overflow-x: auto;
 }
 
 /* .md text maintaining original tab like code block */
 .pre-like {
+    font-size: 1.12em;
     white-space: pre-wrap;
     tab-size: 4;
-    font-family: inherit;
-    font-size: 18px;
 }
 

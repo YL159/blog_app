@@ -17,7 +17,10 @@ function buildPathMap(root = fileMap, path_map = {}) {
 // Get the displayable name of folder or file
 function getTitle(item) {
   if (item.folderName) {
-    return `${item.folderName[0].toUpperCase()}${item.folderName.slice(1)}`;
+    return item.folderName
+            .split(' ')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
   }
   // console.log("getTitle: item = ", item)
   if (item.id) return `${item.id}. ${item.title}`;

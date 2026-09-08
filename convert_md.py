@@ -23,7 +23,7 @@ def scan_py_files(source: Path, dest: Path) -> None:
     print(f'\nConverted {count} .py files to .md files in {dest}\n')
 
     # recursively scan subfolder py files
-    for folder in source.glob('*/'):
+    for folder in source.glob('[!._]*/'):
         scan_py_files(folder, dest / folder.name)
 
 
@@ -97,9 +97,9 @@ def convert_py_to_md(py_file: Path, md_file: Path) -> None:
 
 if __name__ == '__main__':
 
-    # scan_py_files(PROBLEM_DIR, MARKDOWN_DIR)
+    scan_py_files(PROBLEM_DIR, MARKDOWN_DIR)
 
     # convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '84_Largest_Rectangle_Histo.py', MARKDOWN_DIR / "Leetcode" / '84_Largest_Rectangle_Histo.md')
     # convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '1493_Longest_Subarray_1_Del.py', MARKDOWN_DIR / "Leetcode" / '1493_Longest_Subarray_1_Del.md')
-    convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '72_Edit_Distance.py', MARKDOWN_DIR / "Leetcode" / '72_Edit_Distance.md')
+    # convert_py_to_md(PROBLEM_DIR / 'Leetcode' / '72_Edit_Distance.py', MARKDOWN_DIR / "Leetcode" / '72_Edit_Distance.md')
 
