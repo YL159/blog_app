@@ -15,4 +15,4 @@ license = "MIT"
 license-files = ["LICENSE"]
 
 [project.urls]
-Repository = "git@github.com:YL159/blog_app.git"
+Repository = "https://github.com/YL159/blog_app.git"
