@@ -14,5 +14,5 @@ export default defineConfig({
     })
   ],
 
-  base: `/${repoName}/`,
+  base: repoName ? `/${repoName}/` : '/',
 })

@@ -16,7 +16,7 @@ export default function Article({ filePath }) {
 
   // Get md file by current path in pathMap database, decode non-ascii chars
   const decodedPath = decodeURIComponent(useLocation().pathname);
-  // console.log("decodedPath", decodedPath);
+  // console.log("decodedPath: ", decodedPath);
   const mdfile = filePath || pathMap[decodedPath]?.file;
 
   if (!mdfile) {

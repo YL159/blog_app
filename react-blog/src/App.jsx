@@ -13,7 +13,7 @@ function App() {
       <Routes>
 
         <Route path="/" element={<PageLayout />}>
-          <Route index element={<Navigate to="intro" replace />} />
+          <Route index element={<Navigate to="/intro" replace />} />
           <Route path="intro" element={<Article filePath="/_Intro.md" />} />
 
           <Route path="blogs">
