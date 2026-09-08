@@ -22,15 +22,15 @@ export default function Article({ filePath }) {
   if (!mdfile) {
     return <div>No mathcing file for path: {decodedPath}</div>
   }
-
-  // remove base url tail '/'. mdfile starts with '/'
-  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  // // HashRouter doesn't need git repo basename
+  // // remove base url tail '/'. mdfile starts with '/'
+  // const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   useEffect(() => {
     // Fetch the file from the public directory
     async function fetchMD() {
       try {
-        const response = await fetch(base + mdfile);
+        const response = await fetch(mdfile);
         if (!response.ok) {
           throw new Error(`${mdfile} file fetch error`);
         }
