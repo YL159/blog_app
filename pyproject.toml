@@ -4,12 +4,14 @@ version = "0.1.0"
 description = "Algorithm problems & React.js blog"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "urllib3>=2.7.0"
+]
 authors = [
     {name = "sea_melan"},
 ]
 description = "Static React Blog, while sharing some problem solutions."
-license = ""MIT
+license = "MIT"
 license-files = ["LICENSE"]
 keywords = ["algorithm", "blog", "leetcode", "markdown", "python", "react", "script"]
 
