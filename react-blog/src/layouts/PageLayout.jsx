@@ -11,14 +11,14 @@ export default function PageLayout() {
     <Box sx={{ 
       display: 'flex', 
       width: '100%', 
-      height: '100vh', 
+      minHeight: '100vh', 
       boxSizing: 'border-box'}}>
 
       {/* Left Sidebar, fixed */}
       <SideBar />
 
       {/* main content display */}
-      <Box component="main">
+      <Box component="main" id="main-content">
         <Breadcrumbs />
         <Outlet />
         <Footer/>
