@@ -1,4 +1,8 @@
 html, body, #root {
+    font-family:
+        'Segoe UI', Tahoma, Geneva, Verdana,
+        'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC',
+        sans-serif;
     font-size: 1em;
     margin: 0;
     padding: 0;
@@ -9,8 +13,9 @@ html, body, #root {
 /* Main content */
 main {
     flex: 1;
+    min-width: 10em;
     height: auto;
-    padding: 2em 10em 4em 2em;
+    padding: 2em 2em 4em;
 }
 
 /* Sidebar */
@@ -43,7 +48,9 @@ pre {
     font-family: "Cascadia Code", monospace;
     border-radius: 1em;
     padding: 1em;
-    overflow-x: auto;
+    max-width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 /* .md text maintaining original tab like code block */

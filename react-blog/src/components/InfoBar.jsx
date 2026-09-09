@@ -18,7 +18,7 @@ function renderProp(label, prop) {
   if (Array.isArray(prop)){
     return (
       <div>
-        {label}:{prop.map((tag, index) => <span key={index}> #{tag}</span>)
+        {label}:{prop.map((tag, index) => <span key={index} style={{marginLeft: '8px'}}>#{tag}</span>)
       }</div>
     );
   }
@@ -30,7 +30,7 @@ function renderProp(label, prop) {
 
 export default function InfoBar({ tags, difficulty, created, modified }) {
   return (
-    <Box>
+    <Box sx={{display: 'flex', gap: '1rem'}}>
       {renderProp("Created on", created)}
       {renderProp("Updated on", modified)}
       {renderProp("LVL", difficulty)}
