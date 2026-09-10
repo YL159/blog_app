@@ -20,7 +20,7 @@ def scan_py_files(source: Path, dest: Path) -> None:
             count += 1
             # print(f'Converting {py_file.name} to {md_file.name}')
             convert_py_to_md(py_file, md_file)
-    print(f'\nConverted {count} .py files to .md files in {dest}\n')
+    print(f'\nConverted {count} .py files to .md files in {dest}')
 
     # recursively scan subfolder py files
     for folder in source.glob('[!._]*/'):

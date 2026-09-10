@@ -51,7 +51,7 @@ export default function SideBar() {
           left: 16,
           display: { sm: 'none' }
         }}
-        color='inherit'
+        color='primary'
         aria-label='open drawer'
       >
         <MenuIcon />

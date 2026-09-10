@@ -26,6 +26,7 @@ main {
 aside {
     width: 18em;
     max-width: 100%;
+    background-color: whitesmoke;
 }
 
 /* Sidebar Tree txt */

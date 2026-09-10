@@ -11,7 +11,10 @@ function renderProp(label, prop) {
 
   // render Date object
   if (prop instanceof Date) {
-    return <div>{label}: {prop.toLocaleDateString()}</div>
+    // gray-matter parse date as UTC date, find offset in milliseconds
+    const offset = prop.getTimezoneOffset() * 60000;
+    const localDate = new Date(prop.getTime() + offset);
+    return <div>{label}: {localDate.toLocaleDateString()}</div>
   }
 
   // render list object

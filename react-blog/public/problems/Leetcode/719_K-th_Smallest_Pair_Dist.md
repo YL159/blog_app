@@ -34,9 +34,9 @@ import bisect
 from typing import List
 
 class Solution:
+    # Method 1, almost like brutal force
+    # Time O(n^2log(n))
     def smallestDistancePair(self, nums: List[int], k: int) -> int:
-        # method 1, almost like brutal force
-        # Time O(n^2log(n))
         nums.sort()
         # heap on each nums[i]'s next smallest dist
         # heap of tuple (dist to nums[i], i, cur greater idx than i)
@@ -50,11 +50,12 @@ class Solution:
                 heapq.heappush(hp, (nums[j]-nums[i], i, j))
             k -= 1
         return d
-        
+
+     
+    # Method 2, binary search for the dist X that has exactly k dist <= X
+    # for each nums[i], bisect for # of nums[j] within X range, nlogn
+    # Time O(nlog^2(n))
     def smallestDistancePair(self, nums: List[int], k: int) -> int:
-        # method 2, binary search for the dist X that has exactly k dist <= X
-        # for each nums[i], bisect for # of nums[j] within X range, nlogn
-        # Time O(nlog^2(n))
         nums.sort()
         # l: min absolute impossible dist; r: max absolute possible
         l, r = -1, nums[-1]-nums[0]
@@ -69,10 +70,10 @@ class Solution:
                 r = X
         return r
 
+
+    # Method 3, smilar to method 2, but inner loop use 2 pointers to count valid pairs
+    # time O(nlogn)
     def smallestDistancePair(self, nums: List[int], k: int) -> int:
-        # method 3
-        # smilar to method 2, but inner loop use 2 pointers to count valid pairs
-        # time O(nlogn)
         nums.sort()
         l, r = -1, nums[-1]-nums[0]
         while l < r-1:
