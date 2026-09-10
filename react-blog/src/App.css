@@ -12,27 +12,23 @@ html, body, #root {
 
 /* Main content */
 main {
-    flex: 1;
-    min-width: 10em;
-    height: auto;
     padding: 2em 2em 4em;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
 
 /* Sidebar */
 aside {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    overflow-y: auto;
-    flex-shrink: 0;
-    width: 21em;
-    min-width: 18em;
-    border-right: 2px solid;
-    border-color: divider;
-    background-color: var(--mui-palette-background-paper);
+    width: 18em;
+    max-width: 100%;
 }
 
-/* Sidebar txt */
+/* Sidebar Tree txt */
 .folder-txt .MuiListItemText-primary {
     font-weight: bold;
     color:teal;

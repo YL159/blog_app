@@ -1,6 +1,6 @@
 import fileMap from '../data/fileMap.js';
 
-// Build url path mapping to file metadata object from folder tree
+// Recursively build url path mapping to file metadata object from folder tree
 function buildPathMap(root = fileMap, path_map = {}) {
   if (!root.folderName) {
     path_map[root.path] = root;

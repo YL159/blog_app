@@ -7,7 +7,7 @@ import { getTitle } from '../utils/treeUtils.js';
 const MAX_DISPLAY_ITEMS = 15
 
 const buttonSx = (lvl) => ({
-  pl: lvl * 2,
+  pl: lvl * 1.5,
   py: '2px',
 })
 
@@ -23,7 +23,7 @@ function FileItem({ node, lvl }) {
 }
 
 // Recursive TreeItem for subfolder and file
-export default function TreeItem({ node, lvl = 1 }) {
+export default function TreeItem({ node, lvl = 0 }) {
   const [isOpen, setIsOpen] = useState(lvl === 1);
   const isFolder = Array.isArray(node.children);
   
