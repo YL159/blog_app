@@ -24,7 +24,7 @@ function FileItem({ node, lvl }) {
 
 // Recursive TreeItem for subfolder and file
 export default function TreeItem({ node, lvl = 0 }) {
-  const [isOpen, setIsOpen] = useState(lvl === 1);
+  const [isOpen, setIsOpen] = useState(lvl === 0);
   const isFolder = Array.isArray(node.children);
   
   if (!isFolder) {
