@@ -20,9 +20,14 @@ function renderProp(label, prop) {
   // render list object
   if (Array.isArray(prop)){
     return (
-      <div>
-        {label}:{prop.map((tag, index) => <span key={index} style={{marginLeft: '8px'}}>#{tag}</span>)
-      }</div>
+      <Box sx={{flexWrap: 'wrap', wordBreak: 'break-all'}}>
+        {label}:{prop.map((tag, index) => (
+          <Box 
+            component='span' 
+            key={index} 
+            sx={{marginLeft: '0.5em', whiteSpace: 'nowrap'}}>#{tag}
+          </Box>))}
+      </Box>
     );
   }
 
@@ -33,11 +38,13 @@ function renderProp(label, prop) {
 
 export default function InfoBar({ tags, difficulty, created, modified }) {
   return (
-    <Box sx={{display: 'flex', gap: '1rem'}}>
+    <>
+    <Box sx={{display: 'flex', flexWrap: 'wrap', gap: '1rem'}}>
       {renderProp("Created on", created)}
       {renderProp("Updated on", modified)}
       {renderProp("LVL", difficulty)}
-      {renderProp("Topics", tags)}
     </Box>
+    {renderProp("Topics", tags)}
+    </>
   );
 }

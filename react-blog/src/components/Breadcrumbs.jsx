@@ -17,7 +17,8 @@ export default function Breadcrumbs() {
         return (
           <span key={target}>
             <span> / </span>
-            {isLast ? (<strong>{displayName}</strong>) : (<Link to={target}>{displayName}</Link>)}
+            {/* {isLast ? (<strong>{displayName}</strong>) : (<Link to={target}>{displayName}</Link>)} */}
+            {isLast ? (<strong>{displayName}</strong>) : (<span>{displayName}</span>)}
           </span>
         );
       })}

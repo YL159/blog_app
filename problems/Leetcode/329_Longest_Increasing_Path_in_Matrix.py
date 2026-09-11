@@ -12,7 +12,7 @@ But only those larger neighbors whose indegree is exhausted will be "mature" eno
 to propagate their scores to the next iteration.
 Thus saving time from early propagating a smaller score to the end of future paths.
 
-Time O(m*n), space O(m*n)
+Time O(mn), space O(mn)
 '''
 from typing import List
 import collections
