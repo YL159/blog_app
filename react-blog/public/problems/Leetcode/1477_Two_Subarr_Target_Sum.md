@@ -21,7 +21,8 @@ If generalizing to all integers, for an end index there would be multiple target
 		Ensures smallest current subarr, and largest pool of former target subarrs to choose the smallest as well
 
 For the other former target subarr, we should choose the shortest subarr that ends before current subarr's start
-	=> current subarr's start could be anywhere (generally moving right because all elements >= 1), thus need at least O(n) space to store the length info
+	=> current subarr's start could be anywhere (generally moving right because all elements >= 1)
+    => need at least O(n) space to store the length info
 Since some shortest subarr will be the shortest after its ending index, until some even smaller subarr's length replace it
 	=> just use extra array to record the shortest subarr's length SO FAR before each index
 Thus to avoid over-lapping.

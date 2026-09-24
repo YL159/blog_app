@@ -56,7 +56,6 @@ pre {
 
 /* .md text maintaining original tab like code block */
 main p.pre-like {
-    font-family:"Consolas";
     line-height: 1.2;
     white-space: pre-wrap;
     tab-size: 4;

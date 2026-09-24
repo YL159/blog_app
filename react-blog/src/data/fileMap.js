@@ -1902,6 +1902,16 @@ export default {
                             "path": "/problems/Leetcode/furthest-building-you-can-reach"
                         },
                         {
+                            "id": 1776,
+                            "title": "Minimum Operations to Reduce X to Zero",
+                            "title_slug": "minimum-operations-to-reduce-x-to-zero",
+                            "tags": "['Array', 'Hash Table', 'Binary Search', 'Prefix Sum', 'Sliding Window']",
+                            "difficulty": "Medium",
+                            "created": "2026-09-23",
+                            "file": "/problems/Leetcode/1658_Min_Op_Reduce_X_Zero.md",
+                            "path": "/problems/Leetcode/minimum-operations-to-reduce-x-to-zero"
+                        },
+                        {
                             "id": 1792,
                             "title": "Find the Most Competitive Subsequence",
                             "title_slug": "find-the-most-competitive-subsequence",
