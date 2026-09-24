@@ -1,5 +1,5 @@
 ---
-id: 3225
+id: 2958
 title: Length of Longest Subarray With at Most K Frequency
 title_slug: length-of-longest-subarray-with-at-most-k-frequency
 tags: ['Array', 'Hash Table', 'Sliding Window']

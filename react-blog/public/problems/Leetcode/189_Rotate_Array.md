@@ -12,7 +12,7 @@ created: 2024-01-30
 For method 3, jump & put each number to its target place in nums
 requires O(1) space & O(n) time
 If k & len(nums) are coprime, 1 such jump sequence will do
-If not coprime, then \#GCD such jumps starting from [0...GCD-1] will do
+If not coprime, then #GCD such jumps starting from [0...GCD-1] will do
 
 ```python
 from typing import List

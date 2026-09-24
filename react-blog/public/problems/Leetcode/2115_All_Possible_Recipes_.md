@@ -1,5 +1,5 @@
 ---
-id: 2220
+id: 2115
 title: Find All Possible Recipes from Given Supplies
 title_slug: find-all-possible-recipes-from-given-supplies
 tags: ['Array', 'String', 'Hash Table', 'Graph Theory', 'Topological Sort']

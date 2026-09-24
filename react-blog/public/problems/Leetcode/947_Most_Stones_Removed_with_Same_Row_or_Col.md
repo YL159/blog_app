@@ -1,5 +1,5 @@
 ---
-id: 984
+id: 947
 title: Most Stones Removed with Same Row or Column
 title_slug: most-stones-removed-with-same-row-or-column
 tags: ['Hash Table', 'Depth-First Search', 'Graph Theory', 'Union-Find']
@@ -9,7 +9,7 @@ created: 2024-12-01
 [Leetcode 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column)
 
 Given series of stone coordinates, you can remove a stone that has other stone with same x or y
-Find max \# of stones to remove
+Find max # of stones to remove
 
 We can treat points as nodes in a graph, that connect each other if they have same x or y
 Within a connected group of nodes, use strategy:

@@ -1,5 +1,5 @@
 ---
-id: 1250
+id: 1143
 title: Longest Common Subsequence
 title_slug: longest-common-subsequence
 tags: ['String', 'Dynamic Programming']

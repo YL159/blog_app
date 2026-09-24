@@ -1,5 +1,5 @@
 ---
-id: 987
+id: 950
 title: Reveal Cards In Increasing Order
 title_slug: reveal-cards-in-increasing-order
 tags: ['Array', 'Sorting', 'Simulation', 'Queue']

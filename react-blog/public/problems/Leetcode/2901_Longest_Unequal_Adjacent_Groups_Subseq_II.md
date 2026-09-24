@@ -1,5 +1,5 @@
 ---
-id: 3142
+id: 2901
 title: Longest Unequal Adjacent Groups Subsequence II
 title_slug: longest-unequal-adjacent-groups-subsequence-ii
 tags: ['Array', 'String', 'Dynamic Programming']
@@ -10,7 +10,7 @@ created: 2025-05-15
 
 Given a list of words and a list of group numbers, group[i] is the group number of words[i].
 Find any one of the longest subseq of words that for each neighboring words in the subseq:
-	1. Corresponsing group \# are different
+	1. Corresponsing group # are different
 	2. Hamming distance (count of different letter at each index) is 1
 	3. Length are the same
 

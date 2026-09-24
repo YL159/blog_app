@@ -1,5 +1,5 @@
 ---
-id: 3382
+id: 3113
 title: Find the Number of Subarrays Where Boundary Elements Are Maximum
 title_slug: find-the-number-of-subarrays-where-boundary-elements-are-maximum
 tags: ['Array', 'Binary Search', 'Stack', 'Monotonic Stack']
@@ -8,7 +8,7 @@ created: 2025-04-21
 ---
 [Leetcode 3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](https://leetcode.com/problems/find-the-number-of-subarrays-where-boundary-elements-are-maximum)
 
-Given an array of positive ints, find the \# of subarr where:
+Given an array of positive ints, find the # of subarr where:
 Boundary ints are equal AND max of that subarr
 
 Within such subarr, the inner ints are no greater than edge max:
@@ -17,7 +17,7 @@ Within such subarr, the inner ints are no greater than edge max:
     3 valid position for 4, choose(2, 3) + 3 = 6 cus each element itself is trivially a valid subarr
 And for the 2x 1, the 1st 1 won't be considered anymore cus greater number appear after it
 Thus we can use monotonic decreasing stack to keep current min as local max at stack top
-and save \# of its appearance for rolling sum of valid subarr
+and save # of its appearance for rolling sum of valid subarr
 
 Time O(n), Space O(n)
 

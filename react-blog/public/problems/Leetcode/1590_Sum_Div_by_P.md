@@ -1,5 +1,5 @@
 ---
-id: 1694
+id: 1590
 title: Make Sum Divisible by P
 title_slug: make-sum-divisible-by-p
 tags: ['Array', 'Hash Table', 'Prefix Sum']

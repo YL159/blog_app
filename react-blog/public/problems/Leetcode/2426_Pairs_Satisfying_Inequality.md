@@ -1,5 +1,5 @@
 ---
-id: 2513
+id: 2426
 title: Number of Pairs Satisfying Inequality
 title_slug: number-of-pairs-satisfying-inequality
 tags: ['Array', 'Binary Search', 'Segment Tree', 'Ordered Set', 'Divide and Conquer', 'Binary Indexed Tree', 'Merge Sort']
@@ -9,7 +9,7 @@ created: 2026-01-10
 [Leetcode 2426. Number of Pairs Satisfying Inequality](https://leetcode.com/problems/number-of-pairs-satisfying-inequality)
 
 Given nums1 and nums2 of the same length, and int diff.
-Find \# of index pairs (i, j), i < j and nums1[i] - nums1[j] <= nums2[i] - nums2[j] + diff
+Find # of index pairs (i, j), i < j and nums1[i] - nums1[j] <= nums2[i] - nums2[j] + diff
 
 Observation:
 Rearrange equation: n1[i]-n2[i] <= n1[j]-n2[j] + diff
@@ -19,11 +19,11 @@ Method 1, loop for all j on each i, takes O(n^2) time
 
 Method 2, modify merge sort: count while merging
 Inequality arr[i] <= arr[j] + diff indicates 2-pointer (i, j) fast method if arr is sorted
-    => but if sort arr first, the window may contain \# with original index smaller than i (window's left edge)
+    => but if sort arr first, the window may contain # with original index smaller than i (window's left edge)
     => for each arr[i] (or arr[j]), we want the search range ALL to the right (or left) of i (or j)
         yet remaining sorted for fast 2-pointer-like counting
 This is similar to merge sort process, where both halves are sorted, and separated before merging
-    => separated means all the left \# are to the left of all the right \# in the original order
+    => separated means all the left # are to the left of all the right # in the original order
     => each half is internally decided (pair count resolved), thus only decide pairs between left-right halves
 
 Time O(nlogn), Space O(n) because only 1 branch of split tree exists at any given time

@@ -1,5 +1,5 @@
 ---
-id: 1569
+id: 1458
 title: Max Dot Product of Two Subsequences
 title_slug: max-dot-product-of-two-subsequences
 tags: ['Array', 'Dynamic Programming']

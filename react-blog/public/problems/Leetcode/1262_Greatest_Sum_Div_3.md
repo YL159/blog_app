@@ -1,5 +1,5 @@
 ---
-id: 1388
+id: 1262
 title: Greatest Sum Divisible by Three
 title_slug: greatest-sum-divisible-by-three
 tags: ['Array', 'Dynamic Programming', 'Sorting', 'Greedy']

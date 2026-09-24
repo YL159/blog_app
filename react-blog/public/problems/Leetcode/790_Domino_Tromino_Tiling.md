@@ -1,5 +1,5 @@
 ---
-id: 806
+id: 790
 title: Domino and Tromino Tiling
 title_slug: domino-and-tromino-tiling
 tags: ['Dynamic Programming']

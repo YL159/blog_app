@@ -1,5 +1,5 @@
 ---
-id: 1732
+id: 1611
 title: Minimum One Bit Operations to Make Integers Zero
 title_slug: minimum-one-bit-operations-to-make-integers-zero
 tags: ['Math', 'Dynamic Programming', 'Bit Manipulation', 'Recursion', 'Memoization']

@@ -1,5 +1,5 @@
 ---
-id: 3763
+id: 3453
 title: Separate Squares I
 title_slug: separate-squares-i
 tags: ['Array', 'Binary Search']

@@ -1,5 +1,5 @@
 ---
-id: 1951
+id: 1823
 title: Find the Winner of the Circular Game
 title_slug: find-the-winner-of-the-circular-game
 tags: ['Array', 'Math', 'Simulation', 'Queue', 'Recursion']

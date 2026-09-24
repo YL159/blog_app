@@ -8,7 +8,7 @@ created: 2024-08-15
 ---
 [Leetcode 322. Coin Change](https://leetcode.com/problems/coin-change)
 
-Given an array of coin denominations, find the least \# of coins that sum up to given amount
+Given an array of coin denominations, find the least # of coins that sum up to given amount
 
 DP on every amount [0, amount], build from smaller amount to larger amount. If not possible, denote -1.
 For every coin, check if there is optimum solution for (current amount - coin). Current opt is +1 on that.

@@ -1,5 +1,5 @@
 ---
-id: 2786
+id: 2730
 title: Find the Longest Semi-Repetitive Substring
 title_slug: find-the-longest-semi-repetitive-substring
 tags: ['String', 'Sliding Window']

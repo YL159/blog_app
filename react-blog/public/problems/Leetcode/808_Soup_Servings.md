@@ -1,5 +1,5 @@
 ---
-id: 826
+id: 808
 title: Soup Servings
 title_slug: soup-servings
 tags: ['Math', 'Dynamic Programming', 'Probability and Statistics']

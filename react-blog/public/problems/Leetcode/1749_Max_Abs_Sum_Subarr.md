@@ -1,5 +1,5 @@
 ---
-id: 1849
+id: 1749
 title: Maximum Absolute Sum of Any Subarray
 title_slug: maximum-absolute-sum-of-any-subarray
 tags: ['Array', 'Dynamic Programming']

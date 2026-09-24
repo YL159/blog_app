@@ -1,5 +1,5 @@
 ---
-id: 1487
+id: 1386
 title: Cinema Seat Allocation
 title_slug: cinema-seat-allocation
 tags: ['Array', 'Hash Table', 'Greedy', 'Bit Manipulation']
@@ -8,9 +8,9 @@ created: 2026-08-18
 ---
 [Leetcode 1386. Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation)
 
-Cinema has n rows of seats, and given reservedSeats shows (row, seat\#) as reserved.
+Cinema has n rows of seats, and given reservedSeats shows (row, seat#) as reserved.
 Each row has 10 seats [1, 10], group of 4 can only occupy [2,3,4,5] or [4,5,6,7] or [6,7,8,9] if seats not reserved.
-Find the max \# of groups to be seated. \# of reserved seats can be very large.
+Find the max # of groups to be seated. # of reserved seats can be very large.
 
 Method 1, construct cinema seats and mark reserved, and collect possible groups.
 Simple to implement, but requires n*10 space, which may be too large.

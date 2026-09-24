@@ -11,8 +11,8 @@ created: 2024-09-30
 '1' -> 'A' ... '26' -> 'Z'. Given a number string, find how many ways to decode to some letter string
 
 Use DP on current substr [,i]. Current decodes depends only on decodes of [,i-2] and [,i-1]
-pre: \# of decode for substr [,i-2]. Has to initialize with 1 here
-cur: \# of decode for substr [,i-1]
+pre: # of decode for substr [,i-2]. Has to initialize with 1 here
+cur: # of decode for substr [,i-1]
 
 Early return on '0' special cases.
 Time O(n), space O(1)

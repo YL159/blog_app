@@ -1,5 +1,5 @@
 ---
-id: 2067
+id: 1937
 title: Maximum Number of Points with Cost
 title_slug: maximum-number-of-points-with-cost
 tags: ['Array', 'Dynamic Programming', 'Matrix']
@@ -8,7 +8,7 @@ created: 2026-01-25
 ---
 [Leetcode 1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost)
 
-Given a matrix of ints, take a \# from each row, add to final points
+Given a matrix of ints, take a # from each row, add to final points
 But between neighboring rows, remove abs(column index distance) from points
 Find max final points
 
@@ -19,7 +19,7 @@ Time O(mn^2), TLE
 
 Method 2, DP on each row cell's best choice, preprocess above row
 Similar idea from method 1, but optimize finding best result for each cell
-Consider prev_row[0, col], at col + 1, all \# will -1
+Consider prev_row[0, col], at col + 1, all # will -1
     => prev_row[0, col] max point will STILL be max point of prev_row[0, col], just -1
     => just compare it with the newly added prev_row[col + 1]
     => result will become new best result of prev_row[0, col + 1]

@@ -1,5 +1,5 @@
 ---
-id: 3479
+id: 3234
 title: Count the Number of Substrings With Dominant Ones
 title_slug: count-the-number-of-substrings-with-dominant-ones
 tags: ['String', 'Enumeration']

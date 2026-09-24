@@ -1,5 +1,5 @@
 ---
-id: 1886
+id: 1760
 title: Minimum Limit of Balls in a Bag
 title_slug: minimum-limit-of-balls-in-a-bag
 tags: ['Array', 'Binary Search']
@@ -8,7 +8,7 @@ created: 2024-07-27
 ---
 [Leetcode 1760. Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag)
 
-A list of bags containing different \# of balls, and given a max operation \#. An operation can split a bag into 2 bags of >= 1 balls.
+A list of bags containing different # of balls, and given a max operation #. An operation can split a bag into 2 bags of >= 1 balls.
 Find the min of max balls of all bags.
 
 Each operation increase 1 more bag. For a certain max limit n, each bag can be divided into bags of <= n balls.

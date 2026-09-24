@@ -1,5 +1,5 @@
 ---
-id: 2221
+id: 2116
 title: Check if a Parentheses String Can Be Valid
 title_slug: check-if-a-parentheses-string-can-be-valid
 tags: ['String', 'Greedy', 'Stack']

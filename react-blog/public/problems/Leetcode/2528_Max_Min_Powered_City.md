@@ -1,5 +1,5 @@
 ---
-id: 2618
+id: 2528
 title: Maximize the Minimum Powered City
 title_slug: maximize-the-minimum-powered-city
 tags: ['Array', 'Greedy', 'Binary Search', 'Prefix Sum', 'Sliding Window', 'Queue']
@@ -8,7 +8,7 @@ created: 2025-11-09
 ---
 [Leetcode 2528. Maximize the Minimum Powered City](https://leetcode.com/problems/maximize-the-minimum-powered-city)
 
-Given a list of power plant \# of each city.
+Given a list of power plant # of each city.
 One city's power can supply itself and all neighbors in r radius with the same units of power.
 Now we plan to add k more power plants to some cities, find the max of min total power of these cities.
 

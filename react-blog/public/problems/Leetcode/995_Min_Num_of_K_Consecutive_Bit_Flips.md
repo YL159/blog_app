@@ -1,5 +1,5 @@
 ---
-id: 1037
+id: 995
 title: Minimum Number of K Consecutive Bit Flips
 title_slug: minimum-number-of-k-consecutive-bit-flips
 tags: ['Array', 'Bit Manipulation', 'Prefix Sum', 'Sliding Window', 'Queue']
@@ -11,7 +11,7 @@ created: 2025-03-18
 Given a binary arr and int k>=1. 1 flip on arr is flipping consecutive k elements 1->0 and 0->1
 Find min flips to make arr all 1
 
-Super set of \#3191. Minimum Operations to Make Binary Array Elements Equal to One I
+Super set of #3191. Minimum Operations to Make Binary Array Elements Equal to One I
 where k=3. Easy O(nk) solution becomes O(n), acceptable.
 
 Method 1. Sliding window flipping k elements when 1st is 0

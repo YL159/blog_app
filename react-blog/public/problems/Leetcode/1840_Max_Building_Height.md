@@ -1,5 +1,5 @@
 ---
-id: 1968
+id: 1840
 title: Maximum Building Height
 title_slug: maximum-building-height
 tags: ['Array', 'Math', 'Sorting']

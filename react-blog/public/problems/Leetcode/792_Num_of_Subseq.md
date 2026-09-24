@@ -1,5 +1,5 @@
 ---
-id: 808
+id: 792
 title: Number of Matching Subsequences
 title_slug: number-of-matching-subsequences
 tags: ['Array', 'String', 'Hash Table', 'Dynamic Programming', 'Sorting', 'Binary Search', 'Trie']

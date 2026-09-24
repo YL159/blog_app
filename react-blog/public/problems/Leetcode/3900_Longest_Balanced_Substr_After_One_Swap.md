@@ -1,5 +1,5 @@
 ---
-id: 4265
+id: 3900
 title: Longest Balanced Substring After One Swap
 title_slug: longest-balanced-substring-after-one-swap
 tags: ['String', 'Hash Table', 'Prefix Sum']

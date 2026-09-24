@@ -8,7 +8,7 @@ created: 2025-11-16
 ---
 [Leetcode 222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes)
 
-Given a complete binary tree, find its total \# of nodes.
+Given a complete binary tree, find its total # of nodes.
 
 Method 1, O(n) time BFS or DFS
 

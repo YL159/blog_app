@@ -1,5 +1,5 @@
 ---
-id: 1025
+id: 983
 title: Minimum Cost For Tickets
 title_slug: minimum-cost-for-tickets
 tags: ['Array', 'Dynamic Programming']

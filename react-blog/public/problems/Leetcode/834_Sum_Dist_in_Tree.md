@@ -1,5 +1,5 @@
 ---
-id: 863
+id: 834
 title: Sum of Distances in Tree
 title_slug: sum-of-distances-in-tree
 tags: ['Dynamic Programming', 'Depth-First Search', 'Tree', 'Graph Theory']

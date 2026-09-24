@@ -1,5 +1,5 @@
 ---
-id: 3150
+id: 2904
 title: Shortest and Lexicographically Smallest Beautiful String
 title_slug: shortest-and-lexicographically-smallest-beautiful-string
 tags: ['String', 'Sliding Window']

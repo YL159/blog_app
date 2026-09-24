@@ -11,8 +11,8 @@ created: 2024-08-09
 Find such subseq in an array of random ints
 
 Idea is to keep track of current longest subseq.
-But new \# may become new start, or start in the middle of current opt subseq.
-New start may have successors more than remains of current subseq. And we want to keep new \#
+But new # may become new start, or start in the middle of current opt subseq.
+New start may have successors more than remains of current subseq. And we want to keep new #
 
 Bisect on sorted array! Bisect left and replace/append, thus it won't change monotonicity of opt subseq.
 As if the inserted new element's potential successor will 'etch' out the remains of original opt arr

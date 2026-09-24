@@ -1,5 +1,5 @@
 ---
-id: 2217
+id: 2096
 title: Step-By-Step Directions From a Binary Tree Node to Another
 title_slug: step-by-step-directions-from-a-binary-tree-node-to-another
 tags: ['String', 'Depth-First Search', 'Tree', 'Binary Tree']

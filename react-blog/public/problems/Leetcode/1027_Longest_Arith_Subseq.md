@@ -1,5 +1,5 @@
 ---
-id: 1087
+id: 1027
 title: Longest Arithmetic Subsequence
 title_slug: longest-arithmetic-subsequence
 tags: ['Array', 'Hash Table', 'Dynamic Programming', 'Binary Search']

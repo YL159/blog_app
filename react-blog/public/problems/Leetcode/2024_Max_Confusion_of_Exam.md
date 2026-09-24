@@ -1,5 +1,5 @@
 ---
-id: 2134
+id: 2024
 title: Maximize the Confusion of an Exam
 title_slug: maximize-the-confusion-of-an-exam
 tags: ['String', 'Binary Search', 'Prefix Sum', 'Sliding Window']

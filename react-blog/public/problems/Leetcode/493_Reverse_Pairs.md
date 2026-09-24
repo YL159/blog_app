@@ -8,7 +8,7 @@ created: 2026-03-02
 ---
 [Leetcode 493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs)
 
-Given an int array, count \# of reverse pairs:
+Given an int array, count # of reverse pairs:
 Pair index (i, j), i < j and nums[i] > 2 * nums[j]
 
 Method 1, direct approach

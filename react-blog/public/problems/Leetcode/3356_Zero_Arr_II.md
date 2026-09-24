@@ -1,5 +1,5 @@
 ---
-id: 3643
+id: 3356
 title: Zero Array Transformation II
 title_slug: zero-array-transformation-ii
 tags: ['Array', 'Binary Search', 'Prefix Sum', 'Two Pointers']
@@ -9,7 +9,7 @@ created: 2025-03-12
 [Leetcode 3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii)
 
 Given array nums, and queries of [l, r, val], val >= 0
-For each query, \# in nums[l, r] can individually subtract maximal val units
+For each query, # in nums[l, r] can individually subtract maximal val units
 Find min first k queries, that after performing them sequencially, nums has only 0s
 
 Method 1. binary search for k in queries. Time O((n+q)*log(q))

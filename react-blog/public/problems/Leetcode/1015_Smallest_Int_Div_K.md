@@ -1,5 +1,5 @@
 ---
-id: 1064
+id: 1015
 title: Smallest Integer Divisible by K
 title_slug: smallest-integer-divisible-by-k
 tags: ['Hash Table', 'Math']

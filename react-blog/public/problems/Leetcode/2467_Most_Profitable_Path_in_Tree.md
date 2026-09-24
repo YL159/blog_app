@@ -1,5 +1,5 @@
 ---
-id: 2564
+id: 2467
 title: Most Profitable Path in a Tree
 title_slug: most-profitable-path-in-a-tree
 tags: ['Array', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory']

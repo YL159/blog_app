@@ -1,5 +1,5 @@
 ---
-id: 3192
+id: 2939
 title: Maximum Xor Product
 title_slug: maximum-xor-product
 tags: ['Math', 'Greedy', 'Bit Manipulation']

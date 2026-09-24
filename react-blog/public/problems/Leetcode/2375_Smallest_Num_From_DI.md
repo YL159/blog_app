@@ -1,5 +1,5 @@
 ---
-id: 2456
+id: 2375
 title: Construct Smallest Number From DI String
 title_slug: construct-smallest-number-from-di-string
 tags: ['String', 'Greedy', 'Stack', 'Backtracking']

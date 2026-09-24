@@ -1,5 +1,5 @@
 ---
-id: 1331
+id: 1219
 title: Path with Maximum Gold
 title_slug: path-with-maximum-gold
 tags: ['Array', 'Matrix', 'Backtracking']

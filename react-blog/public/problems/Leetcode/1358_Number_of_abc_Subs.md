@@ -1,5 +1,5 @@
 ---
-id: 1460
+id: 1358
 title: Number of Substrings Containing All Three Characters
 title_slug: number-of-substrings-containing-all-three-characters
 tags: ['String', 'Hash Table', 'Sliding Window']

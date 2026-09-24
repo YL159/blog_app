@@ -1,5 +1,5 @@
 ---
-id: 1114
+id: 1038
 title: Binary Search Tree to Greater Sum Tree
 title_slug: binary-search-tree-to-greater-sum-tree
 tags: ['Depth-First Search', 'Tree', 'Binary Tree', 'Binary Search Tree']
@@ -10,7 +10,7 @@ created: 2024-06-28
 
 Given a BST, return the tree where each node value = sum(all values in the BST that >= node value)
 
-1. Intuitively, we can extract the in-order \# array from BST, the sum of all greater values are just suffix sum of the array
+1. Intuitively, we can extract the in-order # array from BST, the sum of all greater values are just suffix sum of the array
 Then make a node value -> suffix sum projection on the original BST.
 
 Many solutions involve global/class variable/array to hold the current sum.

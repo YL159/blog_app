@@ -1,5 +1,5 @@
 ---
-id: 988
+id: 951
 title: Flip Equivalent Binary Trees
 title_slug: flip-equivalent-binary-trees
 tags: ['Depth-First Search', 'Tree', 'Binary Tree']

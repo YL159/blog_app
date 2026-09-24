@@ -10,7 +10,7 @@ created: 2024-01-10
 
 Find if target word exists in given char matrix as a valid connected up-down-left-right path.
 
-Recursive DFS, mark current path with \#, early exit.
+Recursive DFS, mark current path with #, early exit.
 
 ```python
 from typing import List

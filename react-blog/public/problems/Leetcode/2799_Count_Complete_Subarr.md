@@ -1,5 +1,5 @@
 ---
-id: 2856
+id: 2799
 title: Count Complete Subarrays in an Array
 title_slug: count-complete-subarrays-in-an-array
 tags: ['Array', 'Hash Table', 'Sliding Window']
@@ -8,14 +8,14 @@ created: 2024-10-12
 ---
 [Leetcode 2799. Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array)
 
-A complete subarr contains all distinct \# of this arr. Count such subarr in given arr
+A complete subarr contains all distinct # of this arr. Count such subarr in given arr
 
 Use sliding window on a tight complete subarr. Tight => head of complete subarr appears only once.
-Current complete subarr became not tight => include another same head \# from right
+Current complete subarr became not tight => include another same head # from right
 If not tight, left + 1 and repeat.
 
 As long as left/head is different, we can add:
-Distinct complete subarrs with this head = count of right remaining \# + 1
+Distinct complete subarrs with this head = count of right remaining # + 1
 
 ```python
 from typing import List

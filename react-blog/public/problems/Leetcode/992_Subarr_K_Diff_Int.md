@@ -1,5 +1,5 @@
 ---
-id: 1034
+id: 992
 title: Subarrays with K Different Integers
 title_slug: subarrays-with-k-different-integers
 tags: ['Array', 'Hash Table', 'Counting', 'Sliding Window']
@@ -8,15 +8,15 @@ created: 2025-03-10
 ---
 [Leetcode 992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers)
 
-Given an array of ints, find \# of all subarr that has k distinct ints.
+Given an array of ints, find # of all subarr that has k distinct ints.
 
-Different from \#1358 and \#930, here asks exactly k distinct ints (\#1358 has only 'abc' letters)
-	and ints are different (\#930 use pfs, 1s are addable)
-If using \#930 strategy, isolating each valid 'core' of k distinct ints takes O(n^2) instead of O(n)
+Different from #1358 and #930, here asks exactly k distinct ints (#1358 has only 'abc' letters)
+	and ints are different (#930 use pfs, 1s are addable)
+If using #930 strategy, isolating each valid 'core' of k distinct ints takes O(n^2) instead of O(n)
 
-Taking sliding window idea of \#1358, easy to use O(n) time to find 'at least k distinct ints' subarr count
-Thus \# of subarr exactly k distinct = \# of subarr at least k distinct - \# of at least k+1 distinct
-Making 2 pass of the nums. Also workable for \#930
+Taking sliding window idea of #1358, easy to use O(n) time to find 'at least k distinct ints' subarr count
+Thus # of subarr exactly k distinct = # of subarr at least k distinct - # of at least k+1 distinct
+Making 2 pass of the nums. Also workable for #930
 
 ```python
 from typing import List

@@ -1,5 +1,5 @@
 ---
-id: 1308
+id: 1202
 title: Smallest String With Swaps
 title_slug: smallest-string-with-swaps
 tags: ['Array', 'String', 'Hash Table', 'Sorting', 'Depth-First Search', 'Breadth-First Search', 'Union-Find']
@@ -8,7 +8,7 @@ created: 2024-11-25
 ---
 [Leetcode 1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps)
 
-Given a string, and a list of swappable pairs of idx. Can swap between the idx pairs any \# of times.
+Given a string, and a list of swappable pairs of idx. Can swap between the idx pairs any # of times.
 Find the lexicographically smallest string after swap.
 
 Basically, if we have pair [0, 3], [3, 2], [2, 6], we can swap [0, 2, 3, 6] letters for any target sequence.

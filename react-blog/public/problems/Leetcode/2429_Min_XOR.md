@@ -1,5 +1,5 @@
 ---
-id: 2509
+id: 2429
 title: Minimize XOR
 title_slug: minimize-xor
 tags: ['Greedy', 'Bit Manipulation']

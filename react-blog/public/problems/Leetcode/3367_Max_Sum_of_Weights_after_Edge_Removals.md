@@ -1,5 +1,5 @@
 ---
-id: 3675
+id: 3367
 title: Maximize Sum of Weights after Edge Removals
 title_slug: maximize-sum-of-weights-after-edge-removals
 tags: ['Dynamic Programming', 'Sorting', 'Depth-First Search', 'Tree']

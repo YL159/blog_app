@@ -1,5 +1,5 @@
 ---
-id: 1442
+id: 1319
 title: Number of Operations to Make Network Connected
 title_slug: number-of-operations-to-make-network-connected
 tags: ['Depth-First Search', 'Breadth-First Search', 'Graph Theory', 'Union-Find']
@@ -10,7 +10,7 @@ created: 2024-04-25
 
 Find min operations to make computer graph connected, use existing cables(edges)
 
-\# of edges should be at least n-1, then computer group - 1 is the minimum operation needed to connect them all
+# of edges should be at least n-1, then computer group - 1 is the minimum operation needed to connect them all
 
 ```python
 from typing import List

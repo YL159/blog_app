@@ -1,5 +1,5 @@
 ---
-id: 2229
+id: 2106
 title: Maximum Fruits Harvested After at Most K Steps
 title_slug: maximum-fruits-harvested-after-at-most-k-steps
 tags: ['Array', 'Binary Search', 'Prefix Sum', 'Sliding Window']

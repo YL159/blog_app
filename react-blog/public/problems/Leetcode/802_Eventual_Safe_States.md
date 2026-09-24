@@ -1,5 +1,5 @@
 ---
-id: 820
+id: 802
 title: Find Eventual Safe States
 title_slug: find-eventual-safe-states
 tags: ['Depth-First Search', 'Breadth-First Search', 'Graph Theory', 'Topological Sort']

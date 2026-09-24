@@ -1,5 +1,5 @@
 ---
-id: 881
+id: 851
 title: Loud and Rich
 title_slug: loud-and-rich
 tags: ['Array', 'Depth-First Search', 'Graph Theory', 'Topological Sort']

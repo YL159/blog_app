@@ -1,5 +1,5 @@
 ---
-id: 4136
+id: 3756
 title: Concatenate Non-Zero Digits and Multiply by Sum II
 title_slug: concatenate-non-zero-digits-and-multiply-by-sum-ii
 tags: ['String', 'Math', 'Prefix Sum']

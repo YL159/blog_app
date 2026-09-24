@@ -1,5 +1,5 @@
 ---
-id: 1972
+id: 1861
 title: Rotating the Box
 title_slug: rotating-the-box
 tags: ['Array', 'Matrix', 'Two Pointers']

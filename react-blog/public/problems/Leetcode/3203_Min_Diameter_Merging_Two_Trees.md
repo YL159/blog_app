@@ -1,5 +1,5 @@
 ---
-id: 3439
+id: 3203
 title: Find Minimum Diameter After Merging Two Trees
 title_slug: find-minimum-diameter-after-merging-two-trees
 tags: ['Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory']
@@ -16,8 +16,8 @@ So that even connected, the longest path of result tree is minimized.
 As hint says, another candidate is the longest path of each tree, they can also be the global longest.
 Thus for each tree, we calculate the 'half' of longest path, and the longest path itself
 
-To get the longest path, hint by \#310, we can iteratively prune the leaf nodes.
-The nodes in the center of longest path must be the last to be pruned. Record \# of iteration
+To get the longest path, hint by #310, we can iteratively prune the leaf nodes.
+The nodes in the center of longest path must be the last to be pruned. Record # of iteration
 
 Time O(m+n) since we visit each node of each tree twice, building adjacency set + pruning each node
 Space O(m+n)

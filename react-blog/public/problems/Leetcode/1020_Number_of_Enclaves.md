@@ -1,5 +1,5 @@
 ---
-id: 1073
+id: 1020
 title: Number of Enclaves
 title_slug: number-of-enclaves
 tags: ['Array', 'Depth-First Search', 'Matrix', 'Breadth-First Search', 'Union-Find']

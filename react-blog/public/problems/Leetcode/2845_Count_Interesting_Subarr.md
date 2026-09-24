@@ -1,5 +1,5 @@
 ---
-id: 2915
+id: 2845
 title: Count of Interesting Subarrays
 title_slug: count-of-interesting-subarrays
 tags: ['Array', 'Hash Table', 'Prefix Sum']

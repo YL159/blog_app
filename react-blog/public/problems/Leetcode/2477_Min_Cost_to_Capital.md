@@ -1,5 +1,5 @@
 ---
-id: 2568
+id: 2477
 title: Minimum Fuel Cost to Report to the Capital
 title_slug: minimum-fuel-cost-to-report-to-the-capital
 tags: ['Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory']
@@ -12,8 +12,8 @@ Every node has 1 person and 1 car to go to capital 0. Each car has maximum seats
 Find the min fuel cost for every person to report to the capital
 
 Construct adjacency map of the tree. Children points to parent is fine.
-For each subtree, use post-order recursively get \# of people and \# of cars from each child node.
-Thus for subtree root node, all these cars spends 1 fuel each to reach root. And redistribute people to min \# of cars
+For each subtree, use post-order recursively get # of people and # of cars from each child node.
+Thus for subtree root node, all these cars spends 1 fuel each to reach root. And redistribute people to min # of cars
 
 ```python
 from typing import List

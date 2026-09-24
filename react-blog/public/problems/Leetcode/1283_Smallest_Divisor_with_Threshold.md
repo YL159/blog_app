@@ -1,5 +1,5 @@
 ---
-id: 1408
+id: 1283
 title: Find the Smallest Divisor Given a Threshold
 title_slug: find-the-smallest-divisor-given-a-threshold
 tags: ['Array', 'Binary Search']

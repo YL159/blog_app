@@ -1,5 +1,5 @@
 ---
-id: 2402
+id: 2317
 title: Maximum XOR After Operations
 title_slug: maximum-xor-after-operations
 tags: ['Array', 'Math', 'Bit Manipulation']
@@ -17,7 +17,7 @@ nums[i] XOR x <=> we can choose x to make each bit same/different from nums[i]
 nums[i] AND above <=> get a binary number with same/less set bit at the same position as binary nums[i]
 	e.g. nums[i] binary 100110 -> possible results are changing some 1s into 0s
 XOR all number in nums <=> at each bit: odd/even 0s always get 0; odd 1s get 1, even 1s get 0
-Since we want max XOR of all \# in nums, we want each bit as 1:
+Since we want max XOR of all # in nums, we want each bit as 1:
 	1 only comes from some number that has this bit as 1
 		if even count of number has this bit as 1, we can manipulate x to make it odd count
 	0 for all numbers at this bit, then no any x can make any number get this bit as 1

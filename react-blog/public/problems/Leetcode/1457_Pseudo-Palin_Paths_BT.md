@@ -1,5 +1,5 @@
 ---
-id: 1568
+id: 1457
 title: Pseudo-Palindromic Paths in a Binary Tree
 title_slug: pseudo-palindromic-paths-in-a-binary-tree
 tags: ['Depth-First Search', 'Bit Manipulation', 'Tree', 'Breadth-First Search', 'Binary Tree']
@@ -8,10 +8,10 @@ created: 2024-07-02
 ---
 [Leetcode 1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree)
 
-Find \# of root-leaf paths that can be rearranged into a palindrome.
+Find # of root-leaf paths that can be rearranged into a palindrome.
 
 DFS backtrack to check each path, maintain a set of path node values.
-The set keeps node \# that appear only odd times. A path is pseudo palindromic = set length is 0 or 1
+The set keeps node # that appear only odd times. A path is pseudo palindromic = set length is 0 or 1
 
 ```python
 from typing import Optional

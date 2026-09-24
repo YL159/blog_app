@@ -1,5 +1,5 @@
 ---
-id: 3278
+id: 3025
 title: Find the Number of Ways to Place People I
 title_slug: find-the-number-of-ways-to-place-people-i
 tags: ['Array', 'Math', 'Sorting', 'Enumeration', 'Geometry']
@@ -31,7 +31,7 @@ and make the next smaller y as initial lower bound of future p
 With this O(1) time verification of each b, we make sure the selected b for each a will form a valid rectangle.
 
 "for i..." and "for t..." loops for all points as top-left point, O(n)
-	"for j..." loops for all next groups of points as potential bottom-right point, O(k), k is \# of x groups
+	"for j..." loops for all next groups of points as potential bottom-right point, O(k), k is # of x groups
 		bisect find the only point that may match (x, y), O(log(n/k)), n/k is average group size
 Worst case Time O(n^2) when k=n/e, Space O(n)
 

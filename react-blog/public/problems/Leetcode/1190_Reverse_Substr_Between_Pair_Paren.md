@@ -1,5 +1,5 @@
 ---
-id: 1298
+id: 1190
 title: Reverse Substrings Between Each Pair of Parentheses
 title_slug: reverse-substrings-between-each-pair-of-parentheses
 tags: ['String', 'Stack']

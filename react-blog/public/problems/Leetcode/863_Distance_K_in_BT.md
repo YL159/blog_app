@@ -1,5 +1,5 @@
 ---
-id: 893
+id: 863
 title: All Nodes Distance K in Binary Tree
 title_slug: all-nodes-distance-k-in-binary-tree
 tags: ['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Binary Tree']

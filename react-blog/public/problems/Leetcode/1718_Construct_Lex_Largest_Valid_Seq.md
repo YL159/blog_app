@@ -1,5 +1,5 @@
 ---
-id: 1819
+id: 1718
 title: Construct the Lexicographically Largest Valid Sequence
 title_slug: construct-the-lexicographically-largest-valid-sequence
 tags: ['Array', 'Backtracking']
@@ -8,12 +8,12 @@ created: 2025-02-20
 ---
 [Leetcode 1718. Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence)
 
-Construct a sequence of \# using [1, n] that:
-1. 1 used only once, the other \# are used twice.
-2. distance of two instances of \# (idx difference) is \#.
-Return the lex largest valid seq of \#s
+Construct a sequence of # using [1, n] that:
+1. 1 used only once, the other # are used twice.
+2. distance of two instances of # (idx difference) is #.
+Return the lex largest valid seq of #s
 
-DFS on all possible seq starting with largest \#. If a path possible, return the result seq.
+DFS on all possible seq starting with largest #. If a path possible, return the result seq.
 Each idx has a set of choices, greedily iterate from largest option
 
 ```python

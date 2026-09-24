@@ -1,5 +1,5 @@
 ---
-id: 2588
+id: 2503
 title: Maximum Number of Points From Grid Queries
 title_slug: maximum-number-of-points-from-grid-queries
 tags: ['Array', 'Sorting', 'Matrix', 'Breadth-First Search', 'Two Pointers', 'Heap (Priority Queue)', 'Union-Find']

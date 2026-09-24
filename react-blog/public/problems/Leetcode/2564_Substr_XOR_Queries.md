@@ -1,5 +1,5 @@
 ---
-id: 2700
+id: 2564
 title: Substring XOR Queries
 title_slug: substring-xor-queries
 tags: ['Array', 'String', 'Hash Table', 'Bit Manipulation']

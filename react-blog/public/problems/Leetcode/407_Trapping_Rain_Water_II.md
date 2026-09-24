@@ -11,7 +11,7 @@ created: 2025-10-04
 Given a 2d map of non-negative heights, find total units of water it can trap.
 
 
-1st thought, reuse \#42 trapping rain water 1
+1st thought, reuse #42 trapping rain water 1
 For each cell, collect its row's left/right max and col's up/down max
 Won't Work! Because whether a cell can hold water is not only determined by its row and col
 but also its "swamp" edge wall heights

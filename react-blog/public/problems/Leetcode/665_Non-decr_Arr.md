@@ -11,7 +11,7 @@ created: 2024-12-01
 Given an array, check if possible to change at most 1 int to make the array non-decreasing.
 
 Here is a state machine approach.
-Check non-decrease of neighboring \#, and allow 1 chance to see a decreasing spot.
+Check non-decrease of neighboring #, and allow 1 chance to see a decreasing spot.
 At decreasing spot, either:
 	decrease the peak and make sure its neighbors are also non-decreasing:
 		... 2, 5, 4 ... if 2 <= 4, the peak 5 can change to [2,3,4], pass

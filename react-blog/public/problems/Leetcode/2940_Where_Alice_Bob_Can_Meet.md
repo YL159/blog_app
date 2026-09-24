@@ -1,5 +1,5 @@
 ---
-id: 3181
+id: 2940
 title: Find Building Where Alice and Bob Can Meet
 title_slug: find-building-where-alice-and-bob-can-meet
 tags: ['Array', 'Binary Search', 'Heap (Priority Queue)', 'Stack', 'Segment Tree', 'Monotonic Stack', 'Binary Indexed Tree']

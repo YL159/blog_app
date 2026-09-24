@@ -1,5 +1,5 @@
 ---
-id: 2054
+id: 1942
 title: The Number of the Smallest Unoccupied Chair
 title_slug: the-number-of-the-smallest-unoccupied-chair
 tags: ['Array', 'Hash Table', 'Heap (Priority Queue)']
@@ -11,7 +11,7 @@ created: 2024-12-01
 Given enter-leaving time of n people
 	each person enter and choose the smallest idx empty chair to sit.
 	the person leave at leaving time. Other people entering at the same time can sit the leaving chair if smallest
-Find the chair \# of target person
+Find the chair # of target person
 
 We use a heap of chair labels to keep track of the 1st available (smallest) chair for any entering ppl
 And flatten the time frame of each pple into [event time, event, ppl] tuples,

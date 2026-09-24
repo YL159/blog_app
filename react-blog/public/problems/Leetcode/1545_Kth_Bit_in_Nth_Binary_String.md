@@ -1,5 +1,5 @@
 ---
-id: 1667
+id: 1545
 title: Find Kth Bit in Nth Binary String
 title_slug: find-kth-bit-in-nth-binary-string
 tags: ['String', 'Simulation', 'Recursion']
@@ -14,7 +14,7 @@ Si = S(i-1) + "1" + reverse(invert(S(i-1))) for i > 1
 Given subscript n, find kth place char in Sn.
 
 Similar to recursive doubling, here we use recursive halfing the target range.
-Trace target k position in its former place in S(i-1), and \# of inversions.
+Trace target k position in its former place in S(i-1), and # of inversions.
 Time O(n), space O(1)
 
 ```python

@@ -1,5 +1,5 @@
 ---
-id: 2359
+id: 2271
 title: Maximum White Tiles Covered by a Carpet
 title_slug: maximum-white-tiles-covered-by-a-carpet
 tags: ['Array', 'Sorting', 'Greedy', 'Binary Search', 'Prefix Sum', 'Sliding Window']

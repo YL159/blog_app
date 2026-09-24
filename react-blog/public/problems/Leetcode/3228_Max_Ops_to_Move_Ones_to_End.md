@@ -1,5 +1,5 @@
 ---
-id: 3493
+id: 3228
 title: Maximum Number of Operations to Move Ones to the End
 title_slug: maximum-number-of-operations-to-move-ones-to-the-end
 tags: ['String', 'Greedy', 'Counting']
@@ -10,7 +10,7 @@ created: 2025-11-12
 
 Given a binary string, within 1 operation:
 	choose a '1' that is left neighbor of a '0', and shift it to left of next '1', or end of the str
-Find the max \# of operations possible.
+Find the max # of operations possible.
 
 Method 1, for each grouped 1s, move right-most 1 to right
 1011001 -2> 0_110011 -1> 0_100111 -1> 000_1111, 4 op
@@ -22,7 +22,7 @@ Time O(n), Space O(1)
 
 Method 2, from left, push each 1 to right, from solutions
 Lazy push each 1 to right, gradually merging groups together
-At the end of a '1' group, should one by one push they to the next group, op += \# of '1' in current group
+At the end of a '1' group, should one by one push they to the next group, op += # of '1' in current group
 Time O(n), Space O(1)
 
 ```python

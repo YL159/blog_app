@@ -1,5 +1,5 @@
 ---
-id: 868
+id: 838
 title: Push Dominoes
 title_slug: push-dominoes
 tags: ['String', 'Dynamic Programming', 'Two Pointers']

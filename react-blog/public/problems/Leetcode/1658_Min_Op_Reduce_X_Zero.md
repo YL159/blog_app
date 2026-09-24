@@ -1,5 +1,5 @@
 ---
-id: 1776
+id: 1658
 title: Minimum Operations to Reduce X to Zero
 title_slug: minimum-operations-to-reduce-x-to-zero
 tags: ['Array', 'Hash Table', 'Binary Search', 'Prefix Sum', 'Sliding Window']

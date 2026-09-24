@@ -8,9 +8,9 @@ created: 2025-06-10
 ---
 [Leetcode 440. K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)
 
-Similar to \#386, but just find the kth number in lexico ordered int array.
+Similar to #386, but just find the kth number in lexico ordered int array.
 
-Method 1, enumerate each number as in \#386 for the kth smallest. Time O(k), Space O(logk)
+Method 1, enumerate each number as in #386 for the kth smallest. Time O(k), Space O(logk)
 
 Methdo 2, skip some subtrees and go into interested subtree
 In order to quickly locate target position, we should skip unnecessary subtrees

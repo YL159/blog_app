@@ -1,5 +1,5 @@
 ---
-id: 831
+id: 813
 title: Largest Sum of Averages
 title_slug: largest-sum-of-averages
 tags: ['Array', 'Dynamic Programming', 'Prefix Sum']

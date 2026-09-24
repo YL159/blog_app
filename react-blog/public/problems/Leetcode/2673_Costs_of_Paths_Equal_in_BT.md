@@ -1,5 +1,5 @@
 ---
-id: 2780
+id: 2673
 title: Make Costs of Paths Equal in a Binary Tree
 title_slug: make-costs-of-paths-equal-in-a-binary-tree
 tags: ['Array', 'Dynamic Programming', 'Greedy', 'Tree', 'Binary Tree']
@@ -10,7 +10,7 @@ created: 2024-12-07
 
 For a perfect BT of n nodes, label 1-n. And a cost arr for each node.
 An op: choose 1 node lift its cost by 1
-Find the min \# of op that makes all path from root to leaf the same.
+Find the min # of op that makes all path from root to leaf the same.
 
 To get min op, try to make each path cost equal to max path cost
 Increase inner node is more favorable than increasing leaf node, cust inner node affects more paths.

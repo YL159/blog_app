@@ -1,5 +1,5 @@
 ---
-id: 2300
+id: 2182
 title: Construct String With Repeat Limit
 title_slug: construct-string-with-repeat-limit
 tags: ['String', 'Hash Table', 'Greedy', 'Heap (Priority Queue)', 'Counting']

@@ -13,7 +13,7 @@ Find the min of max subarr sum of a split config.
 
 Directly split array into exactly k subarrs gives huge decision tree.
 
-Method 1, DP build k split from best results of k-1 splits. Similar to \#813
+Method 1, DP build k split from best results of k-1 splits. Similar to #813
 
 Time O(kn^2), Space O(kn)
 

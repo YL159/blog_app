@@ -1,5 +1,5 @@
 ---
-id: 3427
+id: 3152
 title: Special Array II
 title_slug: special-array-ii
 tags: ['Array', 'Binary Search', 'Prefix Sum']
@@ -9,7 +9,7 @@ created: 2024-12-08
 [Leetcode 3152. Special Array II](https://leetcode.com/problems/special-array-ii)
 
 Given an array of ints, a subarray is special if:
-	every neighboring pair of \# have different parities
+	every neighboring pair of # have different parities
 For each query in given query list, find if query subarr is special or not.
 
 Consider a neighboring pair have the same parity

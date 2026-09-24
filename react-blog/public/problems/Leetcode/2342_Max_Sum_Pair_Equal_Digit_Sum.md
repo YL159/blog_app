@@ -1,5 +1,5 @@
 ---
-id: 2473
+id: 2342
 title: Max Sum of a Pair With Equal Sum of Digits
 title_slug: max-sum-of-a-pair-with-equal-sum-of-digits
 tags: ['Array', 'Hash Table', 'Sorting', 'Heap (Priority Queue)']
@@ -11,8 +11,8 @@ created: 2024-12-04
 Given a list of positive ints, find max sum of 2 int of different idx,
 	that their digit sums are the same
 
-Precompute digit sum of each \#, greedily keep the largest \# of some digit sum as dictionary
-If a future \# gets a digits sum seen before, update global result for their sum
+Precompute digit sum of each #, greedily keep the largest # of some digit sum as dictionary
+If a future # gets a digits sum seen before, update global result for their sum
 
 Time O(n), but actually O(n*len(digit)), space O(n)
 

@@ -1,5 +1,5 @@
 ---
-id: 1056
+id: 1011
 title: Capacity To Ship Packages Within D Days
 title_slug: capacity-to-ship-packages-within-d-days
 tags: ['Array', 'Binary Search']

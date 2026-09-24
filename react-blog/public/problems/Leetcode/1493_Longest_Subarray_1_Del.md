@@ -1,5 +1,5 @@
 ---
-id: 1586
+id: 1493
 title: Longest Subarray of 1's After Deleting One Element
 title_slug: longest-subarray-of-1s-after-deleting-one-element
 tags: ['Array', 'Dynamic Programming', 'Sliding Window']

@@ -1,5 +1,5 @@
 ---
-id: 1305
+id: 1944
 title: Number of Visible People in a Queue
 title_slug: number-of-visible-people-in-a-queue
 tags: ['Array', 'Stack', 'Monotonic Stack']

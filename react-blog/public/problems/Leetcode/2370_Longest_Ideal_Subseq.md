@@ -1,5 +1,5 @@
 ---
-id: 2444
+id: 2370
 title: Longest Ideal Subsequence
 title_slug: longest-ideal-subsequence
 tags: ['String', 'Hash Table', 'Dynamic Programming']

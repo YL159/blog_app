@@ -1,5 +1,5 @@
 ---
-id: 1653
+id: 1530
 title: Number of Good Leaf Nodes Pairs
 title_slug: number-of-good-leaf-nodes-pairs
 tags: ['Depth-First Search', 'Tree', 'Binary Tree']

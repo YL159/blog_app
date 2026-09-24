@@ -1,5 +1,5 @@
 ---
-id: 940
+id: 904
 title: Fruit Into Baskets
 title_slug: fruit-into-baskets
 tags: ['Array', 'Hash Table', 'Sliding Window']

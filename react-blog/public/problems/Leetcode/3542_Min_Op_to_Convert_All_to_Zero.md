@@ -1,5 +1,5 @@
 ---
-id: 3834
+id: 3542
 title: Minimum Operations to Convert All Elements to Zero
 title_slug: minimum-operations-to-convert-all-elements-to-zero
 tags: ['Array', 'Hash Table', 'Greedy', 'Stack', 'Monotonic Stack']
@@ -9,8 +9,8 @@ created: 2025-11-09
 [Leetcode 3542. Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero)
 
 Given a list of non-negative ints, one operation:
-	choose a subarr, reduce all min \# to 0
-Find min \# of operations to make the array all 0
+	choose a subarr, reduce all min # to 0
+Find min # of operations to make the array all 0
 
 Observation: existing 0s can be the min of chosen subarr
 	=> avoid including 0 in chosen range

@@ -1,5 +1,5 @@
 ---
-id: 3558
+id: 3286
 title: Find a Safe Walk Through a Grid
 title_slug: find-a-safe-walk-through-a-grid
 tags: ['Array', 'Matrix', 'Breadth-First Search', 'Heap (Priority Queue)', 'Graph Theory', 'Shortest Path']

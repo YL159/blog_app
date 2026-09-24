@@ -1,5 +1,5 @@
 ---
-id: 1021
+id: 979
 title: Distribute Coins in Binary Tree
 title_slug: distribute-coins-in-binary-tree
 tags: ['Depth-First Search', 'Tree', 'Binary Tree']
@@ -15,7 +15,7 @@ Use post-order traversal to collect subtree information. Upon visiting root of s
 2. Thus total steps from both subtree depends on the NET coin influx/outflow, plus both subtree's basis steps
 
 Collecting this information on the way back to tree root, thus no class/global var needed.
-Since coin \# = \# of nodes, self.postOrder(root) must return (0, total_steps)
+Since coin # = # of nodes, self.postOrder(root) must return (0, total_steps)
 
 ```python
 from typing import Optional

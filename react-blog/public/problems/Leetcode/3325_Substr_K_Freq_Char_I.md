@@ -1,5 +1,5 @@
 ---
-id: 3502
+id: 3325
 title: Count Substrings With K-Frequency Characters I
 title_slug: count-substrings-with-k-frequency-characters-i
 tags: ['String', 'Hash Table', 'Sliding Window']
@@ -8,7 +8,7 @@ created: 2024-12-03
 ---
 [leetcode 3325. Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i)
 
-Count the \# of substr with at least 1 char of freq at least k.
+Count the # of substr with at least 1 char of freq at least k.
 Substr with different start:end count as different.
 
 Similar to 2958, keep letter idx list & running prefix counter
@@ -17,7 +17,7 @@ Use current i as distinct end of substr, all start idx:
     or before previous 'char >= k' idx. abcdjdgc, k = 2, at 'g'
 contributes a valid subarr
 
-Thus at each idx, \# of good substr is determined.
+Thus at each idx, # of good substr is determined.
 Time O(n), space O(n)
 
 ```python

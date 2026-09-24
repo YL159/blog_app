@@ -1,5 +1,5 @@
 ---
-id: 1129
+id: 1048
 title: Longest String Chain
 title_slug: longest-string-chain
 tags: ['Array', 'String', 'Hash Table', 'Dynamic Programming', 'Sorting', 'Two Pointers']

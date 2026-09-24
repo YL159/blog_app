@@ -1,5 +1,5 @@
 ---
-id: 1263
+id: 1155
 title: Number of Dice Rolls With Target Sum
 title_slug: number-of-dice-rolls-with-target-sum
 tags: ['Dynamic Programming']

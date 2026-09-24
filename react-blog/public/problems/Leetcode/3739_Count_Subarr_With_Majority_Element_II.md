@@ -1,5 +1,5 @@
 ---
-id: 4075
+id: 3739
 title: Count Subarrays With Majority Element II
 title_slug: count-subarrays-with-majority-element-ii
 tags: ['Array', 'Hash Table', 'Prefix Sum', 'Segment Tree', 'Divide and Conquer', 'Merge Sort']
@@ -10,18 +10,18 @@ created: 2026-06-26
 
 Given a nums array, and target int
 Find count of all subarrs with target as major:
-    has \# == target count strictly more than half of subarr length
+    has # == target count strictly more than half of subarr length
 
 Observation:
 e.g. nums = [1, 2, 2, 2, 3, 4, 2, 2], target = 2
-1. each \# either equal to target or not
+1. each # either equal to target or not
     => transform into [0, 1, 1, 1, 0, 0, 1, 1]
 2. each 0 cancels previous 1's contribution in subarr
     => transform into [-1, 1, 1, 1, -1, -1, 1, 1]
-3. subarr problem can make use of prefix sum, since each \# has equal weight
+3. subarr problem can make use of prefix sum, since each # has equal weight
     => transform [0, -1, 0, 1, 2, 1, 0, 1, 2]
 
-Now for each ending right \#, we want to know how many legitimate left start.
+Now for each ending right #, we want to know how many legitimate left start.
 Target as major => count all such pref[l] < pref[cur r]
 
 Normally, if pref[r] is unpredictable, the counting of pref[l] will be O(n) time

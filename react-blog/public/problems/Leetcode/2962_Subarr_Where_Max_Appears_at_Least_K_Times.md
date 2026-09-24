@@ -1,5 +1,5 @@
 ---
-id: 3213
+id: 2962
 title: Count Subarrays Where Max Element Appears at Least K Times
 title_slug: count-subarrays-where-max-element-appears-at-least-k-times
 tags: ['Array', 'Sliding Window']

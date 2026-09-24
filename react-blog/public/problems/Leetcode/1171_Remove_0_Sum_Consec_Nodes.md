@@ -1,5 +1,5 @@
 ---
-id: 1267
+id: 1171
 title: Remove Zero Sum Consecutive Nodes from Linked List
 title_slug: remove-zero-sum-consecutive-nodes-from-linked-list
 tags: ['Hash Table', 'Linked List']

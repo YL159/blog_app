@@ -1,5 +1,5 @@
 ---
-id: 2307
+id: 2197
 title: Replace Non-Coprime Numbers in Array
 title_slug: replace-non-coprime-numbers-in-array
 tags: ['Array', 'Math', 'Stack', 'Number Theory']
@@ -8,7 +8,7 @@ created: 2025-09-24
 ---
 [Leetcode 2197. Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array)
 
-Repeatedly replace 2 neighboring \# in given array with their Least Common Multiple
+Repeatedly replace 2 neighboring # in given array with their Least Common Multiple
 Return the final array. The result is fixed no matter the order of replacement.
 
 Since the order of replacement won't affect result, try merge numbers in 1 direction.
@@ -16,8 +16,8 @@ Suppose merging from right to left, e.g. [2,6,4,9]
 	4, 9 are co-prime, leave them as they are.
     6, 4 are non-coprime, replace with LCM 12 = 6 * 4 // 2, GCD(6, 4) = 2
 		now 12 , 9 are non-coprime, replace again with LCM 36 = 12 * 9 // 3
-Thus we see that future merging may introduce new factors that may appear in previous \#
-	=> use stack to record the temporary/permanant result \#
+Thus we see that future merging may introduce new factors that may appear in previous #
+	=> use stack to record the temporary/permanant result #
     => for each new nums[i] try to merge from stack top till co-prime appear, then add to stack
 
 Time O(n), Space O(n)

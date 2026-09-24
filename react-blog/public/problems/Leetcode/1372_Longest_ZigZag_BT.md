@@ -1,5 +1,5 @@
 ---
-id: 1474
+id: 1372
 title: Longest ZigZag Path in a Binary Tree
 title_slug: longest-zigzag-path-in-a-binary-tree
 tags: ['Dynamic Programming', 'Depth-First Search', 'Tree', 'Binary Tree']

@@ -1,5 +1,5 @@
 ---
-id: 1029
+id: 987
 title: Vertical Order Traversal of a Binary Tree
 title_slug: vertical-order-traversal-of-a-binary-tree
 tags: ['Hash Table', 'Sorting', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Binary Tree']

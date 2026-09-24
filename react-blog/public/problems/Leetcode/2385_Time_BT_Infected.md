@@ -1,5 +1,5 @@
 ---
-id: 2461
+id: 2385
 title: Amount of Time for Binary Tree to Be Infected
 title_slug: amount-of-time-for-binary-tree-to-be-infected
 tags: ['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Binary Tree']

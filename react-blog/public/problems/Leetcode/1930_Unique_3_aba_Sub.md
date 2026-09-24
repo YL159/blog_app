@@ -1,5 +1,5 @@
 ---
-id: 2059
+id: 1930
 title: Unique Length-3 Palindromic Subsequences
 title_slug: unique-length-3-palindromic-subsequences
 tags: ['String', 'Hash Table', 'Bit Manipulation', 'Prefix Sum']
@@ -10,7 +10,7 @@ created: 2024-05-14
 
 Count all unique length-3 aba-like subsequences of a string
 
-\# Method 1
+# Method 1
 Find the start and end indices of each letter (max 26), start letter will be unique for each range.
 Get the set of letters between each pair of [start, end] and count
 
@@ -18,7 +18,7 @@ Time: O(n). Worst case traverse the string s 26 times, because of finding set of
 Space: O(1). Collect only 26 letter related info
 
 
-\# Method 2
+# Method 2
 Similar to method 1, but use prefix letter counter snapshot for quick checking letters in between.
 1. get the 1st/last appearance for each letter
 2. collect max 26*2 point(idx) of interests for the letters

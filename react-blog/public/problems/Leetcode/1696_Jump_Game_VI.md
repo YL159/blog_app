@@ -1,5 +1,5 @@
 ---
-id: 1814
+id: 1696
 title: Jump Game VI
 title_slug: jump-game-vi
 tags: ['Array', 'Dynamic Programming', 'Heap (Priority Queue)', 'Queue', 'Monotonic Queue']

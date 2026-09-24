@@ -1,5 +1,5 @@
 ---
-id: 943
+id: 907
 title: Sum of Subarray Minimums
 title_slug: sum-of-subarray-minimums
 tags: ['Array', 'Dynamic Programming', 'Stack', 'Monotonic Stack']
@@ -10,7 +10,7 @@ created: 2024-12-22
 
 Get the sum of every min(subarr) of given arr
 
-\# method 1
+# method 1
 similar to 84. Largest Rectangle in Histogram
 ask how far to left/right can a number be min of the range
 	=> maintain increasing mon stack for idx range [0, i]
@@ -20,7 +20,7 @@ But if multiple same min in stack, assign them (subarr that cover all of them) t
 to avoid duplicated addition of them.
 Time O(n), space O(n)
 
-\# method 2 by solutions section
+# method 2 by solutions section
 DP on sum(min) of all subarr ending at idx i: DP[i] = result of arr[0, i]
 Also keeps increasing mon stack from left.
 At each i, new subarr can start from:

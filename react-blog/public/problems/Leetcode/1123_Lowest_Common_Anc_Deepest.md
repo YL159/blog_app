@@ -1,5 +1,5 @@
 ---
-id: 1218
+id: 1123
 title: Lowest Common Ancestor of Deepest Leaves
 title_slug: lowest-common-ancestor-of-deepest-leaves
 tags: ['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Binary Tree']

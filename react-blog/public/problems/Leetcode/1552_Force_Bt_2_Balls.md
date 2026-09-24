@@ -1,5 +1,5 @@
 ---
-id: 1675
+id: 1552
 title: Magnetic Force Between Two Balls
 title_slug: magnetic-force-between-two-balls
 tags: ['Array', 'Sorting', 'Binary Search']

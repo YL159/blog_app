@@ -1,5 +1,5 @@
 ---
-id: 1007
+id: 967
 title: Numbers With Same Consecutive Differences
 title_slug: numbers-with-same-consecutive-differences
 tags: ['Breadth-First Search', 'Backtracking']

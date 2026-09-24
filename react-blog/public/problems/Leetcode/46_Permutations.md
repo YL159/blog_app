@@ -11,15 +11,15 @@ created: 2026-01-12
 Given a list of unique ints, get all permutations of them.
 
 Method 1, incremental and insert
-For each new \#, it can insert into all positions of each previous permutations
+For each new #, it can insert into all positions of each previous permutations
     => creating new permutations
 Time O(n!), sum(n*n!), Space O(n!)
 
 Method 2, exchange and permute suffix
 Inspired by discussion
 We can fix the prefix and permute the suffix. Permuting a range means exchange all possible pairs.
-Thus fix nums[0], permute the suffix, RETURN \# to original position, and exchange nums[0] with nums[1]
-    => untill nums[0] has exchanged with all other \#
+Thus fix nums[0], permute the suffix, RETURN # to original position, and exchange nums[0] with nums[1]
+    => untill nums[0] has exchanged with all other #
 Permuting the suffix uses the same routine.
 Time O(n!), Space O(n!)
 

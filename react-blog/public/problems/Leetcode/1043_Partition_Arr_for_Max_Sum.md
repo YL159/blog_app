@@ -1,5 +1,5 @@
 ---
-id: 1121
+id: 1043
 title: Partition Array for Maximum Sum
 title_slug: partition-array-for-maximum-sum
 tags: ['Array', 'Dynamic Programming']

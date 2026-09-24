@@ -1,5 +1,5 @@
 ---
-id: 2478
+id: 2401
 title: Longest Nice Subarray
 title_slug: longest-nice-subarray
 tags: ['Array', 'Bit Manipulation', 'Sliding Window']

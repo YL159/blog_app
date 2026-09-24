@@ -1,5 +1,5 @@
 ---
-id: 1457
+id: 1335
 title: Minimum Difficulty of a Job Schedule
 title_slug: minimum-difficulty-of-a-job-schedule
 tags: ['Array', 'Dynamic Programming']
@@ -12,7 +12,7 @@ Partition a job list into exactly d non-empty parts/days.
 Difficulty of each day is max(difficulty(jobs of a day)).
 Find min total difficulty of all d days.
 
-Similar to \#813 largest sum of avg, find min difficulty of:
+Similar to #813 largest sum of avg, find min difficulty of:
 	1st job allocated into 1 day -> all job allocated into 1 day
 	=> 2 jobs allocated into 2 days -> all jobs into 2 days
 	=>...

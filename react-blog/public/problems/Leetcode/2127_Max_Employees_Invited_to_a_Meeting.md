@@ -1,5 +1,5 @@
 ---
-id: 2246
+id: 2127
 title: Maximum Employees to Be Invited to a Meeting
 title_slug: maximum-employees-to-be-invited-to-a-meeting
 tags: ['Array', 'Dynamic Programming', 'Depth-First Search', 'Graph Theory', 'Topological Sort']
@@ -13,7 +13,7 @@ Company wants to invite some employees to a meeting with following conditions:
 1. The only round table can seat as many employees as possible.
 2. Only when employee i's favorite other employee is invited, he/she will accept invitation.
 3. At the table, each employee will sit next to his/her favorite other employee.
-Find the max \# of employees to successfully invited and be seated.
+Find the max # of employees to successfully invited and be seated.
 
 We can make the following observations and deductions:
 1. The employees form a directed graph.

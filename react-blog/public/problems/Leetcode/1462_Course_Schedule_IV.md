@@ -1,5 +1,5 @@
 ---
-id: 1558
+id: 1462
 title: Course Schedule IV
 title_slug: course-schedule-iv
 tags: ['Depth-First Search', 'Breadth-First Search', 'Graph Theory', 'Topological Sort']

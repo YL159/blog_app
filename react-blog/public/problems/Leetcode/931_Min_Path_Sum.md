@@ -1,5 +1,5 @@
 ---
-id: 967
+id: 931
 title: Minimum Falling Path Sum
 title_slug: minimum-falling-path-sum
 tags: ['Array', 'Dynamic Programming', 'Matrix']

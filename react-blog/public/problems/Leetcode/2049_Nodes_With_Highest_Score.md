@@ -1,5 +1,5 @@
 ---
-id: 2175
+id: 2049
 title: Count Nodes With the Highest Score
 title_slug: count-nodes-with-the-highest-score
 tags: ['Array', 'Depth-First Search', 'Tree', 'Binary Tree']
@@ -8,11 +8,11 @@ created: 2024-07-11
 ---
 [Leetcode 2049. Count Nodes With the Highest Score](https://leetcode.com/problems/count-nodes-with-the-highest-score)
 
-Given parent array, parent[i] is parent of i. Each node has a score, product of \# of nodes in remaining trees if node i is removed.
-Find the \# of nodes that reaches highest score.
+Given parent array, parent[i] is parent of i. Each node has a score, product of # of nodes in remaining trees if node i is removed.
+Find the # of nodes that reaches highest score.
 
-Use post-order DFS to collect the \# of nodes in both subtrees, and thus get remaining \# of upper nodes if removed i.
-Update the global max tracking and counting. Then return \# of nodes in current subtree.
+Use post-order DFS to collect the # of nodes in both subtrees, and thus get remaining # of upper nodes if removed i.
+Update the global max tracking and counting. Then return # of nodes in current subtree.
 
 ```python
 from typing import List

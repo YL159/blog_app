@@ -1,5 +1,5 @@
 ---
-id: 1058
+id: 1061
 title: Lexicographically Smallest Equivalent String
 title_slug: lexicographically-smallest-equivalent-string
 tags: ['String', 'Union-Find']

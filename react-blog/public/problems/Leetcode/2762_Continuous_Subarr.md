@@ -1,5 +1,5 @@
 ---
-id: 2868
+id: 2762
 title: Continuous Subarrays
 title_slug: continuous-subarrays
 tags: ['Array', 'Heap (Priority Queue)', 'Sliding Window', 'Ordered Set', 'Queue', 'Monotonic Queue']
@@ -8,11 +8,11 @@ created: 2024-12-14
 ---
 [Leetcode 2762. Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays)
 
-Given an array of int, find \# of subarr with max(subarr) - min(subarr) <= 2
+Given an array of int, find # of subarr with max(subarr) - min(subarr) <= 2
 
 We can count distinct subarr by distinct start idx, and sliding window
 => find max length of subarr start at each idx, that its overall fluctuation <= 2
-=> \# of distinct subarr = end idx j - start idx i
+=> # of distinct subarr = end idx j - start idx i
 
 To find the max length of such subarr, we need to keep track of subarr min/max
 	=> stop at any new member greater than min by 2 OR smaller than max by 2
@@ -20,7 +20,7 @@ To find the max length of such subarr, we need to keep track of subarr min/max
 
 Use heap, time O(nlog(n))
 Use monotonic stack, time O(n)
-Because for heap, we store 'non-essential' \# between min/max of a subarr
+Because for heap, we store 'non-essential' # between min/max of a subarr
 => up/down heap takes more time
 
 ```python

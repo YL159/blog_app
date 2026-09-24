@@ -11,7 +11,7 @@ created: 2024-07-13
 Given a preorder string of BT including empty nodes, verify if it is 1 valid BT
 
 Use stack to keep track of current subtree's childre status.
-Any subsequent '\#' or number will fulfill or add to subtree's left/right position holder
+Any subsequent '#' or number will fulfill or add to subtree's left/right position holder
 
 ```python
 class Solution:

@@ -1,5 +1,5 @@
 ---
-id: 1668
+id: 1542
 title: Find Longest Awesome Substring
 title_slug: find-longest-awesome-substring
 tags: ['String', 'Hash Table', 'Bit Manipulation']

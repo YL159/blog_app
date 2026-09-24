@@ -1,5 +1,5 @@
 ---
-id: 768
+id: 763
 title: Partition Labels
 title_slug: partition-labels
 tags: ['String', 'Hash Table', 'Greedy', 'Two Pointers']
@@ -8,7 +8,7 @@ created: 2024-04-10
 ---
 [Leetcode 763. Partition Labels](https://leetcode.com/problems/partition-labels)
 
-Partition string into max \# of groups that each letter only appear in 1 group
+Partition string into max # of groups that each letter only appear in 1 group
 Find the smallest window that enclosure all appearances of the letters inside
 
 ```python

@@ -1,5 +1,5 @@
 ---
-id: 1242
+id: 1314
 title: Matrix Block Sum
 title_slug: matrix-block-sum
 tags: ['Array', 'Matrix', 'Prefix Sum']

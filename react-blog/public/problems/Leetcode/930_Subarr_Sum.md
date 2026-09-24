@@ -1,5 +1,5 @@
 ---
-id: 966
+id: 930
 title: Binary Subarrays With Sum
 title_slug: binary-subarrays-with-sum
 tags: ['Array', 'Hash Table', 'Prefix Sum', 'Sliding Window']

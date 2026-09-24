@@ -1,5 +1,5 @@
 ---
-id: 2408
+id: 2327
 title: Number of People Aware of a Secret
 title_slug: number-of-people-aware-of-a-secret
 tags: ['Dynamic Programming', 'Simulation', 'Queue']

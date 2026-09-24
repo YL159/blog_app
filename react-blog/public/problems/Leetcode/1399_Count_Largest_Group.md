@@ -1,5 +1,5 @@
 ---
-id: 1500
+id: 1399
 title: Count Largest Group
 title_slug: count-largest-group
 tags: ['Hash Table', 'Math', 'Counting']
@@ -9,8 +9,8 @@ created: 2025-09-07
 [Leetcode 1399. Count Largest Group](https://leetcode.com/problems/count-largest-group)
 
 For int in [1, n], each has a digit sum.
-Some \# have the same digit sum, like 12, 21 and 3, thus they belong to the same group.
-Find the \# of groups that has the max members
+Some # have the same digit sum, like 12, 21 and 3, thus they belong to the same group.
+Find the # of groups that has the max members
 
 Method 1, iterate each int and increment the digit sum group size.
 This is a naive approach, and the reason it's easy question.
@@ -21,10 +21,10 @@ Consider int 1234 and 1235, their digit sum differ by only 1, but (1+2+3) part i
 	=> iterate over [1, n] produce a lot of repeated addition
 
 Suppose n = 223, and we fix the digit sum = 7. Int has max 3 digits
-For cases	0__ => need \# of 2 digit int that sums to 7
-			1__ => need \# of 2 digit int that sums to 6
-            2__ => special treatment, can't use all \# that has 2 digit and sums 5, like 232, 241, 250 > 223
-Thus we should build a memo table that remembers \# of integers that:
+For cases	0__ => need # of 2 digit int that sums to 7
+			1__ => need # of 2 digit int that sums to 6
+            2__ => special treatment, can't use all # that has 2 digit and sums 5, like 232, 241, 250 > 223
+Thus we should build a memo table that remembers # of integers that:
 	Has x digits (can have leading 0), AND with digit sum y
 The table will have log_10(n) rows, and 9*log_10(n) columns. Because x digits get max digit sum 9*x
 While populating the table, use previous row's prefix sum to reduce cell calculation complexity to O(1)

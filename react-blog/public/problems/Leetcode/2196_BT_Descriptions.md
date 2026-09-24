@@ -1,5 +1,5 @@
 ---
-id: 2306
+id: 2196
 title: Create Binary Tree From Descriptions
 title_slug: create-binary-tree-from-descriptions
 tags: ['Array', 'Hash Table', 'Tree', 'Binary Tree']

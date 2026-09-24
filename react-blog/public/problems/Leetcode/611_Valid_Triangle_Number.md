@@ -8,7 +8,7 @@ created: 2025-09-25
 ---
 [Leetcode 611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number)
 
-Given a list of non-negative ints, find \# of triplets as side lengths that form a valid triangle.
+Given a list of non-negative ints, find # of triplets as side lengths that form a valid triangle.
 
 
 Basic idea is to fix 2 sides, and find all 3rd side.

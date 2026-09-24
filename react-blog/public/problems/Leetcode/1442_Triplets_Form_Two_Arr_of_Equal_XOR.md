@@ -1,5 +1,5 @@
 ---
-id: 1553
+id: 1442
 title: Count Triplets That Can Form Two Arrays of Equal XOR
 title_slug: count-triplets-that-can-form-two-arrays-of-equal-xor
 tags: ['Array', 'Hash Table', 'Math', 'Bit Manipulation', 'Prefix Sum']
@@ -8,7 +8,7 @@ created: 2025-01-23
 ---
 [Leetcode 1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)
 
-Given array of ints, find \# of triplet idx i < j <= k so that:
+Given array of ints, find # of triplet idx i < j <= k so that:
 	a := XOR(arr[i,j-1]) == b := XOR(arr[j,k])
 
 a = b <=> a xor b = 0 <=> xor(arr[i,k]) = 0

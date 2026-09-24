@@ -1,5 +1,5 @@
 ---
-id: 1612
+id: 1488
 title: Avoid Flood in The City
 title_slug: avoid-flood-in-the-city
 tags: ['Array', 'Hash Table', 'Greedy', 'Binary Search', 'Heap (Priority Queue)']

@@ -1,5 +1,5 @@
 ---
-id: 4020
+id: 3720
 title: Lexicographically Smallest Permutation Greater Than Target
 title_slug: lexicographically-smallest-permutation-greater-than-target
 tags: ['String', 'Hash Table', 'Greedy', 'Counting', 'Enumeration']

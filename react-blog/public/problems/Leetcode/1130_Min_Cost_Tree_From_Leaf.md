@@ -1,5 +1,5 @@
 ---
-id: 1228
+id: 1130
 title: Minimum Cost Tree From Leaf Values
 title_slug: minimum-cost-tree-from-leaf-values
 tags: ['Array', 'Dynamic Programming', 'Greedy', 'Stack', 'Monotonic Stack']

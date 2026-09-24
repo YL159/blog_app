@@ -1,5 +1,5 @@
 ---
-id: 2364
+id: 2246
 title: Longest Path With Different Adjacent Characters
 title_slug: longest-path-with-different-adjacent-characters
 tags: ['Array', 'String', 'Depth-First Search', 'Tree', 'Graph Theory', 'Topological Sort']
@@ -9,7 +9,7 @@ created: 2024-11-19
 [Leetcode 2246. Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters)
 
 Given an array of parents, parent[i] is parent of node i,
-and string of the same length as \# of nodes, s[i] is node i's char.
+and string of the same length as # of nodes, s[i] is node i's char.
 Find the max lenght of a path that adjacent nodes have different chars.
 
 Since we only care about adjacent chars are different <=> only consider parent - child scope

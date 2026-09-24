@@ -1,5 +1,5 @@
 ---
-id: 3601
+id: 3307
 title: Find the K-th Character in String Game II
 title_slug: find-the-k-th-character-in-string-game-ii
 tags: ['Math', 'Bit Manipulation', 'Recursion']
@@ -17,7 +17,7 @@ len(operations) < 100, k <= 10^14, final str length >= k
 100 op gives 2^100 ~ 10^30 length word, but k <= 10^14
 thus k <= 10^14 < 2^50 << 2^100, we can only consider operation 49th or less
 
-Similar to \#3304. Find the K-th Character in String Game I, but may copy current str directly.
+Similar to #3304. Find the K-th Character in String Game I, but may copy current str directly.
 Observation:
 	1. After each operation, str length is doubled
 	2. All letters in current str trace back to initial 'a', thus "revert" the trace of kth letter

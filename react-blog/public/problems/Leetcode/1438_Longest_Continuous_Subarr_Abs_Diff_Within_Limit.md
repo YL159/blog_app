@@ -1,5 +1,5 @@
 ---
-id: 1549
+id: 1438
 title: Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 title_slug: longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
 tags: ['Array', 'Heap (Priority Queue)', 'Sliding Window', 'Ordered Set', 'Queue', 'Monotonic Queue']

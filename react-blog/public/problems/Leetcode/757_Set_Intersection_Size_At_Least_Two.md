@@ -1,5 +1,5 @@
 ---
-id: 759
+id: 757
 title: Set Intersection Size At Least Two
 title_slug: set-intersection-size-at-least-two
 tags: ['Array', 'Sorting', 'Greedy']

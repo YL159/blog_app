@@ -1,5 +1,5 @@
 ---
-id: 2527
+id: 2444
 title: Count Subarrays With Fixed Bounds
 title_slug: count-subarrays-with-fixed-bounds
 tags: ['Array', 'Sliding Window', 'Queue', 'Monotonic Queue']
@@ -8,11 +8,11 @@ created: 2025-04-29
 ---
 [Leetcode 2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds)
 
-Given minK and maxK, find \# of subarrs of given nums that:
+Given minK and maxK, find # of subarrs of given nums that:
 min(subarr) = minK, and max(subarr) = maxK
 
-Observe that such subarr won't include any \# > maxK or < minK
-	=> those off-bound \# are barriers for potential subarr
+Observe that such subarr won't include any # > maxK or < minK
+	=> those off-bound # are barriers for potential subarr
 	=> find target subarr within each of these "pockets"
     
 Each target subarr contains at least 1 minK and maxK

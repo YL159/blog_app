@@ -1,5 +1,5 @@
 ---
-id: 2577
+id: 2484
 title: Count Palindromic Subsequences
 title_slug: count-palindromic-subsequences
 tags: ['String', 'Dynamic Programming']

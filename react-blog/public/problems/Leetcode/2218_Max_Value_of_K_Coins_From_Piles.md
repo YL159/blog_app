@@ -1,5 +1,5 @@
 ---
-id: 1393
+id: 2218
 title: Maximum Value of K Coins From Piles
 title_slug: maximum-value-of-k-coins-from-piles
 tags: ['Array', 'Dynamic Programming', 'Prefix Sum']

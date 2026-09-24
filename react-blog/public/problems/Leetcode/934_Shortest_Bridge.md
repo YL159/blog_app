@@ -1,5 +1,5 @@
 ---
-id: 971
+id: 934
 title: Shortest Bridge
 title_slug: shortest-bridge
 tags: ['Array', 'Depth-First Search', 'Matrix', 'Breadth-First Search']
@@ -9,7 +9,7 @@ created: 2026-03-09
 [Leetcode 934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge)
 
 Given a matrix of only 1/0, 1=land, 0=sea. There are exactly 2 islands.
-Find min \# of sea cells to flip as land, to connect these 2 islands.
+Find min # of sea cells to flip as land, to connect these 2 islands.
 
 From one island's shore line, BFS expand untill meeting the other island.
 BFS guarantees shortest bridge.

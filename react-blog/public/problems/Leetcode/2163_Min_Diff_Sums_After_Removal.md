@@ -1,5 +1,5 @@
 ---
-id: 2267
+id: 2163
 title: Minimum Difference in Sums After Removal of Elements
 title_slug: minimum-difference-in-sums-after-removal-of-elements
 tags: ['Array', 'Dynamic Programming', 'Heap (Priority Queue)']
@@ -8,21 +8,21 @@ created: 2025-07-18
 ---
 [Leetcode 2163. Minimum Difference in Sums After Removal of Elements](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements)
 
-Given a num list of 3n length, remove n \#
-partition remaining 2n \# into 2 parts of n \#, find the min value of sum(part1) - sum(part2)
+Given a num list of 3n length, remove n #
+partition remaining 2n # into 2 parts of n #, find the min value of sum(part1) - sum(part2)
 
 Observation:
 There are 2^n ways to remove n numbers, finding parts' difference takes O(n) time
 	=> brutal force time O(n2^n)
 The cut will always take place in gaps of nums[n:2n], including gap before head.
-	=> decide the cut, O(n). Then optimally remove excessive \# in 2 parts
-    => remove k max \# from part1, and remove n-k min \# from part2, thus to get the min diff value of current cut
+	=> decide the cut, O(n). Then optimally remove excessive # in 2 parts
+    => remove k max # from part1, and remove n-k min # from part2, thus to get the min diff value of current cut
 
-Incrementally use outer loop of n to assign 1 middle \# from part2 to part1
-Use heap to decide popping largest \# in part1 after taking new \#, maintain sum(part1)
+Incrementally use outer loop of n to assign 1 middle # from part2 to part1
+Use heap to decide popping largest # in part1 after taking new #, maintain sum(part1)
 But using heap to maintain part2 is difficult:
-	the leaving middle \# may participate in sum(part2)
-    the leaving middle \# is not necessarily the min or max in the heap, removing it and re-heap is hard
+	the leaving middle # may participate in sum(part2)
+    the leaving middle # is not necessarily the min or max in the heap, removing it and re-heap is hard
 => use incremental heap from right to left for part2, and then reverse the result
 
 Time O(nlogn), Space O(n)

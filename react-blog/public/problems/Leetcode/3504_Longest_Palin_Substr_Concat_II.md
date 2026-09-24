@@ -1,5 +1,5 @@
 ---
-id: 3808
+id: 3504
 title: Longest Palindrome After Substring Concatenation II
 title_slug: longest-palindrome-after-substring-concatenation-ii
 tags: ['String', 'Dynamic Programming', 'Two Pointers']

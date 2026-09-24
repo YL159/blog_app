@@ -1,5 +1,5 @@
 ---
-id: 2236
+id: 2130
 title: Maximum Twin Sum of a Linked List
 title_slug: maximum-twin-sum-of-a-linked-list
 tags: ['Two Pointers', 'Stack', 'Linked List']

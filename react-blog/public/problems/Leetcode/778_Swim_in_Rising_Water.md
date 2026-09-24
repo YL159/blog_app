@@ -1,5 +1,5 @@
 ---
-id: 794
+id: 778
 title: Swim in Rising Water
 title_slug: swim-in-rising-water
 tags: ['Array', 'Depth-First Search', 'Binary Search', 'Matrix', 'Breadth-First Search', 'Heap (Priority Queue)', 'Union-Find']

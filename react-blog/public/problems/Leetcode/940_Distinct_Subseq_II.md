@@ -1,5 +1,5 @@
 ---
-id: 977
+id: 940
 title: Distinct Subsequences II
 title_slug: distinct-subsequences-ii
 tags: ['String', 'Dynamic Programming']

@@ -13,7 +13,7 @@ Find the longest pair
 
 Method 1:
 Greedy choice 1: Sort the array by pair ends.
-Maintain a monotonic deque of current chain's ends and their chain \#. Update chains if a new pair can be added
+Maintain a monotonic deque of current chain's ends and their chain #. Update chains if a new pair can be added
 Thus the deque contains all longest possible chains from the pair array. Return the longest length.
 Time O(nlog(n)), space O(n)
 

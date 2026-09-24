@@ -8,7 +8,7 @@ created: 2025-08-15
 ---
 [Leetcode 233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one)
 
-Given an int n, count the \# of 1s in all non-negative x <= n
+Given an int n, count the # of 1s in all non-negative x <= n
 
 Consider 13: 1,2,3,4,5,6,7,8,9,  10,11,12,13
 Observation:

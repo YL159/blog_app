@@ -1,5 +1,5 @@
 ---
-id: 2625
+id: 2536
 title: Increment Submatrices by One
 title_slug: increment-submatrices-by-one
 tags: ['Array', 'Matrix', 'Prefix Sum']

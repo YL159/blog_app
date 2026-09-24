@@ -1,5 +1,5 @@
 ---
-id: 1207
+id: 1110
 title: Delete Nodes And Return Forest
 title_slug: delete-nodes-and-return-forest
 tags: ['Array', 'Hash Table', 'Depth-First Search', 'Tree', 'Binary Tree']

@@ -1,5 +1,5 @@
 ---
-id: 1370
+id: 1248
 title: Count Number of Nice Subarrays
 title_slug: count-number-of-nice-subarrays
 tags: ['Array', 'Hash Table', 'Math', 'Prefix Sum', 'Sliding Window']

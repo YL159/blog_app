@@ -1,5 +1,5 @@
 ---
-id: 905
+id: 873
 title: Length of Longest Fibonacci Subsequence
 title_slug: length-of-longest-fibonacci-subsequence
 tags: ['Array', 'Hash Table', 'Dynamic Programming']

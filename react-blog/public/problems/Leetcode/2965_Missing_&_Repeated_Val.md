@@ -1,5 +1,5 @@
 ---
-id: 3227
+id: 2965
 title: Find Missing and Repeated Values
 title_slug: find-missing-and-repeated-values
 tags: ['Array', 'Hash Table', 'Math', 'Matrix']
@@ -9,8 +9,8 @@ created: 2025-03-10
 [Leetcode 2965. Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values)
 
 Given a square matrix of side length n, filled with 1...n^2
-But one \# is missing and another is repeated
-Find the missing and repeated \#
+But one # is missing and another is repeated
+Find the missing and repeated #
 
 This is easy if using set/arr to remember all numbers.
 Space O(1) is possible by using math:
@@ -19,13 +19,13 @@ repeat^2 - missing^2 = sum(grid[i][j]^2) - sum(1^2, 2^2...n^2^2)
 then find repeat and missing respectively.
 
 Here is my space O(1) solution using swap.
-Each \# should stay in its supposed cell.
+Each # should stay in its supposed cell.
 	=> For each cell, swap content to content's supposed cell's content, till match
-Some \# supposed cell has the same \#, this \# must be repeat
+Some # supposed cell has the same #, this # must be repeat
 	=> current cell idx is potentially missing
-Later any cell's \# is the same as repeat, this cell idx is potentially missing
-	i.e. this cell idx has supposed \# not visited yet, and will be swapped later
-    or this cell idx itself is the missing \#
+Later any cell's # is the same as repeat, this cell idx is potentially missing
+	i.e. this cell idx has supposed # not visited yet, and will be swapped later
+    or this cell idx itself is the missing #
 
 ```python
 from typing import List

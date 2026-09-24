@@ -1,5 +1,5 @@
 ---
-id: 1355
+id: 2216
 title: Minimum Deletions to Make Array Beautiful
 title_slug: minimum-deletions-to-make-array-beautiful
 tags: ['Array', 'Greedy', 'Stack']

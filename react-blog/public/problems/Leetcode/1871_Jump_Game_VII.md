@@ -1,5 +1,5 @@
 ---
-id: 2001
+id: 1871
 title: Jump Game VII
 title_slug: jump-game-vii
 tags: ['String', 'Dynamic Programming', 'Prefix Sum', 'Sliding Window']

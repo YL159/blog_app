@@ -1,5 +1,5 @@
 ---
-id: 1352
+id: 1235
 title: Maximum Profit in Job Scheduling
 title_slug: maximum-profit-in-job-scheduling
 tags: ['Array', 'Dynamic Programming', 'Sorting', 'Binary Search']
@@ -9,7 +9,7 @@ created: 2024-10-28
 [Leetcode 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)
 
 Given (start, end, profit) triples as jobs, find max profit from taking non-overlapping jobs
-\# same as \#2008. Maximum Earnings From Taxi
+# same as #2008. Maximum Earnings From Taxi
 
 Use incremental DP on the end points of all these jobs.
 Max profit at end x = max(max(profit of taking 1 job ends at x + dp[right before start of this job]),

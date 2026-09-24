@@ -25,7 +25,7 @@ class Question:
 
     @property
     def id(self) -> int:
-        return int(self._data["questionId"])
+        return int(self._data["questionFrontendId"])
 
     @property
     def title(self) -> str:
@@ -66,7 +66,7 @@ def query_leet(title_slug: str) -> Question | None:
                 question(titleSlug: $titleSlug) {
                     title
                     titleSlug
-                    questionId
+                    questionFrontendId
                     difficulty
                     topicTags {
                     name
@@ -97,6 +97,10 @@ def query_leet(title_slug: str) -> Question | None:
 
 if __name__ == "__main__":
 
-    title = "longest-substring-without-repeating-characters"
+    # question id 1776, but actual frontend id is 1658
+    title = "minimum-operations-to-reduce-x-to-zero"
 
     question = query_leet(title)
+
+    print(question._data)
+    print(question.id)

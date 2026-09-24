@@ -1,5 +1,5 @@
 ---
-id: 991
+id: 954
 title: Array of Doubled Pairs
 title_slug: array-of-doubled-pairs
 tags: ['Array', 'Hash Table', 'Sorting', 'Greedy']

@@ -8,12 +8,12 @@ created: 2025-07-04
 ---
 [Leetcode 115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences)
 
-Given str s and target str t, find \# of all distinct index-wise subsequence of s that equals t
+Given str s and target str t, find # of all distinct index-wise subsequence of s that equals t
 
 Traverse s from left to right (or reverse)
 e.g. s = babgag, t = bag
-At 1st 'g': needed by prev 'ba', thus \# of 'bag' should increase \# of cur 'ba' (cur 1)
-At 2nd 'g': needed by 'ba' again, \# of 'bag' should increase \# of cur 'ba' (cur 3)
+At 1st 'g': needed by prev 'ba', thus # of 'bag' should increase # of cur 'ba' (cur 1)
+At 2nd 'g': needed by 'ba' again, # of 'bag' should increase # of cur 'ba' (cur 3)
 	=> if cur char is needed by some unfinished prefix t[,x], promote it's count to t[,x+1]
 
 Thus we can use 2D DP array of (s*t), each row is for s[i], derive from only prev row

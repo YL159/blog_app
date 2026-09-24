@@ -1,5 +1,5 @@
 ---
-id: 3437
+id: 3186
 title: Maximum Total Damage With Spell Casting
 title_slug: maximum-total-damage-with-spell-casting
 tags: ['Array', 'Hash Table', 'Dynamic Programming', 'Sorting', 'Binary Search', 'Two Pointers', 'Counting']

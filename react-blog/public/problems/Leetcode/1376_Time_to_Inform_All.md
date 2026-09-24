@@ -1,5 +1,5 @@
 ---
-id: 1492
+id: 1376
 title: Time Needed to Inform All Employees
 title_slug: time-needed-to-inform-all-employees
 tags: ['Depth-First Search', 'Tree', 'Breadth-First Search']

@@ -1,5 +1,5 @@
 ---
-id: 1072
+id: 1019
 title: Next Greater Node In Linked List
 title_slug: next-greater-node-in-linked-list
 tags: ['Array', 'Stack', 'Linked List', 'Monotonic Stack']

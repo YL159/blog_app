@@ -1,5 +1,5 @@
 ---
-id: 1275
+id: 1361
 title: Validate Binary Tree Nodes
 title_slug: validate-binary-tree-nodes
 tags: ['Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory', 'Binary Tree', 'Union-Find']
@@ -13,7 +13,7 @@ Given n nodes and their left/right child array, check if they form 1 valid tree.
 Form an adjacency map of all nodes.
 If parent nodes not exactly 1 more than parent.intersect(children), invalid.
 When BFS on the root, if a child is already visited or appear again in the same layer, invalid.
-After BFS, \# of visited nodes is less than all nodes, invalid.
+After BFS, # of visited nodes is less than all nodes, invalid.
 
 ```python
 from typing import List

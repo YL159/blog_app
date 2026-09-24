@@ -1,5 +1,5 @@
 ---
-id: 1762
+id: 1642
 title: Furthest Building You Can Reach
 title_slug: furthest-building-you-can-reach
 tags: ['Array', 'Greedy', 'Heap (Priority Queue)']

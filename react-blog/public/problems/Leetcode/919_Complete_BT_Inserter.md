@@ -1,5 +1,5 @@
 ---
-id: 955
+id: 919
 title: Complete Binary Tree Inserter
 title_slug: complete-binary-tree-inserter
 tags: ['Tree', 'Breadth-First Search', 'Binary Tree', 'Design']

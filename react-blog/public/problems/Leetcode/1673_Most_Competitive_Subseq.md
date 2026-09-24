@@ -1,5 +1,5 @@
 ---
-id: 1792
+id: 1673
 title: Find the Most Competitive Subsequence
 title_slug: find-the-most-competitive-subsequence
 tags: ['Array', 'Greedy', 'Stack', 'Monotonic Stack']

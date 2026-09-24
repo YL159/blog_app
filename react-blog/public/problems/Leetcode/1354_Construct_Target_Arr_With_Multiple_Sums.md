@@ -1,5 +1,5 @@
 ---
-id: 1479
+id: 1354
 title: Construct Target Array With Multiple Sums
 title_slug: construct-target-array-with-multiple-sums
 tags: ['Array', 'Heap (Priority Queue)']
@@ -10,7 +10,7 @@ created: 2025-11-19
 
 Start from a list arr of 1, for each operation:
 	replace arr[i] with sum(arr), i is free to choose
-Find if possible to construct arr to target array with any \# of operations.
+Find if possible to construct arr to target array with any # of operations.
 
 Observation:
 target number (not 1) showing twice is impossible

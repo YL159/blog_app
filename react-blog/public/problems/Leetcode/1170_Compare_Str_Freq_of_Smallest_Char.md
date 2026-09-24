@@ -1,5 +1,5 @@
 ---
-id: 1273
+id: 1170
 title: Compare Strings by Frequency of the Smallest Character
 title_slug: compare-strings-by-frequency-of-the-smallest-character
 tags: ['Array', 'String', 'Hash Table', 'Sorting', 'Binary Search']
@@ -9,10 +9,10 @@ created: 2024-11-30
 [Leetcode 1170. Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character)
 
 Given a word list, f(word) = freq(min char of word)
-For each query str, find \# of words that f(word) > f(query)
+For each query str, find # of words that f(word) > f(query)
 
 Each word & query str can be precomputed into an int =>
-	Find \# of int in word list, that w_int > q_int
+	Find # of int in word list, that w_int > q_int
 Thus we get the result int list of words list,
 	-> Count & sort distinct int
 	-> Suffix sum array from the sorted distinct int as idx key

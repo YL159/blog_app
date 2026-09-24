@@ -1,5 +1,5 @@
 ---
-id: 2904
+id: 2826
 title: Sorting Three Groups
 title_slug: sorting-three-groups
 tags: ['Array', 'Dynamic Programming', 'Binary Search']
@@ -8,12 +8,12 @@ created: 2025-10-27
 ---
 [Leetcode 2826. Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups)
 
-Given an int array of only 1,2,3s, remove min \# of ints to make the array non-decreasing.
+Given an int array of only 1,2,3s, remove min # of ints to make the array non-decreasing.
 
 To make minimum removal <=> find max length of subseq that is non-decreasing
-	=> \#300 longest increasing subseq
+	=> #300 longest increasing subseq
 
-The O(nlogn) solution of \#300
+The O(nlogn) solution of #300
 Maintaining a sorted element list. For each array int, binary search for its insertion point:
 	if largest, append to list => new length is reachable by some subseq ending with cur int
     else replace the list element => maintaining sorted property while keeping existing length

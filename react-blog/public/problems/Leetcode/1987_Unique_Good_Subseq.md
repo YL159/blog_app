@@ -1,5 +1,5 @@
 ---
-id: 2115
+id: 1987
 title: Number of Unique Good Subsequences
 title_slug: number-of-unique-good-subsequences
 tags: ['String', 'Dynamic Programming']

@@ -8,9 +8,9 @@ created: 2024-04-24
 ---
 [Leetcode 377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)
 
-Find \# of all permutation of \# in nums that sums to target
+Find # of all permutation of # in nums that sums to target
 
-Build a reference hashtable of {target: \# of permutations} from small to big targets
+Build a reference hashtable of {target: # of permutations} from small to big targets
 Binary search for the subarray where each is no greater than current target
 
 ```python

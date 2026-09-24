@@ -1,5 +1,5 @@
 ---
-id: 3633
+id: 3372
 title: Maximize the Number of Target Nodes After Connecting Trees I
 title_slug: maximize-the-number-of-target-nodes-after-connecting-trees-i
 tags: ['Depth-First Search', 'Tree', 'Breadth-First Search']
@@ -9,13 +9,13 @@ created: 2024-12-12
 [Leetcode 3372. Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i)
 
 Given 2 trees represented by edge connections, nodes label 0 ~ n(m)
-If to connect 2 trees, find the max \# of target nodes within a result tree:
+If to connect 2 trees, find the max # of target nodes within a result tree:
 	within k edge range of every node in tree1.
 For each query, reconnect these 2 trees as needed.
 
 For each query node in tree1, the nodes within its k edge range is fixed.
 To maximize the target nodes is to maximize those from tree2, within range k-1
-=> In tree2, there is a global maximal \# of nodes within k-1 range of each node.
+=> In tree2, there is a global maximal # of nodes within k-1 range of each node.
 => res[i] = count(tree1[i]'s k range targets) + tree2's k-1 range max
 
 ```python

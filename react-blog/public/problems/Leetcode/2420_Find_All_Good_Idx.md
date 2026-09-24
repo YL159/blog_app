@@ -1,5 +1,5 @@
 ---
-id: 2504
+id: 2420
 title: Find All Good Indices
 title_slug: find-all-good-indices
 tags: ['Array', 'Dynamic Programming', 'Prefix Sum']

@@ -8,7 +8,7 @@ created: 2024-07-25
 ---
 [Leetcode 518. Coin Change II](https://leetcode.com/problems/coin-change-ii)
 
-Given target amount and a list of coin values, determine \# of coin combinations that sum to amount.
+Given target amount and a list of coin values, determine # of coin combinations that sum to amount.
 
 DP on calculated coins and their possible sums.
 for coin c:

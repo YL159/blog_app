@@ -1,5 +1,5 @@
 ---
-id: 3629
+id: 3335
 title: Total Characters in String After Transformations I
 title_slug: total-characters-in-string-after-transformations-i
 tags: ['String', 'Hash Table', 'Math', 'Dynamic Programming', 'Counting']

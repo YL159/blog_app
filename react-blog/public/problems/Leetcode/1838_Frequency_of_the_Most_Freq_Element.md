@@ -1,5 +1,5 @@
 ---
-id: 1966
+id: 1838
 title: Frequency of the Most Frequent Element
 title_slug: frequency-of-the-most-frequent-element
 tags: ['Array', 'Sorting', 'Greedy', 'Binary Search', 'Prefix Sum', 'Sliding Window']

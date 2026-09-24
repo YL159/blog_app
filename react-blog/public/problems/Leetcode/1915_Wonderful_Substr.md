@@ -1,5 +1,5 @@
 ---
-id: 2044
+id: 1915
 title: Number of Wonderful Substrings
 title_slug: number-of-wonderful-substrings
 tags: ['String', 'Hash Table', 'Bit Manipulation', 'Prefix Sum']
@@ -8,7 +8,7 @@ created: 2024-11-28
 ---
 [Leetcode 1915. Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings)
 
-Given a string of only a-j, find \# of substr has at most 1 letter appear odd times.
+Given a string of only a-j, find # of substr has at most 1 letter appear odd times.
 Same substr at different idx are different.
 
 For any substr, we can use prefix str for memoed check.

@@ -1,5 +1,5 @@
 ---
-id: 1715
+id: 1593
 title: Split a String Into the Max Number of Unique Substrings
 title_slug: split-a-string-into-the-max-number-of-unique-substrings
 tags: ['String', 'Hash Table', 'Backtracking']
@@ -20,7 +20,7 @@ Use backtrack on current prefix split, check if any tail split is possible, and 
 This is n-ary tree traversal. Time is of small-o o(n!)
 
 A good pruning is at `if cur in seen or len(s) - j < sub: continue`
-	If \# of remaining characters in s[j:] < current opt split
+	If # of remaining characters in s[j:] < current opt split
 	(s[i:] split <= current optimum, including cur = s[i:j]),
 		then any tail split won't contribute to an increase of opt split, thus skip
 This helps pruning a lot of near-leaf nodes, which account for majority of n-ary tree nodes.

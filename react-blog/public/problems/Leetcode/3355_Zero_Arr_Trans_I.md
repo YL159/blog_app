@@ -1,5 +1,5 @@
 ---
-id: 3639
+id: 3355
 title: Zero Array Transformation I
 title_slug: zero-array-transformation-i
 tags: ['Array', 'Prefix Sum']

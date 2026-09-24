@@ -1,5 +1,5 @@
 ---
-id: 2626
+id: 2537
 title: Count the Number of Good Subarrays
 title_slug: count-the-number-of-good-subarrays
 tags: ['Array', 'Hash Table', 'Sliding Window']
@@ -8,20 +8,20 @@ created: 2024-12-05
 ---
 [Leetcode 2537. Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays)
 
-Given an int arr and int k >= 1, count \# of good subarr
+Given an int arr and int k >= 1, count # of good subarr
 A good subarr contains >= k pairs of same numbers. [4,3,5,4,3] has 2 pairs
 
 Method 1
-First idea is we want to keep a prefix record of \# of pairs for prefix [0, i] as pref[i],
+First idea is we want to keep a prefix record of # of pairs for prefix [0, i] as pref[i],
 then use 2 pointers to check if a subarr has >= k pairs.
-But this requires another record of \# of pairs broken for suffix [j, len(nums)] as suffix[j]
-Combining above pref & suff arr, we can indeed find \# of valid pairs in [j, i] range
+But this requires another record of # of pairs broken for suffix [j, len(nums)] as suffix[j]
+Combining above pref & suff arr, we can indeed find # of valid pairs in [j, i] range
 
 Method 2
-As hinted in leetcode, the above approach can be simplified as keeping a running count of \#:
+As hinted in leetcode, the above approach can be simplified as keeping a running count of #:
 	Pairs will increase count[nums[r]] for current nums[r]
 	Pairs will decrease count[nums[l]] for current nums[l]
-Thus check pair ? k to add valid \# of subarr to result.
+Thus check pair ? k to add valid # of subarr to result.
 
 ```python
 from typing import List

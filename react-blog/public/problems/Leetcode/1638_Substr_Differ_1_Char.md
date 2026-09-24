@@ -1,5 +1,5 @@
 ---
-id: 1743
+id: 1638
 title: Count Substrings That Differ by One Character
 title_slug: count-substrings-that-differ-by-one-character
 tags: ['String', 'Hash Table', 'Dynamic Programming', 'Enumeration']
@@ -8,7 +8,7 @@ created: 2025-01-23
 ---
 [Leetcode 1638. Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character)
 
-Given string s and t, find \# of ways to choose some non-empty substr s and t:
+Given string s and t, find # of ways to choose some non-empty substr s and t:
     substr are of equal length
     differ by exactly 1 char
 

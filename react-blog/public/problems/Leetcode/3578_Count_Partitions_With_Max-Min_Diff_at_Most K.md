@@ -1,5 +1,5 @@
 ---
-id: 3835
+id: 3578
 title: Count Partitions With Max-Min Difference at Most K
 title_slug: count-partitions-with-max-min-difference-at-most-k
 tags: ['Array', 'Dynamic Programming', 'Prefix Sum', 'Sliding Window', 'Queue', 'Monotonic Queue']
@@ -17,7 +17,7 @@ Here use incremental DP.
 And the corresponding left limit for subarr ending at index i, always increases as i increases.
 
 DP[i] = count of valid partions of subarr nums[0, i]. Result is DP[-1]
-For each new \#, check how far to the left the subarr ending at this \# can reach
+For each new #, check how far to the left the subarr ending at this # can reach
 and reuse results on the way to the left limit
     => Time complexity O(n^2) checking left limit for each ending idx
     => Space complexity O(n) keeping DP array for reuse

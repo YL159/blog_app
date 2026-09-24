@@ -1,5 +1,5 @@
 ---
-id: 2549
+id: 2454
 title: Next Greater Element IV
 title_slug: next-greater-element-iv
 tags: ['Array', 'Sorting', 'Binary Search', 'Heap (Priority Queue)', 'Stack', 'Monotonic Stack']

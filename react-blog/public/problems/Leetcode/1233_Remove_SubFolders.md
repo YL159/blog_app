@@ -1,5 +1,5 @@
 ---
-id: 1350
+id: 1233
 title: Remove Sub-Folders from the Filesystem
 title_slug: remove-sub-folders-from-the-filesystem
 tags: ['Array', 'String', 'Depth-First Search', 'Trie']

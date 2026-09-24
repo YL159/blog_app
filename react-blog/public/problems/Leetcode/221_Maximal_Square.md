@@ -8,7 +8,7 @@ created: 2024-08-19
 ---
 [Leetcode 221. Maximal Square](https://leetcode.com/problems/maximal-square)
 
-In matrix of 0/1, find the largest square containing only 1. Return \# of 1s inside.
+In matrix of 0/1, find the largest square containing only 1. Return # of 1s inside.
 
 1. matrix prefix rectangle sum and find squares, O(n^3)
 For each [i,j], find if the sum of a square bottom-right at [i,j], is square of length.

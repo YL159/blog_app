@@ -1,5 +1,5 @@
 ---
-id: 2022
+id: 1911
 title: Maximum Alternating Subsequence Sum
 title_slug: maximum-alternating-subsequence-sum
 tags: ['Array', 'Dynamic Programming']
@@ -10,8 +10,8 @@ created: 2024-08-07
 
 Find a subsequence of given array, that its sum(even-index) - sum(odd-index) is maximal.
 
-Choose local peaks for even indexed \#, and subsequent valleys for odds.
-Since all \# are positive, subseq length must be odd. i.e. ends with a peak.
+Choose local peaks for even indexed #, and subsequent valleys for odds.
+Since all # are positive, subseq length must be odd. i.e. ends with a peak.
 
 ```python
 from typing import List

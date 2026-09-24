@@ -1,5 +1,5 @@
 ---
-id: 2374
+id: 2289
 title: Steps to Make Array Non-decreasing
 title_slug: steps-to-make-array-non-decreasing
 tags: ['Array', 'Dynamic Programming', 'Simulation', 'Stack', 'Linked List', 'Monotonic Stack']

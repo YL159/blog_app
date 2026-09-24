@@ -1,5 +1,5 @@
 ---
-id: 1081
+id: 1024
 title: Video Stitching
 title_slug: video-stitching
 tags: ['Array', 'Dynamic Programming', 'Greedy']
@@ -8,12 +8,12 @@ created: 2024-08-10
 ---
 [Leetcode 1024. Video Stitching](https://leetcode.com/problems/video-stitching)
 
-Given the (start, end) series of clips, find the min \# of clips that can cover [0, time] interval
+Given the (start, end) series of clips, find the min # of clips that can cover [0, time] interval
 
 Here provides a state machine greedy solution.
 Decides a current holding end time, check how far away other clips can make while 'hooking' up with current clip
 Implicitly select the hooked clip that provides the farthest end.
-And set this end as new holding position, to reduce total \# of clips to be selected.
+And set this end as new holding position, to reduce total # of clips to be selected.
 
 ```python
 from typing import List

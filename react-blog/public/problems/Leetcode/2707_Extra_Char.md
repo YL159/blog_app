@@ -1,5 +1,5 @@
 ---
-id: 2755
+id: 2707
 title: Extra Characters in a String
 title_slug: extra-characters-in-a-string
 tags: ['Array', 'String', 'Hash Table', 'Dynamic Programming', 'Trie']

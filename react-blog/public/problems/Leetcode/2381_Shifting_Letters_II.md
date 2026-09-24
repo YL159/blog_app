@@ -1,5 +1,5 @@
 ---
-id: 2465
+id: 2381
 title: Shifting Letters II
 title_slug: shifting-letters-ii
 tags: ['Array', 'String', 'Prefix Sum']

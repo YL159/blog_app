@@ -1,5 +1,5 @@
 ---
-id: 1554
+id: 1443
 title: Minimum Time to Collect All Apples in a Tree
 title_slug: minimum-time-to-collect-all-apples-in-a-tree
 tags: ['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search']

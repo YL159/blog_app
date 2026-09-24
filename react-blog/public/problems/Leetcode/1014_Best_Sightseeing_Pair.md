@@ -1,5 +1,5 @@
 ---
-id: 1063
+id: 1014
 title: Best Sightseeing Pair
 title_slug: best-sightseeing-pair
 tags: ['Array', 'Dynamic Programming']

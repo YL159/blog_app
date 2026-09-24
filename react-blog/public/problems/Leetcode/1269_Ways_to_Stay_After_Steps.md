@@ -1,5 +1,5 @@
 ---
-id: 1398
+id: 1269
 title: Number of Ways to Stay in the Same Place After Some Steps
 title_slug: number-of-ways-to-stay-in-the-same-place-after-some-steps
 tags: ['Dynamic Programming']

@@ -1,5 +1,5 @@
 ---
-id: 2753
+id: 2654
 title: Minimum Number of Operations to Make All Array Elements Equal to 1
 title_slug: minimum-number-of-operations-to-make-all-array-elements-equal-to-1
 tags: ['Array', 'Math', 'Number Theory']
@@ -10,7 +10,7 @@ created: 2025-11-16
 
 Given an array of positive ints, with 1 operation:
 	choose a pair of neighboring ints, replace one of them with their GCD
-Find min \# of operations to make the arr all 1. If impossible, return -1
+Find min # of operations to make the arr all 1. If impossible, return -1
 
 Observation:
 1. the neighbor of 1 takes one op to be 1

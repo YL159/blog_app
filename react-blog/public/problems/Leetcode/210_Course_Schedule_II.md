@@ -8,7 +8,7 @@ created: 2024-09-22
 ---
 [Leetcode 210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii)
 
-Given a list of rerequisites, list([course, prereq]), \# of all courses.
+Given a list of rerequisites, list([course, prereq]), # of all courses.
 Find a valid study sequence of these courses.
 
 Gather list of prereq of each course, and list of unlocks of each course.

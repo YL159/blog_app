@@ -1,5 +1,5 @@
 ---
-id: 1516
+id: 1415
 title: The k-th Lexicographical String of All Happy Strings of Length n
 title_slug: the-k-th-lexicographical-string-of-all-happy-strings-of-length-n
 tags: ['String', 'Backtracking']

@@ -1,5 +1,5 @@
 ---
-id: 1669
+id: 1547
 title: Minimum Cost to Cut a Stick
 title_slug: minimum-cost-to-cut-a-stick
 tags: ['Array', 'Dynamic Programming', 'Sorting']

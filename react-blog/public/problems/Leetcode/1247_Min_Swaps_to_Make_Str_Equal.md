@@ -1,5 +1,5 @@
 ---
-id: 1369
+id: 1247
 title: Minimum Swaps to Make Strings Equal
 title_slug: minimum-swaps-to-make-strings-equal
 tags: ['String', 'Math', 'Greedy']
@@ -10,7 +10,7 @@ created: 2025-01-23
 
 Given 2 equal length string of only 'x' and 'y'
 1 operation: swap a char from str1 with some char from str2
-Find min \# of operations to make them equal, otherwise return -1
+Find min # of operations to make them equal, otherwise return -1
 
 As example suggests,
 	case 1, 'xx' 'yy' takes 1 op, so as 'yy' 'xx'

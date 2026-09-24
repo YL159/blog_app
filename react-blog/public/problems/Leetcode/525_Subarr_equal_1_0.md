@@ -8,10 +8,10 @@ created: 2024-09-22
 ---
 [Leetcode 525. Contiguous Array](https://leetcode.com/problems/contiguous-array)
 
-Given an array of 0-1s, find the longest subarray with equal \# of 0-1s
+Given an array of 0-1s, find the longest subarray with equal # of 0-1s
 
 Idea is each 0 cancels 1 of previous 1 counts.
-When this count shows a \# seen before, we know the subarr in between must have equal \# of 0-1s
+When this count shows a # seen before, we know the subarr in between must have equal # of 0-1s
 
 ```python
 from typing import List

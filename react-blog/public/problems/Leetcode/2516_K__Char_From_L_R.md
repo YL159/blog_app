@@ -1,5 +1,5 @@
 ---
-id: 2599
+id: 2516
 title: Take K of Each Character From Left and Right
 title_slug: take-k-of-each-character-from-left-and-right
 tags: ['String', 'Hash Table', 'Sliding Window']

@@ -1,5 +1,5 @@
 ---
-id: 1478
+id: 1353
 title: Maximum Number of Events That Can Be Attended
 title_slug: maximum-number-of-events-that-can-be-attended
 tags: ['Array', 'Sorting', 'Greedy', 'Heap (Priority Queue)']

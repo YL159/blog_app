@@ -1,5 +1,5 @@
 ---
-id: 1901
+id: 1775
 title: Equal Sum Arrays With Minimum Number of Operations
 title_slug: equal-sum-arrays-with-minimum-number-of-operations
 tags: ['Array', 'Hash Table', 'Greedy', 'Counting']
@@ -8,8 +8,8 @@ created: 2024-12-04
 ---
 [Leetcode 1775. Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations)
 
-Given 2 array of int from [1, 6], find min \# of operations to make their sum equal.
-1 Operation: change 1 \# of 1 of the arrs to any \# in [1, 6]
+Given 2 array of int from [1, 6], find min # of operations to make their sum equal.
+1 Operation: change 1 # of 1 of the arrs to any # in [1, 6]
 
 For both lists, greedily increase/decrease max possible change (1->6 or 6->1 is 5, if available):
 	depending on available largest changes, either:

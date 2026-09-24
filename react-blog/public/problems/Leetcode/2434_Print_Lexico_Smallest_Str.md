@@ -1,5 +1,5 @@
 ---
-id: 2520
+id: 2434
 title: Using a Robot to Print the Lexicographically Smallest String
 title_slug: using-a-robot-to-print-the-lexicographically-smallest-string
 tags: ['String', 'Hash Table', 'Greedy', 'Stack']

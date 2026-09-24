@@ -1,5 +1,5 @@
 ---
-id: 1111
+id: 1039
 title: Minimum Score Triangulation of Polygon
 title_slug: minimum-score-triangulation-of-polygon
 tags: ['Array', 'Dynamic Programming']

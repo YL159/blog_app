@@ -1,5 +1,5 @@
 ---
-id: 1628
+id: 1504
 title: Count Submatrices With All Ones
 title_slug: count-submatrices-with-all-ones
 tags: ['Array', 'Dynamic Programming', 'Matrix', 'Stack', 'Monotonic Stack']

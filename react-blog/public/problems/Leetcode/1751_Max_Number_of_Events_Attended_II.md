@@ -1,5 +1,5 @@
 ---
-id: 1851
+id: 1751
 title: Maximum Number of Events That Can Be Attended II
 title_slug: maximum-number-of-events-that-can-be-attended-ii
 tags: ['Array', 'Dynamic Programming', 'Sorting', 'Binary Search']
@@ -8,7 +8,7 @@ created: 2025-07-08
 ---
 [Leetcode 1751. Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii)
 
-Similar setting as \#1353, but:
+Similar setting as #1353, but:
 	Meeting attendance is exclusive, non-overlapping.
 	Each meeting yields a positive value if attended.
 Find the max total value if attending max k meetings.

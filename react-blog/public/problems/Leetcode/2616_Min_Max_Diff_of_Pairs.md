@@ -1,5 +1,5 @@
 ---
-id: 2720
+id: 2616
 title: Minimize the Maximum Difference of Pairs
 title_slug: minimize-the-maximum-difference-of-pairs
 tags: ['Array', 'Dynamic Programming', 'Sorting', 'Greedy', 'Binary Search']
@@ -8,7 +8,7 @@ created: 2025-06-12
 ---
 [Leetcode 2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs)
 
-From given nums array, choose p pairs of non-overlapping indices to make \# pair.
+From given nums array, choose p pairs of non-overlapping indices to make # pair.
 Of all possible choices of p pair numbers, find min(max(abs(pair difference)))
 
 Observation & deduction:

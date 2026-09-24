@@ -1,5 +1,5 @@
 ---
-id: 4027
+id: 3686
 title: Number of Stable Subsequences
 title_slug: number-of-stable-subsequences
 tags: ['Array', 'Dynamic Programming']
@@ -8,7 +8,7 @@ created: 2025-09-16
 ---
 [Leetcode 3686. Number of Stable Subsequences](https://leetcode.com/problems/number-of-stable-subsequences)
 
-Given a list of ints, find \# of subsequences where no 3 consecutive numbers having the same parity.
+Given a list of ints, find # of subsequences where no 3 consecutive numbers having the same parity.
 
 For subsequence problems, consider incremental method.
 
@@ -17,7 +17,7 @@ With each new int from the array:
 				=> previous subseqs have nothing OR 1 tail evens OR 2 tail evens
 			2. adds to previous subseqs with 1 odd tail -> becomes 2-odd tail
 	if even, similar approach
-Thus we should keep track of the \# of subseqs of 1-odd tail, 2-odd tail, 1-even tail, 2-even tail
+Thus we should keep track of the # of subseqs of 1-odd tail, 2-odd tail, 1-even tail, 2-even tail
 For each new item, update each count according to their previous counts.
 
 Even though theoretically same time O(n) without mod during the process

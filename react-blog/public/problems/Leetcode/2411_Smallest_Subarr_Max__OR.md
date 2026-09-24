@@ -1,5 +1,5 @@
 ---
-id: 2498
+id: 2411
 title: Smallest Subarrays With Maximum Bitwise OR
 title_slug: smallest-subarrays-with-maximum-bitwise-or
 tags: ['Array', 'Binary Search', 'Bit Manipulation', 'Sliding Window']
@@ -12,8 +12,8 @@ Given an array of non-negative ints, for each starting index i:
 Find length of the smallest subarr starting at i, and has max possible element bitwise OR value.
 
 Observation:
-1. arr[i:] will definitely has max OR, then reduce tail \# untill subarr OR value changes.
-	=> \# at right edge must have a unique set bit
+1. arr[i:] will definitely has max OR, then reduce tail # untill subarr OR value changes.
+	=> # at right edge must have a unique set bit
 2. when move to i+1, the max OR may or may not change.
 	=> bit array [111, 100, 11], max OR for arr[0:] = max OR for arr[1:]
 
@@ -21,13 +21,13 @@ Method 1: count set bit frequency + 2-pointer
 From observation, window right edge must has a unique bit, while left edge arr[i] doesn't need to have it.
 When starting at arr[i+1]:
 	if arr[i:] OR value = arr[i+1:] OR value => arr[i] doesn't have unique set bit, right edge remains the same
-    if OR value not the same => arr[i] and right edge \# both have different unique set bit
+    if OR value not the same => arr[i] and right edge # both have different unique set bit
 		=> right edge shouldn't move left because of unique set bit
         => possibly move right to reach target OR value
 Thus the right pointer only goes right, time O(n*log(max))
 Steps:
 1. from right to left, find target max OR for each arr[i:], O(n*log(max))
-2. maintain set bit count for this max OR for each start i, initially count all \#
+2. maintain set bit count for this max OR for each start i, initially count all #
 3. remove bit count from right until the total set bits changes
 4. remove arr[i] set bit count, increment i
 5. check if current set bit same as target, otherwise enlarge window untill target bits are met
@@ -35,7 +35,7 @@ Time O(nlog(max)), Space O(n+log(max))
 
 
 Method 2, backward populating, 1 pass. suggested by hints
-Each set bit of a max OR value comes from some earliest \# to the right
+Each set bit of a max OR value comes from some earliest # to the right
 e.g. suppose subarr from idx i has max OR 1011, find 1st appearance of each set bit to the right of i
 thus the min subarr length is max(set bit 1st appearance idx)
 	=> traverse from right to left, for each idx i, keep a dictionary of {set bit position: 1st appearance idx to i's right}

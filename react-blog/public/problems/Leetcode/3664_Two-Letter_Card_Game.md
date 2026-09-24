@@ -1,5 +1,5 @@
 ---
-id: 3877
+id: 3664
 title: Two-Letter Card Game
 title_slug: two-letter-card-game
 tags: ['Array', 'String', 'Hash Table', 'Counting', 'Enumeration']
@@ -9,7 +9,7 @@ created: 2025-10-12
 [Leetcode 3664. Two-Letter Card Game](https://leetcode.com/problems/two-letter-card-game)
 
 Given a deck of cards, each displays 2 lowercase english letter, and a given letter x
-Find max \# of card pairs to take so that:
+Find max # of card pairs to take so that:
 	Each card is removed once taken
     Both cards in a pair have letter x, and differ exactly 1 position
 

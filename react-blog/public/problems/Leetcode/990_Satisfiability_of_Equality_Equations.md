@@ -1,5 +1,5 @@
 ---
-id: 1032
+id: 990
 title: Satisfiability of Equality Equations
 title_slug: satisfiability-of-equality-equations
 tags: ['Array', 'String', 'Graph Theory', 'Union-Find']

@@ -1,5 +1,5 @@
 ---
-id: 1168
+id: 1089
 title: Duplicate Zeros
 title_slug: duplicate-zeros
 tags: ['Array', 'Two Pointers']

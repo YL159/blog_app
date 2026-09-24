@@ -1,5 +1,5 @@
 ---
-id: 1304
+id: 1405
 title: Longest Happy String
 title_slug: longest-happy-string
 tags: ['String', 'Greedy', 'Heap (Priority Queue)']

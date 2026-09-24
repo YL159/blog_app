@@ -1,5 +1,5 @@
 ---
-id: 1397
+id: 1268
 title: Search Suggestions System
 title_slug: search-suggestions-system
 tags: ['Array', 'String', 'Sorting', 'Binary Search', 'Heap (Priority Queue)', 'Trie']
