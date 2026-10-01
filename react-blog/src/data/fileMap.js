@@ -842,7 +842,7 @@ export default {
                             "path": "/problems/Leetcode/delete-and-earn"
                         },
                         {
-                            "id": 759,
+                            "id": 757,
                             "title": "Set Intersection Size At Least Two",
                             "title_slug": "set-intersection-size-at-least-two",
                             "tags": "['Array', 'Sorting', 'Greedy']",
@@ -852,7 +852,7 @@ export default {
                             "path": "/problems/Leetcode/set-intersection-size-at-least-two"
                         },
                         {
-                            "id": 768,
+                            "id": 763,
                             "title": "Partition Labels",
                             "title_slug": "partition-labels",
                             "tags": "['String', 'Hash Table', 'Greedy', 'Two Pointers']",
@@ -862,7 +862,7 @@ export default {
                             "path": "/problems/Leetcode/partition-labels"
                         },
                         {
-                            "id": 794,
+                            "id": 778,
                             "title": "Swim in Rising Water",
                             "title_slug": "swim-in-rising-water",
                             "tags": "['Array', 'Depth-First Search', 'Binary Search', 'Matrix', 'Breadth-First Search', 'Heap (Priority Queue)', 'Union-Find']",
@@ -872,7 +872,7 @@ export default {
                             "path": "/problems/Leetcode/swim-in-rising-water"
                         },
                         {
-                            "id": 806,
+                            "id": 790,
                             "title": "Domino and Tromino Tiling",
                             "title_slug": "domino-and-tromino-tiling",
                             "tags": "['Dynamic Programming']",
@@ -882,7 +882,7 @@ export default {
                             "path": "/problems/Leetcode/domino-and-tromino-tiling"
                         },
                         {
-                            "id": 808,
+                            "id": 792,
                             "title": "Number of Matching Subsequences",
                             "title_slug": "number-of-matching-subsequences",
                             "tags": "['Array', 'String', 'Hash Table', 'Dynamic Programming', 'Sorting', 'Binary Search', 'Trie']",
@@ -892,7 +892,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-matching-subsequences"
                         },
                         {
-                            "id": 820,
+                            "id": 802,
                             "title": "Find Eventual Safe States",
                             "title_slug": "find-eventual-safe-states",
                             "tags": "['Depth-First Search', 'Breadth-First Search', 'Graph Theory', 'Topological Sort']",
@@ -902,7 +902,7 @@ export default {
                             "path": "/problems/Leetcode/find-eventual-safe-states"
                         },
                         {
-                            "id": 826,
+                            "id": 808,
                             "title": "Soup Servings",
                             "title_slug": "soup-servings",
                             "tags": "['Math', 'Dynamic Programming', 'Probability and Statistics']",
@@ -912,7 +912,7 @@ export default {
                             "path": "/problems/Leetcode/soup-servings"
                         },
                         {
-                            "id": 831,
+                            "id": 813,
                             "title": "Largest Sum of Averages",
                             "title_slug": "largest-sum-of-averages",
                             "tags": "['Array', 'Dynamic Programming', 'Prefix Sum']",
@@ -922,7 +922,7 @@ export default {
                             "path": "/problems/Leetcode/largest-sum-of-averages"
                         },
                         {
-                            "id": 854,
+                            "id": 827,
                             "title": "Making A Large Island",
                             "title_slug": "making-a-large-island",
                             "tags": "['Array', 'Depth-First Search', 'Matrix', 'Breadth-First Search', 'Union-Find']",
@@ -932,7 +932,7 @@ export default {
                             "path": "/problems/Leetcode/making-a-large-island"
                         },
                         {
-                            "id": 863,
+                            "id": 834,
                             "title": "Sum of Distances in Tree",
                             "title_slug": "sum-of-distances-in-tree",
                             "tags": "['Dynamic Programming', 'Depth-First Search', 'Tree', 'Graph Theory']",
@@ -942,7 +942,7 @@ export default {
                             "path": "/problems/Leetcode/sum-of-distances-in-tree"
                         },
                         {
-                            "id": 868,
+                            "id": 838,
                             "title": "Push Dominoes",
                             "title_slug": "push-dominoes",
                             "tags": "['String', 'Dynamic Programming', 'Two Pointers']",
@@ -952,7 +952,7 @@ export default {
                             "path": "/problems/Leetcode/push-dominoes"
                         },
                         {
-                            "id": 881,
+                            "id": 851,
                             "title": "Loud and Rich",
                             "title_slug": "loud-and-rich",
                             "tags": "['Array', 'Depth-First Search', 'Graph Theory', 'Topological Sort']",
@@ -962,7 +962,7 @@ export default {
                             "path": "/problems/Leetcode/loud-and-rich"
                         },
                         {
-                            "id": 892,
+                            "id": 862,
                             "title": "Shortest Subarray with Sum at Least K",
                             "title_slug": "shortest-subarray-with-sum-at-least-k",
                             "tags": "['Array', 'Binary Search', 'Prefix Sum', 'Heap (Priority Queue)', 'Sliding Window', 'Queue', 'Monotonic Queue']",
@@ -972,7 +972,7 @@ export default {
                             "path": "/problems/Leetcode/shortest-subarray-with-sum-at-least-k"
                         },
                         {
-                            "id": 893,
+                            "id": 863,
                             "title": "All Nodes Distance K in Binary Tree",
                             "title_slug": "all-nodes-distance-k-in-binary-tree",
                             "tags": "['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Binary Tree']",
@@ -982,7 +982,7 @@ export default {
                             "path": "/problems/Leetcode/all-nodes-distance-k-in-binary-tree"
                         },
                         {
-                            "id": 905,
+                            "id": 873,
                             "title": "Length of Longest Fibonacci Subsequence",
                             "title_slug": "length-of-longest-fibonacci-subsequence",
                             "tags": "['Array', 'Hash Table', 'Dynamic Programming']",
@@ -992,7 +992,7 @@ export default {
                             "path": "/problems/Leetcode/length-of-longest-fibonacci-subsequence"
                         },
                         {
-                            "id": 940,
+                            "id": 904,
                             "title": "Fruit Into Baskets",
                             "title_slug": "fruit-into-baskets",
                             "tags": "['Array', 'Hash Table', 'Sliding Window']",
@@ -1002,7 +1002,7 @@ export default {
                             "path": "/problems/Leetcode/fruit-into-baskets"
                         },
                         {
-                            "id": 943,
+                            "id": 907,
                             "title": "Sum of Subarray Minimums",
                             "title_slug": "sum-of-subarray-minimums",
                             "tags": "['Array', 'Dynamic Programming', 'Stack', 'Monotonic Stack']",
@@ -1012,7 +1012,7 @@ export default {
                             "path": "/problems/Leetcode/sum-of-subarray-minimums"
                         },
                         {
-                            "id": 955,
+                            "id": 919,
                             "title": "Complete Binary Tree Inserter",
                             "title_slug": "complete-binary-tree-inserter",
                             "tags": "['Tree', 'Breadth-First Search', 'Binary Tree', 'Design']",
@@ -1022,7 +1022,7 @@ export default {
                             "path": "/problems/Leetcode/complete-binary-tree-inserter"
                         },
                         {
-                            "id": 966,
+                            "id": 930,
                             "title": "Binary Subarrays With Sum",
                             "title_slug": "binary-subarrays-with-sum",
                             "tags": "['Array', 'Hash Table', 'Prefix Sum', 'Sliding Window']",
@@ -1032,7 +1032,7 @@ export default {
                             "path": "/problems/Leetcode/binary-subarrays-with-sum"
                         },
                         {
-                            "id": 967,
+                            "id": 931,
                             "title": "Minimum Falling Path Sum",
                             "title_slug": "minimum-falling-path-sum",
                             "tags": "['Array', 'Dynamic Programming', 'Matrix']",
@@ -1042,7 +1042,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-falling-path-sum"
                         },
                         {
-                            "id": 971,
+                            "id": 934,
                             "title": "Shortest Bridge",
                             "title_slug": "shortest-bridge",
                             "tags": "['Array', 'Depth-First Search', 'Matrix', 'Breadth-First Search']",
@@ -1052,7 +1052,7 @@ export default {
                             "path": "/problems/Leetcode/shortest-bridge"
                         },
                         {
-                            "id": 977,
+                            "id": 940,
                             "title": "Distinct Subsequences II",
                             "title_slug": "distinct-subsequences-ii",
                             "tags": "['String', 'Dynamic Programming']",
@@ -1062,7 +1062,7 @@ export default {
                             "path": "/problems/Leetcode/distinct-subsequences-ii"
                         },
                         {
-                            "id": 984,
+                            "id": 947,
                             "title": "Most Stones Removed with Same Row or Column",
                             "title_slug": "most-stones-removed-with-same-row-or-column",
                             "tags": "['Hash Table', 'Depth-First Search', 'Graph Theory', 'Union-Find']",
@@ -1072,7 +1072,7 @@ export default {
                             "path": "/problems/Leetcode/most-stones-removed-with-same-row-or-column"
                         },
                         {
-                            "id": 987,
+                            "id": 950,
                             "title": "Reveal Cards In Increasing Order",
                             "title_slug": "reveal-cards-in-increasing-order",
                             "tags": "['Array', 'Sorting', 'Simulation', 'Queue']",
@@ -1082,7 +1082,7 @@ export default {
                             "path": "/problems/Leetcode/reveal-cards-in-increasing-order"
                         },
                         {
-                            "id": 988,
+                            "id": 951,
                             "title": "Flip Equivalent Binary Trees",
                             "title_slug": "flip-equivalent-binary-trees",
                             "tags": "['Depth-First Search', 'Tree', 'Binary Tree']",
@@ -1092,7 +1092,7 @@ export default {
                             "path": "/problems/Leetcode/flip-equivalent-binary-trees"
                         },
                         {
-                            "id": 991,
+                            "id": 954,
                             "title": "Array of Doubled Pairs",
                             "title_slug": "array-of-doubled-pairs",
                             "tags": "['Array', 'Hash Table', 'Sorting', 'Greedy']",
@@ -1102,7 +1102,7 @@ export default {
                             "path": "/problems/Leetcode/array-of-doubled-pairs"
                         },
                         {
-                            "id": 1007,
+                            "id": 967,
                             "title": "Numbers With Same Consecutive Differences",
                             "title_slug": "numbers-with-same-consecutive-differences",
                             "tags": "['Breadth-First Search', 'Backtracking']",
@@ -1112,7 +1112,7 @@ export default {
                             "path": "/problems/Leetcode/numbers-with-same-consecutive-differences"
                         },
                         {
-                            "id": 1011,
+                            "id": 971,
                             "title": "Flip Binary Tree To Match Preorder Traversal",
                             "title_slug": "flip-binary-tree-to-match-preorder-traversal",
                             "tags": "['Depth-First Search', 'Tree', 'Binary Tree']",
@@ -1122,7 +1122,7 @@ export default {
                             "path": "/problems/Leetcode/flip-binary-tree-to-match-preorder-traversal"
                         },
                         {
-                            "id": 1021,
+                            "id": 979,
                             "title": "Distribute Coins in Binary Tree",
                             "title_slug": "distribute-coins-in-binary-tree",
                             "tags": "['Depth-First Search', 'Tree', 'Binary Tree']",
@@ -1132,7 +1132,7 @@ export default {
                             "path": "/problems/Leetcode/distribute-coins-in-binary-tree"
                         },
                         {
-                            "id": 1025,
+                            "id": 983,
                             "title": "Minimum Cost For Tickets",
                             "title_slug": "minimum-cost-for-tickets",
                             "tags": "['Array', 'Dynamic Programming']",
@@ -1142,7 +1142,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-cost-for-tickets"
                         },
                         {
-                            "id": 1029,
+                            "id": 987,
                             "title": "Vertical Order Traversal of a Binary Tree",
                             "title_slug": "vertical-order-traversal-of-a-binary-tree",
                             "tags": "['Hash Table', 'Sorting', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Binary Tree']",
@@ -1152,7 +1152,7 @@ export default {
                             "path": "/problems/Leetcode/vertical-order-traversal-of-a-binary-tree"
                         },
                         {
-                            "id": 1032,
+                            "id": 990,
                             "title": "Satisfiability of Equality Equations",
                             "title_slug": "satisfiability-of-equality-equations",
                             "tags": "['Array', 'String', 'Graph Theory', 'Union-Find']",
@@ -1162,7 +1162,7 @@ export default {
                             "path": "/problems/Leetcode/satisfiability-of-equality-equations"
                         },
                         {
-                            "id": 1034,
+                            "id": 992,
                             "title": "Subarrays with K Different Integers",
                             "title_slug": "subarrays-with-k-different-integers",
                             "tags": "['Array', 'Hash Table', 'Counting', 'Sliding Window']",
@@ -1172,7 +1172,7 @@ export default {
                             "path": "/problems/Leetcode/subarrays-with-k-different-integers"
                         },
                         {
-                            "id": 1037,
+                            "id": 995,
                             "title": "Minimum Number of K Consecutive Bit Flips",
                             "title_slug": "minimum-number-of-k-consecutive-bit-flips",
                             "tags": "['Array', 'Bit Manipulation', 'Prefix Sum', 'Sliding Window', 'Queue']",
@@ -1182,7 +1182,17 @@ export default {
                             "path": "/problems/Leetcode/minimum-number-of-k-consecutive-bit-flips"
                         },
                         {
-                            "id": 1056,
+                            "id": 1003,
+                            "title": "Check If Word Is Valid After Substitutions",
+                            "title_slug": "check-if-word-is-valid-after-substitutions",
+                            "tags": "['String', 'Stack']",
+                            "difficulty": "Medium",
+                            "created": "2026-09-30",
+                            "file": "/problems/Leetcode/1003_Word_Valid_After_Sub.md",
+                            "path": "/problems/Leetcode/check-if-word-is-valid-after-substitutions"
+                        },
+                        {
+                            "id": 1011,
                             "title": "Capacity To Ship Packages Within D Days",
                             "title_slug": "capacity-to-ship-packages-within-d-days",
                             "tags": "['Array', 'Binary Search']",
@@ -1192,17 +1202,7 @@ export default {
                             "path": "/problems/Leetcode/capacity-to-ship-packages-within-d-days"
                         },
                         {
-                            "id": 1058,
-                            "title": "Lexicographically Smallest Equivalent String",
-                            "title_slug": "lexicographically-smallest-equivalent-string",
-                            "tags": "['String', 'Union-Find']",
-                            "difficulty": "Medium",
-                            "created": "2024-10-07",
-                            "file": "/problems/Leetcode/1061_Lexico_Smallest_Str.md",
-                            "path": "/problems/Leetcode/lexicographically-smallest-equivalent-string"
-                        },
-                        {
-                            "id": 1063,
+                            "id": 1014,
                             "title": "Best Sightseeing Pair",
                             "title_slug": "best-sightseeing-pair",
                             "tags": "['Array', 'Dynamic Programming']",
@@ -1212,7 +1212,7 @@ export default {
                             "path": "/problems/Leetcode/best-sightseeing-pair"
                         },
                         {
-                            "id": 1064,
+                            "id": 1015,
                             "title": "Smallest Integer Divisible by K",
                             "title_slug": "smallest-integer-divisible-by-k",
                             "tags": "['Hash Table', 'Math']",
@@ -1222,7 +1222,7 @@ export default {
                             "path": "/problems/Leetcode/smallest-integer-divisible-by-k"
                         },
                         {
-                            "id": 1072,
+                            "id": 1019,
                             "title": "Next Greater Node In Linked List",
                             "title_slug": "next-greater-node-in-linked-list",
                             "tags": "['Array', 'Stack', 'Linked List', 'Monotonic Stack']",
@@ -1232,7 +1232,7 @@ export default {
                             "path": "/problems/Leetcode/next-greater-node-in-linked-list"
                         },
                         {
-                            "id": 1073,
+                            "id": 1020,
                             "title": "Number of Enclaves",
                             "title_slug": "number-of-enclaves",
                             "tags": "['Array', 'Depth-First Search', 'Matrix', 'Breadth-First Search', 'Union-Find']",
@@ -1242,7 +1242,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-enclaves"
                         },
                         {
-                            "id": 1081,
+                            "id": 1024,
                             "title": "Video Stitching",
                             "title_slug": "video-stitching",
                             "tags": "['Array', 'Dynamic Programming', 'Greedy']",
@@ -1252,7 +1252,7 @@ export default {
                             "path": "/problems/Leetcode/video-stitching"
                         },
                         {
-                            "id": 1087,
+                            "id": 1027,
                             "title": "Longest Arithmetic Subsequence",
                             "title_slug": "longest-arithmetic-subsequence",
                             "tags": "['Array', 'Hash Table', 'Dynamic Programming', 'Binary Search']",
@@ -1262,7 +1262,7 @@ export default {
                             "path": "/problems/Leetcode/longest-arithmetic-subsequence"
                         },
                         {
-                            "id": 1096,
+                            "id": 1031,
                             "title": "Maximum Sum of Two Non-Overlapping Subarrays",
                             "title_slug": "maximum-sum-of-two-non-overlapping-subarrays",
                             "tags": "['Array', 'Dynamic Programming', 'Sliding Window']",
@@ -1272,17 +1272,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-sum-of-two-non-overlapping-subarrays"
                         },
                         {
-                            "id": 1111,
-                            "title": "Minimum Score Triangulation of Polygon",
-                            "title_slug": "minimum-score-triangulation-of-polygon",
-                            "tags": "['Array', 'Dynamic Programming']",
-                            "difficulty": "Medium",
-                            "created": "2025-10-01",
-                            "file": "/problems/Leetcode/1039_Min_Score_Triangu_of_Polygon.md",
-                            "path": "/problems/Leetcode/minimum-score-triangulation-of-polygon"
-                        },
-                        {
-                            "id": 1114,
+                            "id": 1038,
                             "title": "Binary Search Tree to Greater Sum Tree",
                             "title_slug": "binary-search-tree-to-greater-sum-tree",
                             "tags": "['Depth-First Search', 'Tree', 'Binary Tree', 'Binary Search Tree']",
@@ -1292,7 +1282,17 @@ export default {
                             "path": "/problems/Leetcode/binary-search-tree-to-greater-sum-tree"
                         },
                         {
-                            "id": 1121,
+                            "id": 1039,
+                            "title": "Minimum Score Triangulation of Polygon",
+                            "title_slug": "minimum-score-triangulation-of-polygon",
+                            "tags": "['Array', 'Dynamic Programming']",
+                            "difficulty": "Medium",
+                            "created": "2025-10-01",
+                            "file": "/problems/Leetcode/1039_Min_Score_Triangu_of_Polygon.md",
+                            "path": "/problems/Leetcode/minimum-score-triangulation-of-polygon"
+                        },
+                        {
+                            "id": 1043,
                             "title": "Partition Array for Maximum Sum",
                             "title_slug": "partition-array-for-maximum-sum",
                             "tags": "['Array', 'Dynamic Programming']",
@@ -1302,7 +1302,7 @@ export default {
                             "path": "/problems/Leetcode/partition-array-for-maximum-sum"
                         },
                         {
-                            "id": 1129,
+                            "id": 1048,
                             "title": "Longest String Chain",
                             "title_slug": "longest-string-chain",
                             "tags": "['Array', 'String', 'Hash Table', 'Dynamic Programming', 'Sorting', 'Two Pointers']",
@@ -1312,7 +1312,17 @@ export default {
                             "path": "/problems/Leetcode/longest-string-chain"
                         },
                         {
-                            "id": 1160,
+                            "id": 1061,
+                            "title": "Lexicographically Smallest Equivalent String",
+                            "title_slug": "lexicographically-smallest-equivalent-string",
+                            "tags": "['String', 'Union-Find']",
+                            "difficulty": "Medium",
+                            "created": "2024-10-07",
+                            "file": "/problems/Leetcode/1061_Lexico_Smallest_Str.md",
+                            "path": "/problems/Leetcode/lexicographically-smallest-equivalent-string"
+                        },
+                        {
+                            "id": 1079,
                             "title": "Letter Tile Possibilities",
                             "title_slug": "letter-tile-possibilities",
                             "tags": "['String', 'Hash Table', 'Counting', 'Backtracking']",
@@ -1322,7 +1332,7 @@ export default {
                             "path": "/problems/Leetcode/letter-tile-possibilities"
                         },
                         {
-                            "id": 1168,
+                            "id": 1089,
                             "title": "Duplicate Zeros",
                             "title_slug": "duplicate-zeros",
                             "tags": "['Array', 'Two Pointers']",
@@ -1332,7 +1342,7 @@ export default {
                             "path": "/problems/Leetcode/duplicate-zeros"
                         },
                         {
-                            "id": 1207,
+                            "id": 1110,
                             "title": "Delete Nodes And Return Forest",
                             "title_slug": "delete-nodes-and-return-forest",
                             "tags": "['Array', 'Hash Table', 'Depth-First Search', 'Tree', 'Binary Tree']",
@@ -1342,7 +1352,7 @@ export default {
                             "path": "/problems/Leetcode/delete-nodes-and-return-forest"
                         },
                         {
-                            "id": 1218,
+                            "id": 1123,
                             "title": "Lowest Common Ancestor of Deepest Leaves",
                             "title_slug": "lowest-common-ancestor-of-deepest-leaves",
                             "tags": "['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Binary Tree']",
@@ -1352,7 +1362,7 @@ export default {
                             "path": "/problems/Leetcode/lowest-common-ancestor-of-deepest-leaves"
                         },
                         {
-                            "id": 1228,
+                            "id": 1130,
                             "title": "Minimum Cost Tree From Leaf Values",
                             "title_slug": "minimum-cost-tree-from-leaf-values",
                             "tags": "['Array', 'Dynamic Programming', 'Greedy', 'Stack', 'Monotonic Stack']",
@@ -1362,17 +1372,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-cost-tree-from-leaf-values"
                         },
                         {
-                            "id": 1242,
-                            "title": "Matrix Block Sum",
-                            "title_slug": "matrix-block-sum",
-                            "tags": "['Array', 'Matrix', 'Prefix Sum']",
-                            "difficulty": "Medium",
-                            "created": "2024-04-24",
-                            "file": "/problems/Leetcode/1314_Matrix_Block_Sum.md",
-                            "path": "/problems/Leetcode/matrix-block-sum"
-                        },
-                        {
-                            "id": 1250,
+                            "id": 1143,
                             "title": "Longest Common Subsequence",
                             "title_slug": "longest-common-subsequence",
                             "tags": "['String', 'Dynamic Programming']",
@@ -1382,7 +1382,7 @@ export default {
                             "path": "/problems/Leetcode/longest-common-subsequence"
                         },
                         {
-                            "id": 1263,
+                            "id": 1155,
                             "title": "Number of Dice Rolls With Target Sum",
                             "title_slug": "number-of-dice-rolls-with-target-sum",
                             "tags": "['Dynamic Programming']",
@@ -1392,17 +1392,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-dice-rolls-with-target-sum"
                         },
                         {
-                            "id": 1267,
-                            "title": "Remove Zero Sum Consecutive Nodes from Linked List",
-                            "title_slug": "remove-zero-sum-consecutive-nodes-from-linked-list",
-                            "tags": "['Hash Table', 'Linked List']",
-                            "difficulty": "Medium",
-                            "created": "2024-12-04",
-                            "file": "/problems/Leetcode/1171_Remove_0_Sum_Consec_Nodes.md",
-                            "path": "/problems/Leetcode/remove-zero-sum-consecutive-nodes-from-linked-list"
-                        },
-                        {
-                            "id": 1273,
+                            "id": 1170,
                             "title": "Compare Strings by Frequency of the Smallest Character",
                             "title_slug": "compare-strings-by-frequency-of-the-smallest-character",
                             "tags": "['Array', 'String', 'Hash Table', 'Sorting', 'Binary Search']",
@@ -1412,17 +1402,17 @@ export default {
                             "path": "/problems/Leetcode/compare-strings-by-frequency-of-the-smallest-character"
                         },
                         {
-                            "id": 1275,
-                            "title": "Validate Binary Tree Nodes",
-                            "title_slug": "validate-binary-tree-nodes",
-                            "tags": "['Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory', 'Binary Tree', 'Union-Find']",
+                            "id": 1171,
+                            "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+                            "title_slug": "remove-zero-sum-consecutive-nodes-from-linked-list",
+                            "tags": "['Hash Table', 'Linked List']",
                             "difficulty": "Medium",
-                            "created": "2024-07-12",
-                            "file": "/problems/Leetcode/1361_Validate_BT_Nodes.md",
-                            "path": "/problems/Leetcode/validate-binary-tree-nodes"
+                            "created": "2024-12-04",
+                            "file": "/problems/Leetcode/1171_Remove_0_Sum_Consec_Nodes.md",
+                            "path": "/problems/Leetcode/remove-zero-sum-consecutive-nodes-from-linked-list"
                         },
                         {
-                            "id": 1298,
+                            "id": 1190,
                             "title": "Reverse Substrings Between Each Pair of Parentheses",
                             "title_slug": "reverse-substrings-between-each-pair-of-parentheses",
                             "tags": "['String', 'Stack']",
@@ -1432,27 +1422,7 @@ export default {
                             "path": "/problems/Leetcode/reverse-substrings-between-each-pair-of-parentheses"
                         },
                         {
-                            "id": 1304,
-                            "title": "Longest Happy String",
-                            "title_slug": "longest-happy-string",
-                            "tags": "['String', 'Greedy', 'Heap (Priority Queue)']",
-                            "difficulty": "Medium",
-                            "created": "2024-11-28",
-                            "file": "/problems/Leetcode/1405_Longest_Happy_Str.md",
-                            "path": "/problems/Leetcode/longest-happy-string"
-                        },
-                        {
-                            "id": 1305,
-                            "title": "Number of Visible People in a Queue",
-                            "title_slug": "number-of-visible-people-in-a-queue",
-                            "tags": "['Array', 'Stack', 'Monotonic Stack']",
-                            "difficulty": "Hard",
-                            "created": "2024-11-06",
-                            "file": "/problems/Leetcode/1944_Visible_Ppl_in_Queue.md",
-                            "path": "/problems/Leetcode/number-of-visible-people-in-a-queue"
-                        },
-                        {
-                            "id": 1308,
+                            "id": 1202,
                             "title": "Smallest String With Swaps",
                             "title_slug": "smallest-string-with-swaps",
                             "tags": "['Array', 'String', 'Hash Table', 'Sorting', 'Depth-First Search', 'Breadth-First Search', 'Union-Find']",
@@ -1462,7 +1432,7 @@ export default {
                             "path": "/problems/Leetcode/smallest-string-with-swaps"
                         },
                         {
-                            "id": 1331,
+                            "id": 1219,
                             "title": "Path with Maximum Gold",
                             "title_slug": "path-with-maximum-gold",
                             "tags": "['Array', 'Matrix', 'Backtracking']",
@@ -1472,7 +1442,7 @@ export default {
                             "path": "/problems/Leetcode/path-with-maximum-gold"
                         },
                         {
-                            "id": 1350,
+                            "id": 1233,
                             "title": "Remove Sub-Folders from the Filesystem",
                             "title_slug": "remove-sub-folders-from-the-filesystem",
                             "tags": "['Array', 'String', 'Depth-First Search', 'Trie']",
@@ -1482,7 +1452,7 @@ export default {
                             "path": "/problems/Leetcode/remove-sub-folders-from-the-filesystem"
                         },
                         {
-                            "id": 1352,
+                            "id": 1235,
                             "title": "Maximum Profit in Job Scheduling",
                             "title_slug": "maximum-profit-in-job-scheduling",
                             "tags": "['Array', 'Dynamic Programming', 'Sorting', 'Binary Search']",
@@ -1492,17 +1462,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-profit-in-job-scheduling"
                         },
                         {
-                            "id": 1355,
-                            "title": "Minimum Deletions to Make Array Beautiful",
-                            "title_slug": "minimum-deletions-to-make-array-beautiful",
-                            "tags": "['Array', 'Greedy', 'Stack']",
-                            "difficulty": "Medium",
-                            "created": "2025-06-04",
-                            "file": "/problems/Leetcode/2216_Min_Del_Make_Arr_Beautiful.md",
-                            "path": "/problems/Leetcode/minimum-deletions-to-make-array-beautiful"
-                        },
-                        {
-                            "id": 1369,
+                            "id": 1247,
                             "title": "Minimum Swaps to Make Strings Equal",
                             "title_slug": "minimum-swaps-to-make-strings-equal",
                             "tags": "['String', 'Math', 'Greedy']",
@@ -1512,7 +1472,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-swaps-to-make-strings-equal"
                         },
                         {
-                            "id": 1370,
+                            "id": 1248,
                             "title": "Count Number of Nice Subarrays",
                             "title_slug": "count-number-of-nice-subarrays",
                             "tags": "['Array', 'Hash Table', 'Math', 'Prefix Sum', 'Sliding Window']",
@@ -1522,7 +1482,7 @@ export default {
                             "path": "/problems/Leetcode/count-number-of-nice-subarrays"
                         },
                         {
-                            "id": 1388,
+                            "id": 1262,
                             "title": "Greatest Sum Divisible by Three",
                             "title_slug": "greatest-sum-divisible-by-three",
                             "tags": "['Array', 'Dynamic Programming', 'Sorting', 'Greedy']",
@@ -1532,17 +1492,7 @@ export default {
                             "path": "/problems/Leetcode/greatest-sum-divisible-by-three"
                         },
                         {
-                            "id": 1393,
-                            "title": "Maximum Value of K Coins From Piles",
-                            "title_slug": "maximum-value-of-k-coins-from-piles",
-                            "tags": "['Array', 'Dynamic Programming', 'Prefix Sum']",
-                            "difficulty": "Hard",
-                            "created": "2025-06-18",
-                            "file": "/problems/Leetcode/2218_Max_Value_of_K_Coins_From_Piles.md",
-                            "path": "/problems/Leetcode/maximum-value-of-k-coins-from-piles"
-                        },
-                        {
-                            "id": 1397,
+                            "id": 1268,
                             "title": "Search Suggestions System",
                             "title_slug": "search-suggestions-system",
                             "tags": "['Array', 'String', 'Sorting', 'Binary Search', 'Heap (Priority Queue)', 'Trie']",
@@ -1552,7 +1502,7 @@ export default {
                             "path": "/problems/Leetcode/search-suggestions-system"
                         },
                         {
-                            "id": 1398,
+                            "id": 1269,
                             "title": "Number of Ways to Stay in the Same Place After Some Steps",
                             "title_slug": "number-of-ways-to-stay-in-the-same-place-after-some-steps",
                             "tags": "['Dynamic Programming']",
@@ -1562,7 +1512,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-ways-to-stay-in-the-same-place-after-some-steps"
                         },
                         {
-                            "id": 1408,
+                            "id": 1283,
                             "title": "Find the Smallest Divisor Given a Threshold",
                             "title_slug": "find-the-smallest-divisor-given-a-threshold",
                             "tags": "['Array', 'Binary Search']",
@@ -1572,7 +1522,17 @@ export default {
                             "path": "/problems/Leetcode/find-the-smallest-divisor-given-a-threshold"
                         },
                         {
-                            "id": 1442,
+                            "id": 1314,
+                            "title": "Matrix Block Sum",
+                            "title_slug": "matrix-block-sum",
+                            "tags": "['Array', 'Matrix', 'Prefix Sum']",
+                            "difficulty": "Medium",
+                            "created": "2024-04-24",
+                            "file": "/problems/Leetcode/1314_Matrix_Block_Sum.md",
+                            "path": "/problems/Leetcode/matrix-block-sum"
+                        },
+                        {
+                            "id": 1319,
                             "title": "Number of Operations to Make Network Connected",
                             "title_slug": "number-of-operations-to-make-network-connected",
                             "tags": "['Depth-First Search', 'Breadth-First Search', 'Graph Theory', 'Union-Find']",
@@ -1582,7 +1542,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-operations-to-make-network-connected"
                         },
                         {
-                            "id": 1457,
+                            "id": 1335,
                             "title": "Minimum Difficulty of a Job Schedule",
                             "title_slug": "minimum-difficulty-of-a-job-schedule",
                             "tags": "['Array', 'Dynamic Programming']",
@@ -1592,37 +1552,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-difficulty-of-a-job-schedule"
                         },
                         {
-                            "id": 1460,
-                            "title": "Number of Substrings Containing All Three Characters",
-                            "title_slug": "number-of-substrings-containing-all-three-characters",
-                            "tags": "['String', 'Hash Table', 'Sliding Window']",
-                            "difficulty": "Medium",
-                            "created": "2024-05-16",
-                            "file": "/problems/Leetcode/1358_Number_of_abc_Subs.md",
-                            "path": "/problems/Leetcode/number-of-substrings-containing-all-three-characters"
-                        },
-                        {
-                            "id": 1473,
-                            "title": "Find the Longest Substring Containing Vowels in Even Counts",
-                            "title_slug": "find-the-longest-substring-containing-vowels-in-even-counts",
-                            "tags": "['String', 'Hash Table', 'Bit Manipulation', 'Prefix Sum']",
-                            "difficulty": "Medium",
-                            "created": "2024-11-11",
-                            "file": "/problems/Leetcode/1371_Longest_Substr_Even_Vowels.md",
-                            "path": "/problems/Leetcode/find-the-longest-substring-containing-vowels-in-even-counts"
-                        },
-                        {
-                            "id": 1474,
-                            "title": "Longest ZigZag Path in a Binary Tree",
-                            "title_slug": "longest-zigzag-path-in-a-binary-tree",
-                            "tags": "['Dynamic Programming', 'Depth-First Search', 'Tree', 'Binary Tree']",
-                            "difficulty": "Medium",
-                            "created": "2024-04-16",
-                            "file": "/problems/Leetcode/1372_Longest_ZigZag_BT.md",
-                            "path": "/problems/Leetcode/longest-zigzag-path-in-a-binary-tree"
-                        },
-                        {
-                            "id": 1478,
+                            "id": 1353,
                             "title": "Maximum Number of Events That Can Be Attended",
                             "title_slug": "maximum-number-of-events-that-can-be-attended",
                             "tags": "['Array', 'Sorting', 'Greedy', 'Heap (Priority Queue)']",
@@ -1632,7 +1562,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-number-of-events-that-can-be-attended"
                         },
                         {
-                            "id": 1479,
+                            "id": 1354,
                             "title": "Construct Target Array With Multiple Sums",
                             "title_slug": "construct-target-array-with-multiple-sums",
                             "tags": "['Array', 'Heap (Priority Queue)']",
@@ -1642,27 +1572,47 @@ export default {
                             "path": "/problems/Leetcode/construct-target-array-with-multiple-sums"
                         },
                         {
-                            "id": 1487,
-                            "title": "Cinema Seat Allocation",
-                            "title_slug": "cinema-seat-allocation",
-                            "tags": "['Array', 'Hash Table', 'Greedy', 'Bit Manipulation']",
+                            "id": 1358,
+                            "title": "Number of Substrings Containing All Three Characters",
+                            "title_slug": "number-of-substrings-containing-all-three-characters",
+                            "tags": "['String', 'Hash Table', 'Sliding Window']",
                             "difficulty": "Medium",
-                            "created": "2026-08-18",
-                            "file": "/problems/Leetcode/1386_Seat_Allocation.md",
-                            "path": "/problems/Leetcode/cinema-seat-allocation"
+                            "created": "2024-05-16",
+                            "file": "/problems/Leetcode/1358_Number_of_abc_Subs.md",
+                            "path": "/problems/Leetcode/number-of-substrings-containing-all-three-characters"
                         },
                         {
-                            "id": 1488,
-                            "title": "Sort Integers by The Power Value",
-                            "title_slug": "sort-integers-by-the-power-value",
-                            "tags": "['Dynamic Programming', 'Sorting', 'Memoization']",
+                            "id": 1361,
+                            "title": "Validate Binary Tree Nodes",
+                            "title_slug": "validate-binary-tree-nodes",
+                            "tags": "['Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory', 'Binary Tree', 'Union-Find']",
                             "difficulty": "Medium",
-                            "created": "2024-04-17",
-                            "file": "/problems/Leetcode/1387_Sort_by_Power.md",
-                            "path": "/problems/Leetcode/sort-integers-by-the-power-value"
+                            "created": "2024-07-12",
+                            "file": "/problems/Leetcode/1361_Validate_BT_Nodes.md",
+                            "path": "/problems/Leetcode/validate-binary-tree-nodes"
                         },
                         {
-                            "id": 1492,
+                            "id": 1371,
+                            "title": "Find the Longest Substring Containing Vowels in Even Counts",
+                            "title_slug": "find-the-longest-substring-containing-vowels-in-even-counts",
+                            "tags": "['String', 'Hash Table', 'Bit Manipulation', 'Prefix Sum']",
+                            "difficulty": "Medium",
+                            "created": "2024-11-11",
+                            "file": "/problems/Leetcode/1371_Longest_Substr_Even_Vowels.md",
+                            "path": "/problems/Leetcode/find-the-longest-substring-containing-vowels-in-even-counts"
+                        },
+                        {
+                            "id": 1372,
+                            "title": "Longest ZigZag Path in a Binary Tree",
+                            "title_slug": "longest-zigzag-path-in-a-binary-tree",
+                            "tags": "['Dynamic Programming', 'Depth-First Search', 'Tree', 'Binary Tree']",
+                            "difficulty": "Medium",
+                            "created": "2024-04-16",
+                            "file": "/problems/Leetcode/1372_Longest_ZigZag_BT.md",
+                            "path": "/problems/Leetcode/longest-zigzag-path-in-a-binary-tree"
+                        },
+                        {
+                            "id": 1376,
                             "title": "Time Needed to Inform All Employees",
                             "title_slug": "time-needed-to-inform-all-employees",
                             "tags": "['Depth-First Search', 'Tree', 'Breadth-First Search']",
@@ -1672,7 +1622,27 @@ export default {
                             "path": "/problems/Leetcode/time-needed-to-inform-all-employees"
                         },
                         {
-                            "id": 1500,
+                            "id": 1386,
+                            "title": "Cinema Seat Allocation",
+                            "title_slug": "cinema-seat-allocation",
+                            "tags": "['Array', 'Hash Table', 'Greedy', 'Bit Manipulation']",
+                            "difficulty": "Medium",
+                            "created": "2026-08-18",
+                            "file": "/problems/Leetcode/1386_Seat_Allocation.md",
+                            "path": "/problems/Leetcode/cinema-seat-allocation"
+                        },
+                        {
+                            "id": 1387,
+                            "title": "Sort Integers by The Power Value",
+                            "title_slug": "sort-integers-by-the-power-value",
+                            "tags": "['Dynamic Programming', 'Sorting', 'Memoization']",
+                            "difficulty": "Medium",
+                            "created": "2024-04-17",
+                            "file": "/problems/Leetcode/1387_Sort_by_Power.md",
+                            "path": "/problems/Leetcode/sort-integers-by-the-power-value"
+                        },
+                        {
+                            "id": 1399,
                             "title": "Count Largest Group",
                             "title_slug": "count-largest-group",
                             "tags": "['Hash Table', 'Math', 'Counting']",
@@ -1682,7 +1652,17 @@ export default {
                             "path": "/problems/Leetcode/count-largest-group"
                         },
                         {
-                            "id": 1516,
+                            "id": 1405,
+                            "title": "Longest Happy String",
+                            "title_slug": "longest-happy-string",
+                            "tags": "['String', 'Greedy', 'Heap (Priority Queue)']",
+                            "difficulty": "Medium",
+                            "created": "2024-11-28",
+                            "file": "/problems/Leetcode/1405_Longest_Happy_Str.md",
+                            "path": "/problems/Leetcode/longest-happy-string"
+                        },
+                        {
+                            "id": 1415,
                             "title": "The k-th Lexicographical String of All Happy Strings of Length n",
                             "title_slug": "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n",
                             "tags": "['String', 'Backtracking']",
@@ -1692,7 +1672,7 @@ export default {
                             "path": "/problems/Leetcode/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n"
                         },
                         {
-                            "id": 1549,
+                            "id": 1438,
                             "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
                             "title_slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
                             "tags": "['Array', 'Heap (Priority Queue)', 'Sliding Window', 'Ordered Set', 'Queue', 'Monotonic Queue']",
@@ -1702,7 +1682,7 @@ export default {
                             "path": "/problems/Leetcode/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit"
                         },
                         {
-                            "id": 1553,
+                            "id": 1442,
                             "title": "Count Triplets That Can Form Two Arrays of Equal XOR",
                             "title_slug": "count-triplets-that-can-form-two-arrays-of-equal-xor",
                             "tags": "['Array', 'Hash Table', 'Math', 'Bit Manipulation', 'Prefix Sum']",
@@ -1712,7 +1692,7 @@ export default {
                             "path": "/problems/Leetcode/count-triplets-that-can-form-two-arrays-of-equal-xor"
                         },
                         {
-                            "id": 1554,
+                            "id": 1443,
                             "title": "Minimum Time to Collect All Apples in a Tree",
                             "title_slug": "minimum-time-to-collect-all-apples-in-a-tree",
                             "tags": "['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search']",
@@ -1722,17 +1702,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-time-to-collect-all-apples-in-a-tree"
                         },
                         {
-                            "id": 1558,
-                            "title": "Course Schedule IV",
-                            "title_slug": "course-schedule-iv",
-                            "tags": "['Depth-First Search', 'Breadth-First Search', 'Graph Theory', 'Topological Sort']",
-                            "difficulty": "Medium",
-                            "created": "2025-01-26",
-                            "file": "/problems/Leetcode/1462_Course_Schedule_IV.md",
-                            "path": "/problems/Leetcode/course-schedule-iv"
-                        },
-                        {
-                            "id": 1568,
+                            "id": 1457,
                             "title": "Pseudo-Palindromic Paths in a Binary Tree",
                             "title_slug": "pseudo-palindromic-paths-in-a-binary-tree",
                             "tags": "['Depth-First Search', 'Bit Manipulation', 'Tree', 'Breadth-First Search', 'Binary Tree']",
@@ -1742,7 +1712,7 @@ export default {
                             "path": "/problems/Leetcode/pseudo-palindromic-paths-in-a-binary-tree"
                         },
                         {
-                            "id": 1569,
+                            "id": 1458,
                             "title": "Max Dot Product of Two Subsequences",
                             "title_slug": "max-dot-product-of-two-subsequences",
                             "tags": "['Array', 'Dynamic Programming']",
@@ -1752,7 +1722,17 @@ export default {
                             "path": "/problems/Leetcode/max-dot-product-of-two-subsequences"
                         },
                         {
-                            "id": 1573,
+                            "id": 1462,
+                            "title": "Course Schedule IV",
+                            "title_slug": "course-schedule-iv",
+                            "tags": "['Depth-First Search', 'Breadth-First Search', 'Graph Theory', 'Topological Sort']",
+                            "difficulty": "Medium",
+                            "created": "2025-01-26",
+                            "file": "/problems/Leetcode/1462_Course_Schedule_IV.md",
+                            "path": "/problems/Leetcode/course-schedule-iv"
+                        },
+                        {
+                            "id": 1477,
                             "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
                             "title_slug": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
                             "tags": "['Array', 'Hash Table', 'Dynamic Programming', 'Binary Search', 'Sliding Window']",
@@ -1762,17 +1742,7 @@ export default {
                             "path": "/problems/Leetcode/find-two-non-overlapping-sub-arrays-each-with-target-sum"
                         },
                         {
-                            "id": 1586,
-                            "title": "Longest Subarray of 1's After Deleting One Element",
-                            "title_slug": "longest-subarray-of-1's-after-deleting-one-element",
-                            "tags": "['Array', 'Dynamic Programming', 'Sliding Window']",
-                            "difficulty": "Medium",
-                            "created": "2024-01-22",
-                            "file": "/problems/Leetcode/1493_Longest_Subarray_1_Del.md",
-                            "path": "/problems/Leetcode/longest-subarray-of-1's-after-deleting-one-element"
-                        },
-                        {
-                            "id": 1612,
+                            "id": 1488,
                             "title": "Avoid Flood in The City",
                             "title_slug": "avoid-flood-in-the-city",
                             "tags": "['Array', 'Hash Table', 'Greedy', 'Binary Search', 'Heap (Priority Queue)']",
@@ -1782,7 +1752,17 @@ export default {
                             "path": "/problems/Leetcode/avoid-flood-in-the-city"
                         },
                         {
-                            "id": 1628,
+                            "id": 1493,
+                            "title": "Longest Subarray of 1's After Deleting One Element",
+                            "title_slug": "longest-subarray-of-1's-after-deleting-one-element",
+                            "tags": "['Array', 'Dynamic Programming', 'Sliding Window']",
+                            "difficulty": "Medium",
+                            "created": "2024-01-22",
+                            "file": "/problems/Leetcode/1493_Longest_Subarray_1_Del.md",
+                            "path": "/problems/Leetcode/longest-subarray-of-1's-after-deleting-one-element"
+                        },
+                        {
+                            "id": 1504,
                             "title": "Count Submatrices With All Ones",
                             "title_slug": "count-submatrices-with-all-ones",
                             "tags": "['Array', 'Dynamic Programming', 'Matrix', 'Stack', 'Monotonic Stack']",
@@ -1792,7 +1772,7 @@ export default {
                             "path": "/problems/Leetcode/count-submatrices-with-all-ones"
                         },
                         {
-                            "id": 1643,
+                            "id": 1519,
                             "title": "Number of Nodes in the Sub-Tree With the Same Label",
                             "title_slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
                             "tags": "['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Counting']",
@@ -1802,7 +1782,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-nodes-in-the-sub-tree-with-the-same-label"
                         },
                         {
-                            "id": 1653,
+                            "id": 1530,
                             "title": "Number of Good Leaf Nodes Pairs",
                             "title_slug": "number-of-good-leaf-nodes-pairs",
                             "tags": "['Depth-First Search', 'Tree', 'Binary Tree']",
@@ -1812,17 +1792,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-good-leaf-nodes-pairs"
                         },
                         {
-                            "id": 1667,
-                            "title": "Find Kth Bit in Nth Binary String",
-                            "title_slug": "find-kth-bit-in-nth-binary-string",
-                            "tags": "['String', 'Simulation', 'Recursion']",
-                            "difficulty": "Medium",
-                            "created": "2024-12-17",
-                            "file": "/problems/Leetcode/1545_Kth_Bit_in_Nth_Binary_String.md",
-                            "path": "/problems/Leetcode/find-kth-bit-in-nth-binary-string"
-                        },
-                        {
-                            "id": 1668,
+                            "id": 1542,
                             "title": "Find Longest Awesome Substring",
                             "title_slug": "find-longest-awesome-substring",
                             "tags": "['String', 'Hash Table', 'Bit Manipulation']",
@@ -1832,7 +1802,17 @@ export default {
                             "path": "/problems/Leetcode/find-longest-awesome-substring"
                         },
                         {
-                            "id": 1669,
+                            "id": 1545,
+                            "title": "Find Kth Bit in Nth Binary String",
+                            "title_slug": "find-kth-bit-in-nth-binary-string",
+                            "tags": "['String', 'Simulation', 'Recursion']",
+                            "difficulty": "Medium",
+                            "created": "2024-12-17",
+                            "file": "/problems/Leetcode/1545_Kth_Bit_in_Nth_Binary_String.md",
+                            "path": "/problems/Leetcode/find-kth-bit-in-nth-binary-string"
+                        },
+                        {
+                            "id": 1547,
                             "title": "Minimum Cost to Cut a Stick",
                             "title_slug": "minimum-cost-to-cut-a-stick",
                             "tags": "['Array', 'Dynamic Programming', 'Sorting']",
@@ -1842,7 +1822,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-cost-to-cut-a-stick"
                         },
                         {
-                            "id": 1675,
+                            "id": 1552,
                             "title": "Magnetic Force Between Two Balls",
                             "title_slug": "magnetic-force-between-two-balls",
                             "tags": "['Array', 'Sorting', 'Binary Search']",
@@ -1852,7 +1832,7 @@ export default {
                             "path": "/problems/Leetcode/magnetic-force-between-two-balls"
                         },
                         {
-                            "id": 1694,
+                            "id": 1590,
                             "title": "Make Sum Divisible by P",
                             "title_slug": "make-sum-divisible-by-p",
                             "tags": "['Array', 'Hash Table', 'Prefix Sum']",
@@ -1862,7 +1842,7 @@ export default {
                             "path": "/problems/Leetcode/make-sum-divisible-by-p"
                         },
                         {
-                            "id": 1715,
+                            "id": 1593,
                             "title": "Split a String Into the Max Number of Unique Substrings",
                             "title_slug": "split-a-string-into-the-max-number-of-unique-substrings",
                             "tags": "['String', 'Hash Table', 'Backtracking']",
@@ -1872,7 +1852,7 @@ export default {
                             "path": "/problems/Leetcode/split-a-string-into-the-max-number-of-unique-substrings"
                         },
                         {
-                            "id": 1732,
+                            "id": 1611,
                             "title": "Minimum One Bit Operations to Make Integers Zero",
                             "title_slug": "minimum-one-bit-operations-to-make-integers-zero",
                             "tags": "['Math', 'Dynamic Programming', 'Bit Manipulation', 'Recursion', 'Memoization']",
@@ -1882,7 +1862,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-one-bit-operations-to-make-integers-zero"
                         },
                         {
-                            "id": 1743,
+                            "id": 1638,
                             "title": "Count Substrings That Differ by One Character",
                             "title_slug": "count-substrings-that-differ-by-one-character",
                             "tags": "['String', 'Hash Table', 'Dynamic Programming', 'Enumeration']",
@@ -1892,7 +1872,7 @@ export default {
                             "path": "/problems/Leetcode/count-substrings-that-differ-by-one-character"
                         },
                         {
-                            "id": 1762,
+                            "id": 1642,
                             "title": "Furthest Building You Can Reach",
                             "title_slug": "furthest-building-you-can-reach",
                             "tags": "['Array', 'Greedy', 'Heap (Priority Queue)']",
@@ -1902,7 +1882,7 @@ export default {
                             "path": "/problems/Leetcode/furthest-building-you-can-reach"
                         },
                         {
-                            "id": 1776,
+                            "id": 1658,
                             "title": "Minimum Operations to Reduce X to Zero",
                             "title_slug": "minimum-operations-to-reduce-x-to-zero",
                             "tags": "['Array', 'Hash Table', 'Binary Search', 'Prefix Sum', 'Sliding Window']",
@@ -1912,7 +1892,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-operations-to-reduce-x-to-zero"
                         },
                         {
-                            "id": 1792,
+                            "id": 1673,
                             "title": "Find the Most Competitive Subsequence",
                             "title_slug": "find-the-most-competitive-subsequence",
                             "tags": "['Array', 'Greedy', 'Stack', 'Monotonic Stack']",
@@ -1922,7 +1902,7 @@ export default {
                             "path": "/problems/Leetcode/find-the-most-competitive-subsequence"
                         },
                         {
-                            "id": 1814,
+                            "id": 1696,
                             "title": "Jump Game VI",
                             "title_slug": "jump-game-vi",
                             "tags": "['Array', 'Dynamic Programming', 'Heap (Priority Queue)', 'Queue', 'Monotonic Queue']",
@@ -1932,7 +1912,7 @@ export default {
                             "path": "/problems/Leetcode/jump-game-vi"
                         },
                         {
-                            "id": 1819,
+                            "id": 1718,
                             "title": "Construct the Lexicographically Largest Valid Sequence",
                             "title_slug": "construct-the-lexicographically-largest-valid-sequence",
                             "tags": "['Array', 'Backtracking']",
@@ -1942,7 +1922,7 @@ export default {
                             "path": "/problems/Leetcode/construct-the-lexicographically-largest-valid-sequence"
                         },
                         {
-                            "id": 1849,
+                            "id": 1749,
                             "title": "Maximum Absolute Sum of Any Subarray",
                             "title_slug": "maximum-absolute-sum-of-any-subarray",
                             "tags": "['Array', 'Dynamic Programming']",
@@ -1952,7 +1932,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-absolute-sum-of-any-subarray"
                         },
                         {
-                            "id": 1851,
+                            "id": 1751,
                             "title": "Maximum Number of Events That Can Be Attended II",
                             "title_slug": "maximum-number-of-events-that-can-be-attended-ii",
                             "tags": "['Array', 'Dynamic Programming', 'Sorting', 'Binary Search']",
@@ -1962,7 +1942,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-number-of-events-that-can-be-attended-ii"
                         },
                         {
-                            "id": 1886,
+                            "id": 1760,
                             "title": "Minimum Limit of Balls in a Bag",
                             "title_slug": "minimum-limit-of-balls-in-a-bag",
                             "tags": "['Array', 'Binary Search']",
@@ -1972,7 +1952,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-limit-of-balls-in-a-bag"
                         },
                         {
-                            "id": 1895,
+                            "id": 1769,
                             "title": "Minimum Number of Operations to Move All Balls to Each Box",
                             "title_slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
                             "tags": "['Array', 'String', 'Prefix Sum']",
@@ -1982,7 +1962,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-number-of-operations-to-move-all-balls-to-each-box"
                         },
                         {
-                            "id": 1901,
+                            "id": 1775,
                             "title": "Equal Sum Arrays With Minimum Number of Operations",
                             "title_slug": "equal-sum-arrays-with-minimum-number-of-operations",
                             "tags": "['Array', 'Hash Table', 'Greedy', 'Counting']",
@@ -1992,7 +1972,7 @@ export default {
                             "path": "/problems/Leetcode/equal-sum-arrays-with-minimum-number-of-operations"
                         },
                         {
-                            "id": 1951,
+                            "id": 1823,
                             "title": "Find the Winner of the Circular Game",
                             "title_slug": "find-the-winner-of-the-circular-game",
                             "tags": "['Array', 'Math', 'Simulation', 'Queue', 'Recursion']",
@@ -2002,7 +1982,7 @@ export default {
                             "path": "/problems/Leetcode/find-the-winner-of-the-circular-game"
                         },
                         {
-                            "id": 1966,
+                            "id": 1838,
                             "title": "Frequency of the Most Frequent Element",
                             "title_slug": "frequency-of-the-most-frequent-element",
                             "tags": "['Array', 'Sorting', 'Greedy', 'Binary Search', 'Prefix Sum', 'Sliding Window']",
@@ -2012,7 +1992,7 @@ export default {
                             "path": "/problems/Leetcode/frequency-of-the-most-frequent-element"
                         },
                         {
-                            "id": 1968,
+                            "id": 1840,
                             "title": "Maximum Building Height",
                             "title_slug": "maximum-building-height",
                             "tags": "['Array', 'Math', 'Sorting']",
@@ -2022,7 +2002,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-building-height"
                         },
                         {
-                            "id": 1972,
+                            "id": 1861,
                             "title": "Rotating the Box",
                             "title_slug": "rotating-the-box",
                             "tags": "['Array', 'Matrix', 'Two Pointers']",
@@ -2032,7 +2012,7 @@ export default {
                             "path": "/problems/Leetcode/rotating-the-box"
                         },
                         {
-                            "id": 2001,
+                            "id": 1871,
                             "title": "Jump Game VII",
                             "title_slug": "jump-game-vii",
                             "tags": "['String', 'Dynamic Programming', 'Prefix Sum', 'Sliding Window']",
@@ -2042,7 +2022,7 @@ export default {
                             "path": "/problems/Leetcode/jump-game-vii"
                         },
                         {
-                            "id": 2022,
+                            "id": 1911,
                             "title": "Maximum Alternating Subsequence Sum",
                             "title_slug": "maximum-alternating-subsequence-sum",
                             "tags": "['Array', 'Dynamic Programming']",
@@ -2052,7 +2032,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-alternating-subsequence-sum"
                         },
                         {
-                            "id": 2044,
+                            "id": 1915,
                             "title": "Number of Wonderful Substrings",
                             "title_slug": "number-of-wonderful-substrings",
                             "tags": "['String', 'Hash Table', 'Bit Manipulation', 'Prefix Sum']",
@@ -2062,17 +2042,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-wonderful-substrings"
                         },
                         {
-                            "id": 2054,
-                            "title": "The Number of the Smallest Unoccupied Chair",
-                            "title_slug": "the-number-of-the-smallest-unoccupied-chair",
-                            "tags": "['Array', 'Hash Table', 'Heap (Priority Queue)']",
-                            "difficulty": "Medium",
-                            "created": "2024-12-01",
-                            "file": "/problems/Leetcode/1942_Smallest_Unoccupied_Chair.md",
-                            "path": "/problems/Leetcode/the-number-of-the-smallest-unoccupied-chair"
-                        },
-                        {
-                            "id": 2059,
+                            "id": 1930,
                             "title": "Unique Length-3 Palindromic Subsequences",
                             "title_slug": "unique-length-3-palindromic-subsequences",
                             "tags": "['String', 'Hash Table', 'Bit Manipulation', 'Prefix Sum']",
@@ -2082,7 +2052,7 @@ export default {
                             "path": "/problems/Leetcode/unique-length-3-palindromic-subsequences"
                         },
                         {
-                            "id": 2067,
+                            "id": 1937,
                             "title": "Maximum Number of Points with Cost",
                             "title_slug": "maximum-number-of-points-with-cost",
                             "tags": "['Array', 'Dynamic Programming', 'Matrix']",
@@ -2092,7 +2062,27 @@ export default {
                             "path": "/problems/Leetcode/maximum-number-of-points-with-cost"
                         },
                         {
-                            "id": 2115,
+                            "id": 1942,
+                            "title": "The Number of the Smallest Unoccupied Chair",
+                            "title_slug": "the-number-of-the-smallest-unoccupied-chair",
+                            "tags": "['Array', 'Hash Table', 'Heap (Priority Queue)']",
+                            "difficulty": "Medium",
+                            "created": "2024-12-01",
+                            "file": "/problems/Leetcode/1942_Smallest_Unoccupied_Chair.md",
+                            "path": "/problems/Leetcode/the-number-of-the-smallest-unoccupied-chair"
+                        },
+                        {
+                            "id": 1944,
+                            "title": "Number of Visible People in a Queue",
+                            "title_slug": "number-of-visible-people-in-a-queue",
+                            "tags": "['Array', 'Stack', 'Monotonic Stack']",
+                            "difficulty": "Hard",
+                            "created": "2024-11-06",
+                            "file": "/problems/Leetcode/1944_Visible_Ppl_in_Queue.md",
+                            "path": "/problems/Leetcode/number-of-visible-people-in-a-queue"
+                        },
+                        {
+                            "id": 1987,
                             "title": "Number of Unique Good Subsequences",
                             "title_slug": "number-of-unique-good-subsequences",
                             "tags": "['String', 'Dynamic Programming']",
@@ -2102,7 +2092,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-unique-good-subsequences"
                         },
                         {
-                            "id": 2134,
+                            "id": 2024,
                             "title": "Maximize the Confusion of an Exam",
                             "title_slug": "maximize-the-confusion-of-an-exam",
                             "tags": "['String', 'Binary Search', 'Prefix Sum', 'Sliding Window']",
@@ -2112,7 +2102,7 @@ export default {
                             "path": "/problems/Leetcode/maximize-the-confusion-of-an-exam"
                         },
                         {
-                            "id": 2160,
+                            "id": 2033,
                             "title": "Minimum Operations to Make a Uni-Value Grid",
                             "title_slug": "minimum-operations-to-make-a-uni-value-grid",
                             "tags": "['Array', 'Math', 'Sorting', 'Matrix']",
@@ -2122,7 +2112,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-operations-to-make-a-uni-value-grid"
                         },
                         {
-                            "id": 2175,
+                            "id": 2049,
                             "title": "Count Nodes With the Highest Score",
                             "title_slug": "count-nodes-with-the-highest-score",
                             "tags": "['Array', 'Depth-First Search', 'Tree', 'Binary Tree']",
@@ -2132,7 +2122,7 @@ export default {
                             "path": "/problems/Leetcode/count-nodes-with-the-highest-score"
                         },
                         {
-                            "id": 2217,
+                            "id": 2096,
                             "title": "Step-By-Step Directions From a Binary Tree Node to Another",
                             "title_slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
                             "tags": "['String', 'Depth-First Search', 'Tree', 'Binary Tree']",
@@ -2142,27 +2132,7 @@ export default {
                             "path": "/problems/Leetcode/step-by-step-directions-from-a-binary-tree-node-to-another"
                         },
                         {
-                            "id": 2220,
-                            "title": "Find All Possible Recipes from Given Supplies",
-                            "title_slug": "find-all-possible-recipes-from-given-supplies",
-                            "tags": "['Array', 'String', 'Hash Table', 'Graph Theory', 'Topological Sort']",
-                            "difficulty": "Medium",
-                            "created": "2024-12-16",
-                            "file": "/problems/Leetcode/2115_All_Possible_Recipes_.md",
-                            "path": "/problems/Leetcode/find-all-possible-recipes-from-given-supplies"
-                        },
-                        {
-                            "id": 2221,
-                            "title": "Check if a Parentheses String Can Be Valid",
-                            "title_slug": "check-if-a-parentheses-string-can-be-valid",
-                            "tags": "['String', 'Greedy', 'Stack']",
-                            "difficulty": "Medium",
-                            "created": "2025-01-12",
-                            "file": "/problems/Leetcode/2116_Paren_Str_Can_Be_Valid.md",
-                            "path": "/problems/Leetcode/check-if-a-parentheses-string-can-be-valid"
-                        },
-                        {
-                            "id": 2229,
+                            "id": 2106,
                             "title": "Maximum Fruits Harvested After at Most K Steps",
                             "title_slug": "maximum-fruits-harvested-after-at-most-k-steps",
                             "tags": "['Array', 'Binary Search', 'Prefix Sum', 'Sliding Window']",
@@ -2172,17 +2142,27 @@ export default {
                             "path": "/problems/Leetcode/maximum-fruits-harvested-after-at-most-k-steps"
                         },
                         {
-                            "id": 2236,
-                            "title": "Maximum Twin Sum of a Linked List",
-                            "title_slug": "maximum-twin-sum-of-a-linked-list",
-                            "tags": "['Two Pointers', 'Stack', 'Linked List']",
+                            "id": 2115,
+                            "title": "Find All Possible Recipes from Given Supplies",
+                            "title_slug": "find-all-possible-recipes-from-given-supplies",
+                            "tags": "['Array', 'String', 'Hash Table', 'Graph Theory', 'Topological Sort']",
                             "difficulty": "Medium",
-                            "created": "2024-10-12",
-                            "file": "/problems/Leetcode/2130_Max_Twin_Sum_Linked_List.md",
-                            "path": "/problems/Leetcode/maximum-twin-sum-of-a-linked-list"
+                            "created": "2024-12-16",
+                            "file": "/problems/Leetcode/2115_All_Possible_Recipes_.md",
+                            "path": "/problems/Leetcode/find-all-possible-recipes-from-given-supplies"
                         },
                         {
-                            "id": 2246,
+                            "id": 2116,
+                            "title": "Check if a Parentheses String Can Be Valid",
+                            "title_slug": "check-if-a-parentheses-string-can-be-valid",
+                            "tags": "['String', 'Greedy', 'Stack']",
+                            "difficulty": "Medium",
+                            "created": "2025-01-12",
+                            "file": "/problems/Leetcode/2116_Paren_Str_Can_Be_Valid.md",
+                            "path": "/problems/Leetcode/check-if-a-parentheses-string-can-be-valid"
+                        },
+                        {
+                            "id": 2127,
                             "title": "Maximum Employees to Be Invited to a Meeting",
                             "title_slug": "maximum-employees-to-be-invited-to-a-meeting",
                             "tags": "['Array', 'Dynamic Programming', 'Depth-First Search', 'Graph Theory', 'Topological Sort']",
@@ -2192,7 +2172,17 @@ export default {
                             "path": "/problems/Leetcode/maximum-employees-to-be-invited-to-a-meeting"
                         },
                         {
-                            "id": 2267,
+                            "id": 2130,
+                            "title": "Maximum Twin Sum of a Linked List",
+                            "title_slug": "maximum-twin-sum-of-a-linked-list",
+                            "tags": "['Two Pointers', 'Stack', 'Linked List']",
+                            "difficulty": "Medium",
+                            "created": "2024-10-12",
+                            "file": "/problems/Leetcode/2130_Max_Twin_Sum_Linked_List.md",
+                            "path": "/problems/Leetcode/maximum-twin-sum-of-a-linked-list"
+                        },
+                        {
+                            "id": 2163,
                             "title": "Minimum Difference in Sums After Removal of Elements",
                             "title_slug": "minimum-difference-in-sums-after-removal-of-elements",
                             "tags": "['Array', 'Dynamic Programming', 'Heap (Priority Queue)']",
@@ -2202,7 +2192,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-difference-in-sums-after-removal-of-elements"
                         },
                         {
-                            "id": 2300,
+                            "id": 2182,
                             "title": "Construct String With Repeat Limit",
                             "title_slug": "construct-string-with-repeat-limit",
                             "tags": "['String', 'Hash Table', 'Greedy', 'Heap (Priority Queue)', 'Counting']",
@@ -2212,7 +2202,7 @@ export default {
                             "path": "/problems/Leetcode/construct-string-with-repeat-limit"
                         },
                         {
-                            "id": 2306,
+                            "id": 2196,
                             "title": "Create Binary Tree From Descriptions",
                             "title_slug": "create-binary-tree-from-descriptions",
                             "tags": "['Array', 'Hash Table', 'Tree', 'Binary Tree']",
@@ -2222,7 +2212,7 @@ export default {
                             "path": "/problems/Leetcode/create-binary-tree-from-descriptions"
                         },
                         {
-                            "id": 2307,
+                            "id": 2197,
                             "title": "Replace Non-Coprime Numbers in Array",
                             "title_slug": "replace-non-coprime-numbers-in-array",
                             "tags": "['Array', 'Math', 'Stack', 'Number Theory']",
@@ -2232,17 +2222,27 @@ export default {
                             "path": "/problems/Leetcode/replace-non-coprime-numbers-in-array"
                         },
                         {
-                            "id": 2359,
-                            "title": "Maximum White Tiles Covered by a Carpet",
-                            "title_slug": "maximum-white-tiles-covered-by-a-carpet",
-                            "tags": "['Array', 'Sorting', 'Greedy', 'Binary Search', 'Prefix Sum', 'Sliding Window']",
+                            "id": 2216,
+                            "title": "Minimum Deletions to Make Array Beautiful",
+                            "title_slug": "minimum-deletions-to-make-array-beautiful",
+                            "tags": "['Array', 'Greedy', 'Stack']",
                             "difficulty": "Medium",
-                            "created": "2025-05-22",
-                            "file": "/problems/Leetcode/2271_Max_White_Tiles_Covered_by_Carpet.md",
-                            "path": "/problems/Leetcode/maximum-white-tiles-covered-by-a-carpet"
+                            "created": "2025-06-04",
+                            "file": "/problems/Leetcode/2216_Min_Del_Make_Arr_Beautiful.md",
+                            "path": "/problems/Leetcode/minimum-deletions-to-make-array-beautiful"
                         },
                         {
-                            "id": 2364,
+                            "id": 2218,
+                            "title": "Maximum Value of K Coins From Piles",
+                            "title_slug": "maximum-value-of-k-coins-from-piles",
+                            "tags": "['Array', 'Dynamic Programming', 'Prefix Sum']",
+                            "difficulty": "Hard",
+                            "created": "2025-06-18",
+                            "file": "/problems/Leetcode/2218_Max_Value_of_K_Coins_From_Piles.md",
+                            "path": "/problems/Leetcode/maximum-value-of-k-coins-from-piles"
+                        },
+                        {
+                            "id": 2246,
                             "title": "Longest Path With Different Adjacent Characters",
                             "title_slug": "longest-path-with-different-adjacent-characters",
                             "tags": "['Array', 'String', 'Depth-First Search', 'Tree', 'Graph Theory', 'Topological Sort']",
@@ -2252,7 +2252,17 @@ export default {
                             "path": "/problems/Leetcode/longest-path-with-different-adjacent-characters"
                         },
                         {
-                            "id": 2374,
+                            "id": 2271,
+                            "title": "Maximum White Tiles Covered by a Carpet",
+                            "title_slug": "maximum-white-tiles-covered-by-a-carpet",
+                            "tags": "['Array', 'Sorting', 'Greedy', 'Binary Search', 'Prefix Sum', 'Sliding Window']",
+                            "difficulty": "Medium",
+                            "created": "2025-05-22",
+                            "file": "/problems/Leetcode/2271_Max_White_Tiles_Covered_by_Carpet.md",
+                            "path": "/problems/Leetcode/maximum-white-tiles-covered-by-a-carpet"
+                        },
+                        {
+                            "id": 2289,
                             "title": "Steps to Make Array Non-decreasing",
                             "title_slug": "steps-to-make-array-non-decreasing",
                             "tags": "['Array', 'Dynamic Programming', 'Simulation', 'Stack', 'Linked List', 'Monotonic Stack']",
@@ -2262,7 +2272,7 @@ export default {
                             "path": "/problems/Leetcode/steps-to-make-array-non-decreasing"
                         },
                         {
-                            "id": 2402,
+                            "id": 2317,
                             "title": "Maximum XOR After Operations",
                             "title_slug": "maximum-xor-after-operations",
                             "tags": "['Array', 'Math', 'Bit Manipulation']",
@@ -2272,7 +2282,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-xor-after-operations"
                         },
                         {
-                            "id": 2408,
+                            "id": 2327,
                             "title": "Number of People Aware of a Secret",
                             "title_slug": "number-of-people-aware-of-a-secret",
                             "tags": "['Dynamic Programming', 'Simulation', 'Queue']",
@@ -2282,47 +2292,7 @@ export default {
                             "path": "/problems/Leetcode/number-of-people-aware-of-a-secret"
                         },
                         {
-                            "id": 2444,
-                            "title": "Longest Ideal Subsequence",
-                            "title_slug": "longest-ideal-subsequence",
-                            "tags": "['String', 'Hash Table', 'Dynamic Programming']",
-                            "difficulty": "Medium",
-                            "created": "2024-09-09",
-                            "file": "/problems/Leetcode/2370_Longest_Ideal_Subseq.md",
-                            "path": "/problems/Leetcode/longest-ideal-subsequence"
-                        },
-                        {
-                            "id": 2456,
-                            "title": "Construct Smallest Number From DI String",
-                            "title_slug": "construct-smallest-number-from-di-string",
-                            "tags": "['String', 'Greedy', 'Stack', 'Backtracking']",
-                            "difficulty": "Medium",
-                            "created": "2024-11-24",
-                            "file": "/problems/Leetcode/2375_Smallest_Num_From_DI.md",
-                            "path": "/problems/Leetcode/construct-smallest-number-from-di-string"
-                        },
-                        {
-                            "id": 2461,
-                            "title": "Amount of Time for Binary Tree to Be Infected",
-                            "title_slug": "amount-of-time-for-binary-tree-to-be-infected",
-                            "tags": "['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Binary Tree']",
-                            "difficulty": "Medium",
-                            "created": "2024-06-24",
-                            "file": "/problems/Leetcode/2385_Time_BT_Infected.md",
-                            "path": "/problems/Leetcode/amount-of-time-for-binary-tree-to-be-infected"
-                        },
-                        {
-                            "id": 2465,
-                            "title": "Shifting Letters II",
-                            "title_slug": "shifting-letters-ii",
-                            "tags": "['Array', 'String', 'Prefix Sum']",
-                            "difficulty": "Medium",
-                            "created": "2025-01-10",
-                            "file": "/problems/Leetcode/2381_Shifting_Letters_II.md",
-                            "path": "/problems/Leetcode/shifting-letters-ii"
-                        },
-                        {
-                            "id": 2473,
+                            "id": 2342,
                             "title": "Max Sum of a Pair With Equal Sum of Digits",
                             "title_slug": "max-sum-of-a-pair-with-equal-sum-of-digits",
                             "tags": "['Array', 'Hash Table', 'Sorting', 'Heap (Priority Queue)']",
@@ -2332,7 +2302,47 @@ export default {
                             "path": "/problems/Leetcode/max-sum-of-a-pair-with-equal-sum-of-digits"
                         },
                         {
-                            "id": 2478,
+                            "id": 2370,
+                            "title": "Longest Ideal Subsequence",
+                            "title_slug": "longest-ideal-subsequence",
+                            "tags": "['String', 'Hash Table', 'Dynamic Programming']",
+                            "difficulty": "Medium",
+                            "created": "2024-09-09",
+                            "file": "/problems/Leetcode/2370_Longest_Ideal_Subseq.md",
+                            "path": "/problems/Leetcode/longest-ideal-subsequence"
+                        },
+                        {
+                            "id": 2375,
+                            "title": "Construct Smallest Number From DI String",
+                            "title_slug": "construct-smallest-number-from-di-string",
+                            "tags": "['String', 'Greedy', 'Stack', 'Backtracking']",
+                            "difficulty": "Medium",
+                            "created": "2024-11-24",
+                            "file": "/problems/Leetcode/2375_Smallest_Num_From_DI.md",
+                            "path": "/problems/Leetcode/construct-smallest-number-from-di-string"
+                        },
+                        {
+                            "id": 2381,
+                            "title": "Shifting Letters II",
+                            "title_slug": "shifting-letters-ii",
+                            "tags": "['Array', 'String', 'Prefix Sum']",
+                            "difficulty": "Medium",
+                            "created": "2025-01-10",
+                            "file": "/problems/Leetcode/2381_Shifting_Letters_II.md",
+                            "path": "/problems/Leetcode/shifting-letters-ii"
+                        },
+                        {
+                            "id": 2385,
+                            "title": "Amount of Time for Binary Tree to Be Infected",
+                            "title_slug": "amount-of-time-for-binary-tree-to-be-infected",
+                            "tags": "['Hash Table', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Binary Tree']",
+                            "difficulty": "Medium",
+                            "created": "2024-06-24",
+                            "file": "/problems/Leetcode/2385_Time_BT_Infected.md",
+                            "path": "/problems/Leetcode/amount-of-time-for-binary-tree-to-be-infected"
+                        },
+                        {
+                            "id": 2401,
                             "title": "Longest Nice Subarray",
                             "title_slug": "longest-nice-subarray",
                             "tags": "['Array', 'Bit Manipulation', 'Sliding Window']",
@@ -2342,7 +2352,7 @@ export default {
                             "path": "/problems/Leetcode/longest-nice-subarray"
                         },
                         {
-                            "id": 2498,
+                            "id": 2411,
                             "title": "Smallest Subarrays With Maximum Bitwise OR",
                             "title_slug": "smallest-subarrays-with-maximum-bitwise-or",
                             "tags": "['Array', 'Binary Search', 'Bit Manipulation', 'Sliding Window']",
@@ -2352,7 +2362,7 @@ export default {
                             "path": "/problems/Leetcode/smallest-subarrays-with-maximum-bitwise-or"
                         },
                         {
-                            "id": 2504,
+                            "id": 2420,
                             "title": "Find All Good Indices",
                             "title_slug": "find-all-good-indices",
                             "tags": "['Array', 'Dynamic Programming', 'Prefix Sum']",
@@ -2362,17 +2372,7 @@ export default {
                             "path": "/problems/Leetcode/find-all-good-indices"
                         },
                         {
-                            "id": 2509,
-                            "title": "Minimize XOR",
-                            "title_slug": "minimize-xor",
-                            "tags": "['Greedy', 'Bit Manipulation']",
-                            "difficulty": "Medium",
-                            "created": "2025-01-23",
-                            "file": "/problems/Leetcode/2429_Min_XOR.md",
-                            "path": "/problems/Leetcode/minimize-xor"
-                        },
-                        {
-                            "id": 2513,
+                            "id": 2426,
                             "title": "Number of Pairs Satisfying Inequality",
                             "title_slug": "number-of-pairs-satisfying-inequality",
                             "tags": "['Array', 'Binary Search', 'Segment Tree', 'Ordered Set', 'Divide and Conquer', 'Binary Indexed Tree', 'Merge Sort']",
@@ -2382,7 +2382,17 @@ export default {
                             "path": "/problems/Leetcode/number-of-pairs-satisfying-inequality"
                         },
                         {
-                            "id": 2520,
+                            "id": 2429,
+                            "title": "Minimize XOR",
+                            "title_slug": "minimize-xor",
+                            "tags": "['Greedy', 'Bit Manipulation']",
+                            "difficulty": "Medium",
+                            "created": "2025-01-23",
+                            "file": "/problems/Leetcode/2429_Min_XOR.md",
+                            "path": "/problems/Leetcode/minimize-xor"
+                        },
+                        {
+                            "id": 2434,
                             "title": "Using a Robot to Print the Lexicographically Smallest String",
                             "title_slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
                             "tags": "['String', 'Hash Table', 'Greedy', 'Stack']",
@@ -2392,7 +2402,7 @@ export default {
                             "path": "/problems/Leetcode/using-a-robot-to-print-the-lexicographically-smallest-string"
                         },
                         {
-                            "id": 2527,
+                            "id": 2444,
                             "title": "Count Subarrays With Fixed Bounds",
                             "title_slug": "count-subarrays-with-fixed-bounds",
                             "tags": "['Array', 'Sliding Window', 'Queue', 'Monotonic Queue']",
@@ -2402,7 +2412,7 @@ export default {
                             "path": "/problems/Leetcode/count-subarrays-with-fixed-bounds"
                         },
                         {
-                            "id": 2549,
+                            "id": 2454,
                             "title": "Next Greater Element IV",
                             "title_slug": "next-greater-element-iv",
                             "tags": "['Array', 'Sorting', 'Binary Search', 'Heap (Priority Queue)', 'Stack', 'Monotonic Stack']",
@@ -2412,7 +2422,7 @@ export default {
                             "path": "/problems/Leetcode/next-greater-element-iv"
                         },
                         {
-                            "id": 2564,
+                            "id": 2467,
                             "title": "Most Profitable Path in a Tree",
                             "title_slug": "most-profitable-path-in-a-tree",
                             "tags": "['Array', 'Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory']",
@@ -2422,7 +2432,7 @@ export default {
                             "path": "/problems/Leetcode/most-profitable-path-in-a-tree"
                         },
                         {
-                            "id": 2568,
+                            "id": 2477,
                             "title": "Minimum Fuel Cost to Report to the Capital",
                             "title_slug": "minimum-fuel-cost-to-report-to-the-capital",
                             "tags": "['Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory']",
@@ -2432,7 +2442,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-fuel-cost-to-report-to-the-capital"
                         },
                         {
-                            "id": 2577,
+                            "id": 2484,
                             "title": "Count Palindromic Subsequences",
                             "title_slug": "count-palindromic-subsequences",
                             "tags": "['String', 'Dynamic Programming']",
@@ -2442,7 +2452,7 @@ export default {
                             "path": "/problems/Leetcode/count-palindromic-subsequences"
                         },
                         {
-                            "id": 2588,
+                            "id": 2503,
                             "title": "Maximum Number of Points From Grid Queries",
                             "title_slug": "maximum-number-of-points-from-grid-queries",
                             "tags": "['Array', 'Sorting', 'Matrix', 'Breadth-First Search', 'Two Pointers', 'Heap (Priority Queue)', 'Union-Find']",
@@ -2452,7 +2462,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-number-of-points-from-grid-queries"
                         },
                         {
-                            "id": 2599,
+                            "id": 2516,
                             "title": "Take K of Each Character From Left and Right",
                             "title_slug": "take-k-of-each-character-from-left-and-right",
                             "tags": "['String', 'Hash Table', 'Sliding Window']",
@@ -2462,7 +2472,7 @@ export default {
                             "path": "/problems/Leetcode/take-k-of-each-character-from-left-and-right"
                         },
                         {
-                            "id": 2618,
+                            "id": 2528,
                             "title": "Maximize the Minimum Powered City",
                             "title_slug": "maximize-the-minimum-powered-city",
                             "tags": "['Array', 'Greedy', 'Binary Search', 'Prefix Sum', 'Sliding Window', 'Queue']",
@@ -2472,7 +2482,7 @@ export default {
                             "path": "/problems/Leetcode/maximize-the-minimum-powered-city"
                         },
                         {
-                            "id": 2625,
+                            "id": 2536,
                             "title": "Increment Submatrices by One",
                             "title_slug": "increment-submatrices-by-one",
                             "tags": "['Array', 'Matrix', 'Prefix Sum']",
@@ -2482,7 +2492,7 @@ export default {
                             "path": "/problems/Leetcode/increment-submatrices-by-one"
                         },
                         {
-                            "id": 2626,
+                            "id": 2537,
                             "title": "Count the Number of Good Subarrays",
                             "title_slug": "count-the-number-of-good-subarrays",
                             "tags": "['Array', 'Hash Table', 'Sliding Window']",
@@ -2492,7 +2502,7 @@ export default {
                             "path": "/problems/Leetcode/count-the-number-of-good-subarrays"
                         },
                         {
-                            "id": 2700,
+                            "id": 2564,
                             "title": "Substring XOR Queries",
                             "title_slug": "substring-xor-queries",
                             "tags": "['Array', 'String', 'Hash Table', 'Bit Manipulation']",
@@ -2502,7 +2512,7 @@ export default {
                             "path": "/problems/Leetcode/substring-xor-queries"
                         },
                         {
-                            "id": 2720,
+                            "id": 2616,
                             "title": "Minimize the Maximum Difference of Pairs",
                             "title_slug": "minimize-the-maximum-difference-of-pairs",
                             "tags": "['Array', 'Dynamic Programming', 'Sorting', 'Greedy', 'Binary Search']",
@@ -2512,7 +2522,7 @@ export default {
                             "path": "/problems/Leetcode/minimize-the-maximum-difference-of-pairs"
                         },
                         {
-                            "id": 2753,
+                            "id": 2654,
                             "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
                             "title_slug": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
                             "tags": "['Array', 'Math', 'Number Theory']",
@@ -2522,17 +2532,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-number-of-operations-to-make-all-array-elements-equal-to-1"
                         },
                         {
-                            "id": 2755,
-                            "title": "Extra Characters in a String",
-                            "title_slug": "extra-characters-in-a-string",
-                            "tags": "['Array', 'String', 'Hash Table', 'Dynamic Programming', 'Trie']",
-                            "difficulty": "Medium",
-                            "created": "2024-08-15",
-                            "file": "/problems/Leetcode/2707_Extra_Char.md",
-                            "path": "/problems/Leetcode/extra-characters-in-a-string"
-                        },
-                        {
-                            "id": 2780,
+                            "id": 2673,
                             "title": "Make Costs of Paths Equal in a Binary Tree",
                             "title_slug": "make-costs-of-paths-equal-in-a-binary-tree",
                             "tags": "['Array', 'Dynamic Programming', 'Greedy', 'Tree', 'Binary Tree']",
@@ -2542,7 +2542,17 @@ export default {
                             "path": "/problems/Leetcode/make-costs-of-paths-equal-in-a-binary-tree"
                         },
                         {
-                            "id": 2786,
+                            "id": 2707,
+                            "title": "Extra Characters in a String",
+                            "title_slug": "extra-characters-in-a-string",
+                            "tags": "['Array', 'String', 'Hash Table', 'Dynamic Programming', 'Trie']",
+                            "difficulty": "Medium",
+                            "created": "2024-08-15",
+                            "file": "/problems/Leetcode/2707_Extra_Char.md",
+                            "path": "/problems/Leetcode/extra-characters-in-a-string"
+                        },
+                        {
+                            "id": 2730,
                             "title": "Find the Longest Semi-Repetitive Substring",
                             "title_slug": "find-the-longest-semi-repetitive-substring",
                             "tags": "['String', 'Sliding Window']",
@@ -2552,17 +2562,7 @@ export default {
                             "path": "/problems/Leetcode/find-the-longest-semi-repetitive-substring"
                         },
                         {
-                            "id": 2856,
-                            "title": "Count Complete Subarrays in an Array",
-                            "title_slug": "count-complete-subarrays-in-an-array",
-                            "tags": "['Array', 'Hash Table', 'Sliding Window']",
-                            "difficulty": "Medium",
-                            "created": "2024-10-12",
-                            "file": "/problems/Leetcode/2799_Count_Complete_Subarr.md",
-                            "path": "/problems/Leetcode/count-complete-subarrays-in-an-array"
-                        },
-                        {
-                            "id": 2868,
+                            "id": 2762,
                             "title": "Continuous Subarrays",
                             "title_slug": "continuous-subarrays",
                             "tags": "['Array', 'Heap (Priority Queue)', 'Sliding Window', 'Ordered Set', 'Queue', 'Monotonic Queue']",
@@ -2572,7 +2572,7 @@ export default {
                             "path": "/problems/Leetcode/continuous-subarrays"
                         },
                         {
-                            "id": 2891,
+                            "id": 2779,
                             "title": "Maximum Beauty of an Array After Applying Operation",
                             "title_slug": "maximum-beauty-of-an-array-after-applying-operation",
                             "tags": "['Array', 'Sorting', 'Binary Search', 'Sliding Window']",
@@ -2582,7 +2582,17 @@ export default {
                             "path": "/problems/Leetcode/maximum-beauty-of-an-array-after-applying-operation"
                         },
                         {
-                            "id": 2904,
+                            "id": 2799,
+                            "title": "Count Complete Subarrays in an Array",
+                            "title_slug": "count-complete-subarrays-in-an-array",
+                            "tags": "['Array', 'Hash Table', 'Sliding Window']",
+                            "difficulty": "Medium",
+                            "created": "2024-10-12",
+                            "file": "/problems/Leetcode/2799_Count_Complete_Subarr.md",
+                            "path": "/problems/Leetcode/count-complete-subarrays-in-an-array"
+                        },
+                        {
+                            "id": 2826,
                             "title": "Sorting Three Groups",
                             "title_slug": "sorting-three-groups",
                             "tags": "['Array', 'Dynamic Programming', 'Binary Search']",
@@ -2592,7 +2602,7 @@ export default {
                             "path": "/problems/Leetcode/sorting-three-groups"
                         },
                         {
-                            "id": 2915,
+                            "id": 2845,
                             "title": "Count of Interesting Subarrays",
                             "title_slug": "count-of-interesting-subarrays",
                             "tags": "['Array', 'Hash Table', 'Prefix Sum']",
@@ -2602,7 +2612,7 @@ export default {
                             "path": "/problems/Leetcode/count-of-interesting-subarrays"
                         },
                         {
-                            "id": 3142,
+                            "id": 2901,
                             "title": "Longest Unequal Adjacent Groups Subsequence II",
                             "title_slug": "longest-unequal-adjacent-groups-subsequence-ii",
                             "tags": "['Array', 'String', 'Dynamic Programming']",
@@ -2612,7 +2622,7 @@ export default {
                             "path": "/problems/Leetcode/longest-unequal-adjacent-groups-subsequence-ii"
                         },
                         {
-                            "id": 3150,
+                            "id": 2904,
                             "title": "Shortest and Lexicographically Smallest Beautiful String",
                             "title_slug": "shortest-and-lexicographically-smallest-beautiful-string",
                             "tags": "['String', 'Sliding Window']",
@@ -2622,17 +2632,7 @@ export default {
                             "path": "/problems/Leetcode/shortest-and-lexicographically-smallest-beautiful-string"
                         },
                         {
-                            "id": 3181,
-                            "title": "Find Building Where Alice and Bob Can Meet",
-                            "title_slug": "find-building-where-alice-and-bob-can-meet",
-                            "tags": "['Array', 'Binary Search', 'Heap (Priority Queue)', 'Stack', 'Segment Tree', 'Monotonic Stack', 'Binary Indexed Tree']",
-                            "difficulty": "Hard",
-                            "created": "2024-12-22",
-                            "file": "/problems/Leetcode/2940_Where_Alice_Bob_Can_Meet.md",
-                            "path": "/problems/Leetcode/find-building-where-alice-and-bob-can-meet"
-                        },
-                        {
-                            "id": 3192,
+                            "id": 2939,
                             "title": "Maximum Xor Product",
                             "title_slug": "maximum-xor-product",
                             "tags": "['Math', 'Greedy', 'Bit Manipulation']",
@@ -2642,17 +2642,17 @@ export default {
                             "path": "/problems/Leetcode/maximum-xor-product"
                         },
                         {
-                            "id": 3213,
-                            "title": "Count Subarrays Where Max Element Appears at Least K Times",
-                            "title_slug": "count-subarrays-where-max-element-appears-at-least-k-times",
-                            "tags": "['Array', 'Sliding Window']",
-                            "difficulty": "Medium",
-                            "created": "2025-04-21",
-                            "file": "/problems/Leetcode/2962_Subarr_Where_Max_Appears_at_Least_K_Times.md",
-                            "path": "/problems/Leetcode/count-subarrays-where-max-element-appears-at-least-k-times"
+                            "id": 2940,
+                            "title": "Find Building Where Alice and Bob Can Meet",
+                            "title_slug": "find-building-where-alice-and-bob-can-meet",
+                            "tags": "['Array', 'Binary Search', 'Heap (Priority Queue)', 'Stack', 'Segment Tree', 'Monotonic Stack', 'Binary Indexed Tree']",
+                            "difficulty": "Hard",
+                            "created": "2024-12-22",
+                            "file": "/problems/Leetcode/2940_Where_Alice_Bob_Can_Meet.md",
+                            "path": "/problems/Leetcode/find-building-where-alice-and-bob-can-meet"
                         },
                         {
-                            "id": 3225,
+                            "id": 2958,
                             "title": "Length of Longest Subarray With at Most K Frequency",
                             "title_slug": "length-of-longest-subarray-with-at-most-k-frequency",
                             "tags": "['Array', 'Hash Table', 'Sliding Window']",
@@ -2662,7 +2662,17 @@ export default {
                             "path": "/problems/Leetcode/length-of-longest-subarray-with-at-most-k-frequency"
                         },
                         {
-                            "id": 3227,
+                            "id": 2962,
+                            "title": "Count Subarrays Where Max Element Appears at Least K Times",
+                            "title_slug": "count-subarrays-where-max-element-appears-at-least-k-times",
+                            "tags": "['Array', 'Sliding Window']",
+                            "difficulty": "Medium",
+                            "created": "2025-04-21",
+                            "file": "/problems/Leetcode/2962_Subarr_Where_Max_Appears_at_Least_K_Times.md",
+                            "path": "/problems/Leetcode/count-subarrays-where-max-element-appears-at-least-k-times"
+                        },
+                        {
+                            "id": 2965,
                             "title": "Find Missing and Repeated Values",
                             "title_slug": "find-missing-and-repeated-values",
                             "tags": "['Array', 'Hash Table', 'Math', 'Matrix']",
@@ -2672,7 +2682,7 @@ export default {
                             "path": "/problems/Leetcode/find-missing-and-repeated-values"
                         },
                         {
-                            "id": 3267,
+                            "id": 2981,
                             "title": "Find Longest Special Substring That Occurs Thrice I",
                             "title_slug": "find-longest-special-substring-that-occurs-thrice-i",
                             "tags": "['String', 'Hash Table', 'Binary Search', 'Counting', 'Sliding Window']",
@@ -2682,7 +2692,7 @@ export default {
                             "path": "/problems/Leetcode/find-longest-special-substring-that-occurs-thrice-i"
                         },
                         {
-                            "id": 3278,
+                            "id": 3025,
                             "title": "Find the Number of Ways to Place People I",
                             "title_slug": "find-the-number-of-ways-to-place-people-i",
                             "tags": "['Array', 'Math', 'Sorting', 'Enumeration', 'Geometry']",
@@ -2692,7 +2702,7 @@ export default {
                             "path": "/problems/Leetcode/find-the-number-of-ways-to-place-people-i"
                         },
                         {
-                            "id": 3382,
+                            "id": 3113,
                             "title": "Find the Number of Subarrays Where Boundary Elements Are Maximum",
                             "title_slug": "find-the-number-of-subarrays-where-boundary-elements-are-maximum",
                             "tags": "['Array', 'Binary Search', 'Stack', 'Monotonic Stack']",
@@ -2702,7 +2712,7 @@ export default {
                             "path": "/problems/Leetcode/find-the-number-of-subarrays-where-boundary-elements-are-maximum"
                         },
                         {
-                            "id": 3427,
+                            "id": 3152,
                             "title": "Special Array II",
                             "title_slug": "special-array-ii",
                             "tags": "['Array', 'Binary Search', 'Prefix Sum']",
@@ -2712,7 +2722,7 @@ export default {
                             "path": "/problems/Leetcode/special-array-ii"
                         },
                         {
-                            "id": 3437,
+                            "id": 3186,
                             "title": "Maximum Total Damage With Spell Casting",
                             "title_slug": "maximum-total-damage-with-spell-casting",
                             "tags": "['Array', 'Hash Table', 'Dynamic Programming', 'Sorting', 'Binary Search', 'Two Pointers', 'Counting']",
@@ -2722,27 +2732,7 @@ export default {
                             "path": "/problems/Leetcode/maximum-total-damage-with-spell-casting"
                         },
                         {
-                            "id": 3439,
-                            "title": "Find Minimum Diameter After Merging Two Trees",
-                            "title_slug": "find-minimum-diameter-after-merging-two-trees",
-                            "tags": "['Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory']",
-                            "difficulty": "Hard",
-                            "created": "2024-12-05",
-                            "file": "/problems/Leetcode/3203_Min_Diameter_Merging_Two_Trees.md",
-                            "path": "/problems/Leetcode/find-minimum-diameter-after-merging-two-trees"
-                        },
-                        {
-                            "id": 3479,
-                            "title": "Count the Number of Substrings With Dominant Ones",
-                            "title_slug": "count-the-number-of-substrings-with-dominant-ones",
-                            "tags": "['String', 'Enumeration']",
-                            "difficulty": "Medium",
-                            "created": "2025-11-16",
-                            "file": "/problems/Leetcode/3234_Count_Substr_With_Dominant_Ones.md",
-                            "path": "/problems/Leetcode/count-the-number-of-substrings-with-dominant-ones"
-                        },
-                        {
-                            "id": 3491,
+                            "id": 3202,
                             "title": "Find the Maximum Length of Valid Subsequence II",
                             "title_slug": "find-the-maximum-length-of-valid-subsequence-ii",
                             "tags": "['Array', 'Dynamic Programming']",
@@ -2752,7 +2742,17 @@ export default {
                             "path": "/problems/Leetcode/find-the-maximum-length-of-valid-subsequence-ii"
                         },
                         {
-                            "id": 3493,
+                            "id": 3203,
+                            "title": "Find Minimum Diameter After Merging Two Trees",
+                            "title_slug": "find-minimum-diameter-after-merging-two-trees",
+                            "tags": "['Depth-First Search', 'Tree', 'Breadth-First Search', 'Graph Theory']",
+                            "difficulty": "Hard",
+                            "created": "2024-12-05",
+                            "file": "/problems/Leetcode/3203_Min_Diameter_Merging_Two_Trees.md",
+                            "path": "/problems/Leetcode/find-minimum-diameter-after-merging-two-trees"
+                        },
+                        {
+                            "id": 3228,
                             "title": "Maximum Number of Operations to Move Ones to the End",
                             "title_slug": "maximum-number-of-operations-to-move-ones-to-the-end",
                             "tags": "['String', 'Greedy', 'Counting']",
@@ -2762,17 +2762,17 @@ export default {
                             "path": "/problems/Leetcode/maximum-number-of-operations-to-move-ones-to-the-end"
                         },
                         {
-                            "id": 3502,
-                            "title": "Count Substrings With K-Frequency Characters I",
-                            "title_slug": "count-substrings-with-k-frequency-characters-i",
-                            "tags": "['String', 'Hash Table', 'Sliding Window']",
+                            "id": 3234,
+                            "title": "Count the Number of Substrings With Dominant Ones",
+                            "title_slug": "count-the-number-of-substrings-with-dominant-ones",
+                            "tags": "['String', 'Enumeration']",
                             "difficulty": "Medium",
-                            "created": "2024-12-03",
-                            "file": "/problems/Leetcode/3325_Substr_K_Freq_Char_I.md",
-                            "path": "/problems/Leetcode/count-substrings-with-k-frequency-characters-i"
+                            "created": "2025-11-16",
+                            "file": "/problems/Leetcode/3234_Count_Substr_With_Dominant_Ones.md",
+                            "path": "/problems/Leetcode/count-the-number-of-substrings-with-dominant-ones"
                         },
                         {
-                            "id": 3552,
+                            "id": 3260,
                             "title": "Find the Largest Palindrome Divisible by K",
                             "title_slug": "find-the-largest-palindrome-divisible-by-k",
                             "tags": "['String', 'Math', 'Dynamic Programming', 'Greedy', 'Number Theory']",
@@ -2782,7 +2782,7 @@ export default {
                             "path": "/problems/Leetcode/find-the-largest-palindrome-divisible-by-k"
                         },
                         {
-                            "id": 3558,
+                            "id": 3286,
                             "title": "Find a Safe Walk Through a Grid",
                             "title_slug": "find-a-safe-walk-through-a-grid",
                             "tags": "['Array', 'Matrix', 'Breadth-First Search', 'Heap (Priority Queue)', 'Graph Theory', 'Shortest Path']",
@@ -2792,7 +2792,7 @@ export default {
                             "path": "/problems/Leetcode/find-a-safe-walk-through-a-grid"
                         },
                         {
-                            "id": 3601,
+                            "id": 3307,
                             "title": "Find the K-th Character in String Game II",
                             "title_slug": "find-the-k-th-character-in-string-game-ii",
                             "tags": "['Math', 'Bit Manipulation', 'Recursion']",
@@ -2802,7 +2802,17 @@ export default {
                             "path": "/problems/Leetcode/find-the-k-th-character-in-string-game-ii"
                         },
                         {
-                            "id": 3629,
+                            "id": 3325,
+                            "title": "Count Substrings With K-Frequency Characters I",
+                            "title_slug": "count-substrings-with-k-frequency-characters-i",
+                            "tags": "['String', 'Hash Table', 'Sliding Window']",
+                            "difficulty": "Medium",
+                            "created": "2024-12-03",
+                            "file": "/problems/Leetcode/3325_Substr_K_Freq_Char_I.md",
+                            "path": "/problems/Leetcode/count-substrings-with-k-frequency-characters-i"
+                        },
+                        {
+                            "id": 3335,
                             "title": "Total Characters in String After Transformations I",
                             "title_slug": "total-characters-in-string-after-transformations-i",
                             "tags": "['String', 'Hash Table', 'Math', 'Dynamic Programming', 'Counting']",
@@ -2812,17 +2822,7 @@ export default {
                             "path": "/problems/Leetcode/total-characters-in-string-after-transformations-i"
                         },
                         {
-                            "id": 3633,
-                            "title": "Maximize the Number of Target Nodes After Connecting Trees I",
-                            "title_slug": "maximize-the-number-of-target-nodes-after-connecting-trees-i",
-                            "tags": "['Depth-First Search', 'Tree', 'Breadth-First Search']",
-                            "difficulty": "Medium",
-                            "created": "2024-12-12",
-                            "file": "/problems/Leetcode/3372_Max_Target_After_Connecting_Trees_I.md",
-                            "path": "/problems/Leetcode/maximize-the-number-of-target-nodes-after-connecting-trees-i"
-                        },
-                        {
-                            "id": 3639,
+                            "id": 3355,
                             "title": "Zero Array Transformation I",
                             "title_slug": "zero-array-transformation-i",
                             "tags": "['Array', 'Prefix Sum']",
@@ -2832,7 +2832,7 @@ export default {
                             "path": "/problems/Leetcode/zero-array-transformation-i"
                         },
                         {
-                            "id": 3643,
+                            "id": 3356,
                             "title": "Zero Array Transformation II",
                             "title_slug": "zero-array-transformation-ii",
                             "tags": "['Array', 'Binary Search', 'Prefix Sum', 'Two Pointers']",
@@ -2842,7 +2842,7 @@ export default {
                             "path": "/problems/Leetcode/zero-array-transformation-ii"
                         },
                         {
-                            "id": 3675,
+                            "id": 3367,
                             "title": "Maximize Sum of Weights after Edge Removals",
                             "title_slug": "maximize-sum-of-weights-after-edge-removals",
                             "tags": "['Dynamic Programming', 'Sorting', 'Depth-First Search', 'Tree']",
@@ -2852,7 +2852,17 @@ export default {
                             "path": "/problems/Leetcode/maximize-sum-of-weights-after-edge-removals"
                         },
                         {
-                            "id": 3678,
+                            "id": 3372,
+                            "title": "Maximize the Number of Target Nodes After Connecting Trees I",
+                            "title_slug": "maximize-the-number-of-target-nodes-after-connecting-trees-i",
+                            "tags": "['Depth-First Search', 'Tree', 'Breadth-First Search']",
+                            "difficulty": "Medium",
+                            "created": "2024-12-12",
+                            "file": "/problems/Leetcode/3372_Max_Target_After_Connecting_Trees_I.md",
+                            "path": "/problems/Leetcode/maximize-the-number-of-target-nodes-after-connecting-trees-i"
+                        },
+                        {
+                            "id": 3408,
                             "title": "Design Task Manager",
                             "title_slug": "design-task-manager",
                             "tags": "['Hash Table', 'Heap (Priority Queue)', 'Design', 'Ordered Set']",
@@ -2862,7 +2872,7 @@ export default {
                             "path": "/problems/Leetcode/design-task-manager"
                         },
                         {
-                            "id": 3763,
+                            "id": 3453,
                             "title": "Separate Squares I",
                             "title_slug": "separate-squares-i",
                             "tags": "['Array', 'Binary Search']",
@@ -2872,7 +2882,7 @@ export default {
                             "path": "/problems/Leetcode/separate-squares-i"
                         },
                         {
-                            "id": 3808,
+                            "id": 3504,
                             "title": "Longest Palindrome After Substring Concatenation II",
                             "title_slug": "longest-palindrome-after-substring-concatenation-ii",
                             "tags": "['String', 'Dynamic Programming', 'Two Pointers']",
@@ -2882,7 +2892,7 @@ export default {
                             "path": "/problems/Leetcode/longest-palindrome-after-substring-concatenation-ii"
                         },
                         {
-                            "id": 3834,
+                            "id": 3542,
                             "title": "Minimum Operations to Convert All Elements to Zero",
                             "title_slug": "minimum-operations-to-convert-all-elements-to-zero",
                             "tags": "['Array', 'Hash Table', 'Greedy', 'Stack', 'Monotonic Stack']",
@@ -2892,7 +2902,7 @@ export default {
                             "path": "/problems/Leetcode/minimum-operations-to-convert-all-elements-to-zero"
                         },
                         {
-                            "id": 3835,
+                            "id": 3578,
                             "title": "Count Partitions With Max-Min Difference at Most K",
                             "title_slug": "count-partitions-with-max-min-difference-at-most-k",
                             "tags": "['Array', 'Dynamic Programming', 'Prefix Sum', 'Sliding Window', 'Queue', 'Monotonic Queue']",
@@ -2902,7 +2912,7 @@ export default {
                             "path": "/problems/Leetcode/count-partitions-with-max-min-difference-at-most-k"
                         },
                         {
-                            "id": 3877,
+                            "id": 3664,
                             "title": "Two-Letter Card Game",
                             "title_slug": "two-letter-card-game",
                             "tags": "['Array', 'String', 'Hash Table', 'Counting', 'Enumeration']",
@@ -2912,17 +2922,7 @@ export default {
                             "path": "/problems/Leetcode/two-letter-card-game"
                         },
                         {
-                            "id": 4020,
-                            "title": "Lexicographically Smallest Permutation Greater Than Target",
-                            "title_slug": "lexicographically-smallest-permutation-greater-than-target",
-                            "tags": "['String', 'Hash Table', 'Greedy', 'Counting', 'Enumeration']",
-                            "difficulty": "Medium",
-                            "created": "2026-08-27",
-                            "file": "/problems/Leetcode/3720_Lexico_Smallest_Permu_Greater_Than_Target.md",
-                            "path": "/problems/Leetcode/lexicographically-smallest-permutation-greater-than-target"
-                        },
-                        {
-                            "id": 4027,
+                            "id": 3686,
                             "title": "Number of Stable Subsequences",
                             "title_slug": "number-of-stable-subsequences",
                             "tags": "['Array', 'Dynamic Programming']",
@@ -2932,7 +2932,17 @@ export default {
                             "path": "/problems/Leetcode/number-of-stable-subsequences"
                         },
                         {
-                            "id": 4075,
+                            "id": 3720,
+                            "title": "Lexicographically Smallest Permutation Greater Than Target",
+                            "title_slug": "lexicographically-smallest-permutation-greater-than-target",
+                            "tags": "['String', 'Hash Table', 'Greedy', 'Counting', 'Enumeration']",
+                            "difficulty": "Medium",
+                            "created": "2026-08-27",
+                            "file": "/problems/Leetcode/3720_Lexico_Smallest_Permu_Greater_Than_Target.md",
+                            "path": "/problems/Leetcode/lexicographically-smallest-permutation-greater-than-target"
+                        },
+                        {
+                            "id": 3739,
                             "title": "Count Subarrays With Majority Element II",
                             "title_slug": "count-subarrays-with-majority-element-ii",
                             "tags": "['Array', 'Hash Table', 'Prefix Sum', 'Segment Tree', 'Divide and Conquer', 'Merge Sort']",
@@ -2942,7 +2952,7 @@ export default {
                             "path": "/problems/Leetcode/count-subarrays-with-majority-element-ii"
                         },
                         {
-                            "id": 4136,
+                            "id": 3756,
                             "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
                             "title_slug": "concatenate-non-zero-digits-and-multiply-by-sum-ii",
                             "tags": "['String', 'Math', 'Prefix Sum']",
@@ -2952,7 +2962,7 @@ export default {
                             "path": "/problems/Leetcode/concatenate-non-zero-digits-and-multiply-by-sum-ii"
                         },
                         {
-                            "id": 4265,
+                            "id": 3900,
                             "title": "Longest Balanced Substring After One Swap",
                             "title_slug": "longest-balanced-substring-after-one-swap",
                             "tags": "['String', 'Hash Table', 'Prefix Sum']",
