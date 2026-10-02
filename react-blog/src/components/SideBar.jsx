@@ -27,7 +27,7 @@ export default function SideBar() {
 
   const drawer = (
     <Box component="aside">
-      <Box sx={{ p: 2 }}>
+      <Box sx={{ px: 2, py: 1 }}>
         <Typography variant="h6" fontWeight="bold">Contents</Typography>
       </Box>
 
@@ -46,10 +46,10 @@ export default function SideBar() {
         variant='extended'
         onClick={handleDrawerToggle}
         sx={{
+          display: { sm: 'none' },
           position: 'fixed',
-          bottom: 16,
-          left: 16,
-          display: { sm: 'none' }
+          bottom: '1rem',
+          left: '1rem'
         }}
         color='primary'
         aria-label='open drawer'
@@ -69,15 +69,9 @@ export default function SideBar() {
           onClose={handleDrawerClose}
           sx={{
             display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': {
-              boxSizing: 'border-box',
-              width: 'auto',
-              maxWidth: '80vw'
-            },
+            '& .MuiDrawer-paper': { width: 'auto', maxWidth: '80vw' },
           }}
-          slotProps={{
-            root: { keepMounted: true },
-          }}>
+          slotProps={{ root: { keepMounted: true } }}>
           {drawer}
         </Drawer>
 
@@ -87,12 +81,7 @@ export default function SideBar() {
           open
           sx={{
             display: { xs: 'none', sm: 'block' },
-            '& .MuiDrawer-paper': {
-              boxSizing: 'border-box',
-              width: drawerWidth,
-              borderRight: '1px solid',
-              borderColor: 'divider',
-            },
+            '& .MuiDrawer-paper': { width: drawerWidth },
           }}>
           {drawer}
         </Drawer>
