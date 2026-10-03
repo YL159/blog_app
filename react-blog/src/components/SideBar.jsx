@@ -26,7 +26,7 @@ export default function SideBar() {
   };
 
   const drawer = (
-    <Box component="aside">
+    <>
       <Box sx={{ px: 2, py: 1 }}>
         <Typography variant="h6" fontWeight="bold">Contents</Typography>
       </Box>
@@ -36,11 +36,11 @@ export default function SideBar() {
       <Box sx={{ flexGrow: 1, overflowY: 'auto' }}>
         <TreeItem node={fileMap} />
       </Box>
-    </Box>
+    </>
   )
 
   return (
-    <>
+    <aside>
       {/* Floating Action Button for phone (xs)*/}
       <Fab
         variant='extended'
@@ -88,6 +88,6 @@ export default function SideBar() {
 
       </Box>
 
-    </>
+    </aside>
   );
 }

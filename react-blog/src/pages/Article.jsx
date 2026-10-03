@@ -10,7 +10,7 @@ import { buildPathMap } from '../utils/treeUtils.js';
 const pathMap = buildPathMap();
 
 // Define rendered component of problem markdown file content
-export default function Article({ filePath }) {
+export default function Article({ filePath, variant = 'regular' }) {
   const [mdFileContent, setMDFileContent] = useState('Loading...');
   const [metaData, setMetaData] = useState({});
 
@@ -24,6 +24,8 @@ export default function Article({ filePath }) {
   }
   // remove base url tail '/'. mdfile starts with '/'
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+  const variantClass = variant === 'mono' ? 'main-mono' : 'main-regular';
 
   useEffect(() => {
     // Fetch the file from the public directory
@@ -46,11 +48,14 @@ export default function Article({ filePath }) {
   }, [mdfile]);
 
   // console.log("metaData is ", metaData)
+  // console.log("mdContent is", mdFileContent)
   return (
     <>
       <h1>{metaData.title}</h1>
       <InfoBar {...metaData} />
-      <MDView mdContent={mdFileContent} />
+      <div class={variantClass}>
+        <MDView mdContent={mdFileContent} />
+      </div>
     </>
   );
 }

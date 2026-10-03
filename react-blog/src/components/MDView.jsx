@@ -4,8 +4,7 @@ import { marked } from 'marked';
 import hljs from 'highlight.js';
 import 'highlight.js/styles/atom-one-dark.css';
 // use global parser to remove html etc. tags
-import parse, { domToReact } from 'html-react-parser';
-import { useLocation } from 'react-router-dom';
+import parse from 'html-react-parser';
 import { Box } from '@mui/material';
 
 
@@ -26,8 +25,7 @@ renderer.link = ({ href, text }) => {
 
 // render paragraph preserving space and tabs
 renderer.paragraph = function ({ tokens }) {
-  const pClass = this.options.pClass
-  return `<p class="${pClass}">${this.parser.parseInline(tokens)}</p>\n`;
+  return `<p>${this.parser.parseInline(tokens)}</p>\n`;
 }
 
 // render images
@@ -43,25 +41,11 @@ marked.setOptions({
 });
 
 export default function MDView({ mdContent }) {
-  // Dynamically decide main content class
-  const decodedPath = decodeURIComponent(useLocation().pathname);
-  const preClass = decodedPath.startsWith('/problems')? 'pre-like': '';
-  console.log(preClass)
-  
-  const mdStr = useMemo(() => {
-    return parse(marked.parse(mdContent, {pClass: preClass}), {
-      // Open html, head, body tags from the parsed content, if any
-      replace: (domNode) => {
-        if (domNode.name === 'html' || domNode.name === 'head' || domNode.name === 'body') {
-          return <>{domToReact(domNode.children)}</>
-        }
-      }
-    });
-  }, [mdContent]);
+  const mdStr = useMemo(() => parse(marked.parse(mdContent)), [mdContent]);
 
   return (
-    <Box>
+    <>
       {mdStr}
-    </Box>
+    </>
   );
 }

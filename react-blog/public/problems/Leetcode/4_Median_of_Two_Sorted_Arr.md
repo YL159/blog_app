@@ -18,7 +18,7 @@ Since the 2 array are sorted, the result arr[0,median] must be the combination o
         Combination of nums1[0,m1] and nums2[0,m2] should produce no "holes" in final array
         i.e. nums2[m2] separates nums1 at m1 AND nums1[m1] separates nums2 at m2
 
-            
+
 Method 2, great idea from discussion
 recursively cut smaller target//2 prefix numbers(compare tail numbers) from 1 of 2 lists.
 Initially Target = total//2, and it will reduce by half each iteration.

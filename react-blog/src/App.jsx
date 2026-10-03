@@ -25,7 +25,7 @@ function App() {
 
           <Route path="problems">
             <Route index element={<ProblemCategory />} />
-            <Route path="*" element={<Article />} />
+            <Route path="*" element={<Article variant='mono' />} />
           </Route>
 
           <Route path="reviews">
