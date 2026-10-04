@@ -6,7 +6,7 @@ created: 2026-09-07
 
 Welcome to my Tiny Glade blog!
 
-I am Yang Lan (Yang), a passionate and dedicated software developer based in Toronto, Ontario Canada. Focused on full-stack developemnt, DevOps and data analysis.
+I am Yang Lan (Yang), a passionate and dedicated software developer based in Toronto, Ontario Canada. Focused on full-stack development, DevOps and data analysis.
 
 This is my cyberspace sharing analysis and solutions for *algorithmic problems*, notes about *tech & life*, and personal commentaries and critiques on *books, movies & games*.
 

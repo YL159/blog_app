@@ -26,14 +26,14 @@ body {
         'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC',
         monospace;
 }
-/* monospace class' p tags get pre-like style */
+/* monospace <p> pre-like style */
 .main-mono > p {
     line-height: 1.2;
     white-space: pre-wrap;
     tab-size: 4;
 }
 
-/* Main content */
+/* Main content size querying media */
 main {
     font-size: 1.125em;
     padding: 2em 2em 4em;
@@ -72,3 +72,8 @@ pre {
     word-break: break-word;
 }
 
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}

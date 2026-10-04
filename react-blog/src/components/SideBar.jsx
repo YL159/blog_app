@@ -69,7 +69,7 @@ export default function SideBar() {
           onClose={handleDrawerClose}
           sx={{
             display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { width: 'auto', maxWidth: '80vw' },
+            '& .MuiDrawer-paper': { minWidth: '40vw', maxWidth: '65vw' },
           }}
           slotProps={{ root: { keepMounted: true } }}>
           {drawer}

@@ -8,7 +8,7 @@ import parse from 'html-react-parser';
 import { Box } from '@mui/material';
 
 
-// Define markdown renderer for code block and images
+// Define markdown renderer
 const renderer = new marked.Renderer();
 
 // handle code block highlights
@@ -23,14 +23,14 @@ renderer.link = ({ href, text }) => {
   return `<a href="${href}" title="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
 }
 
-// render paragraph preserving space and tabs
+// render paragraph
 renderer.paragraph = function ({ tokens }) {
   return `<p>${this.parser.parseInline(tokens)}</p>\n`;
 }
 
 // render images
 renderer.image = ({ href, title, text }) => {
-  return `<img src="${href}" alt="${text}" title="${title}" style="max-width: 100%; height: auto;" />`;
+  return `<img src="${href}" alt="${text}" title="${title}" />`;
 }
 
 // inject renderer into marked
@@ -41,6 +41,7 @@ marked.setOptions({
 });
 
 export default function MDView({ mdContent }) {
+  // memo, marked parse content into tagged content str, then parse into react obj
   const mdStr = useMemo(() => parse(marked.parse(mdContent)), [mdContent]);
 
   return (
